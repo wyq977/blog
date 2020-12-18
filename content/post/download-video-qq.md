@@ -3,6 +3,7 @@ title: "Download qq videos"
 date: 2020-12-18T18:29:33+01:00
 categories:
     - Resources
+    - Guide
 ---
 
 Mostly based on [流水账：如何使用 annie 批量下载优酷 VIP 视频](https://meta.appinn.net/t/topic/13946)

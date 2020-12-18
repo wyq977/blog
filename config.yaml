@@ -11,6 +11,9 @@ disqusShortname: hugo-theme-stack
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn
 DefaultContentLanguage: en
 
+# Global support for emoji
+enableEmoji: true
+
 permalinks:
     post: /p/:slug/
     page: /:slug/

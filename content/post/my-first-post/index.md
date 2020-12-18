@@ -3,8 +3,10 @@ title: "Test for blog but no emoji in title :("
 date: 2020-12-17T22:55:41+01:00
 # draft: true
 categories:
-    - Test
-    - 测试
+    - Guide
+tags:
+    - test
+    - Hugo
 image: helena-hertz-wWZzXlDpMog-unsplash.jpg
 series: "Themes Guide"
 aliases: "test-post"

@@ -2,7 +2,7 @@
 title: "itx Build"
 date: 2019-12-18T18:47:22+01:00
 categories:
-    - Personal
+    - Blog
 ---
 
 See the [PCPartPicker Part List](https://pcpartpicker.com/list/tqNNYg) for detailed list including the history

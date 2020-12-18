@@ -111,6 +111,10 @@ related:
         - name: categories
           weight: 200
 
+# https://gohugo.io/getting-started/configuration-markup/
 markup:
     highlight:
         noClasses: false
+    goldmark:
+        renderer:
+            unsafe: true

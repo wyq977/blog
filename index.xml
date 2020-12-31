@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 31 Dec 2020 09:41:52 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 31 Dec 2020 11:42:32 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
+&lt;p>If homebrew installed:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">brew install --cask xquartz
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Or install from &lt;a class="link" href="https://www.xquartz.org/" target="_blank" rel="noopener"
+>XQuartz website&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Restart the machine&lt;/strong>&lt;/p>
+&lt;h2 id="enable-iglx">Enable iglx&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Accessing_the_clusters#Mac_OS_X" target="_blank" rel="noopener"
+>Euler X11 macOS&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Getting_started_with_clusters#Troubleshooting" target="_blank" rel="noopener"
+>Euler X11 macOS troubleshooting&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.visitusers.org/index.php?title=Re-enabling_INdirect_glx_on_your_X_server" target="_blank" rel="noopener"
+>extra help link&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">defaults write org.macosforge.xquartz.X11 enable_iglx -bool &lt;span class="nb">true&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>According to this discussion &lt;a class="link" href="https://discussions.apple.com/thread/2048176" target="_blank" rel="noopener"
+>here&lt;/a>, but might not be relevant&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="c1"># check before writing&lt;/span>
+defaults &lt;span class="nb">read&lt;/span> com.apple.x11 nolisten_tcp
+defaults &lt;span class="nb">read&lt;/span> org.X.x11 nolisten_tcp
+defaults write com.apple.x11 nolisten_tcp -boolean &lt;span class="nb">false&lt;/span>
+defaults write org.X.x11 nolisten_tcp -boolean &lt;span class="nb">false&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To validate:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">printenv DISPLAY
+&lt;span class="c1"># /private/tmp/com.apple.launchd.oyK9GxAmbh/org.macosforge.xquartz:0&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ssh-config">SSH config&lt;/h2>
+&lt;p>locate your config file, mine is at &lt;code>~/.ssh/config&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">Host euler.ethz.ch
+HostName euler.ethz.ch
+User USERNAME
+ForwardX11Trusted yes
+ForwardX11 yes
+&lt;span class="c1"># XAuthLocation /opt/X11/bin/xauth # not required&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="connect--debug">Connect &amp;amp; Debug&lt;/h2>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">ssh -Y USERNAME@euler.ethz.ch
+&lt;span class="c1"># debug&lt;/span>
+ssh -v -Y USERNAME@euler.ethz.ch
+&lt;span class="c1"># check for &lt;/span>
+&lt;span class="c1"># debug1: Requesting X11 forwarding with authentication spoofing.&lt;/span>
+&lt;span class="c1"># validate&lt;/span>
+printenv DISPLAY
+&lt;span class="c1"># localhost:10.0&lt;/span>
+display random.png
+&lt;span class="c1"># show up in the XQuartz window&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="./x11_foward_macos.png" alt="" />&lt;/p>
+&lt;h2 id="note">Note&lt;/h2>
+&lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
+&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>
 &lt;p>Came across this signing in &lt;a class="link" href="https://github.com/alrra/dotfiles" target="_blank" rel="noopener"
 >dotfiles&lt;/a> and I would also want to have the verified in each commit I made in my pc so why not?&lt;/p>
 &lt;h2 id="how-to">How-to&lt;/h2>

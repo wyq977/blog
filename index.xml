@@ -29,8 +29,8 @@
 &lt;span class="c1"># https://help.github.com/articles/signing-commits-using-gpg/&lt;/span>
 &lt;span class="na">gpgsign&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">true&lt;/span>
 &lt;span class="k">[user]&lt;/span>
-&lt;span class="na">name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">wyq977
-&lt;/span>&lt;span class="s"> email = wangyq977@gmail.com
+&lt;span class="na">name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">
+&lt;/span>&lt;span class="s"> email =
 &lt;/span>&lt;span class="s"> signingkey =
 &lt;/span>&lt;span class="s"> # signkey
 &lt;/span>&lt;span class="s"> # See https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/telling-git-about-your-signing-key&lt;/span>

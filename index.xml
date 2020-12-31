@@ -43,7 +43,7 @@ printenv DISPLAY
 &lt;span class="c1"># localhost:10.0&lt;/span>
 display random.png
 &lt;span class="c1"># show up in the XQuartz window&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="./x11_foward_macos.png" alt="" />&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://wyq977.github.io/images/x11_foward_macos.png" alt="" />&lt;/p>
 &lt;h2 id="note">Note&lt;/h2>
 &lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
 &lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>

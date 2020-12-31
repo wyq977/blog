@@ -100,4 +100,10 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 {{< vimeo_simple 48912912 >}}
 
+<br>
+
 {{< vimeo 48912912 >}}
+
+## Bilibili [#97](https://github.com/CaiJimmy/hugo-theme-stack/pull/97)
+
+{{< bilibili BV1wK4y1Y7P4 >}}

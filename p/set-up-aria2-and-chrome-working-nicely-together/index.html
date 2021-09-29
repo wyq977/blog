@@ -1,23 +1,26 @@
 <!doctype html><html lang=en-us>
 <head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="​1. Stay connected with ETH (VPN) See wiki for detailed info. but the bottom line is that you have to stay connected all the time and this can be troublesome in linux or mobile devices.
-​2. Login (SSH) It&amp;rsquo;s easier to use the ssh key for login on laptop or PC at home (how).
-Otherwise, you should be able to login with the ETH passwords.
-2.1 File transfer See here for details but this should do the job for small files."><title>Using ETH Cluster</title>
-<link rel=canonical href=https://wyq977.github.io/p/using-eth-cluster/>
-<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="Using ETH Cluster">
-<meta property="og:description" content="​1. Stay connected with ETH (VPN) See wiki for detailed info. but the bottom line is that you have to stay connected all the time and this can be troublesome in linux or mobile devices.
-​2. Login (SSH) It&amp;rsquo;s easier to use the ssh key for login on laptop or PC at home (how).
-Otherwise, you should be able to login with the ETH passwords.
-2.1 File transfer See here for details but this should do the job for small files.">
-<meta property="og:url" content="https://wyq977.github.io/p/using-eth-cluster/">
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Install brew install aria2  YAAW, aria2 frontend for chrome Install Tampermonkey fake115, open raw link of this file fake115d.user.js, should auto redirect to Tampermonkey 115, download release, change crx to zip, drag it in Extensions in Chrome  Aria2 config Help: https://developpaper.com/how-to-configure-aria2-to-download-files/
+YYAW config Set the RPC like this:
+http://token:TOKEN@localhost:6800/jsonrpc Run aria2 in background on startup TBD
+Convert rmvb to mp4 See: https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132
+for f in *.rmvb; do ffmpeg -i &amp;quot;$f&amp;quot; -c:a copy -acodec copy &amp;quot;${f%}."><title>Set up Aria2 and Chrome working nicely together</title>
+<link rel=canonical href=https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="Set up Aria2 and Chrome working nicely together">
+<meta property="og:description" content="Install brew install aria2  YAAW, aria2 frontend for chrome Install Tampermonkey fake115, open raw link of this file fake115d.user.js, should auto redirect to Tampermonkey 115, download release, change crx to zip, drag it in Extensions in Chrome  Aria2 config Help: https://developpaper.com/how-to-configure-aria2-to-download-files/
+YYAW config Set the RPC like this:
+http://token:TOKEN@localhost:6800/jsonrpc Run aria2 in background on startup TBD
+Convert rmvb to mp4 See: https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132
+for f in *.rmvb; do ffmpeg -i &amp;quot;$f&amp;quot; -c:a copy -acodec copy &amp;quot;${f%}.">
+<meta property="og:url" content="https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/">
 <meta property="og:site_name" content="My Blog">
-<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="eth"><meta property="article:tag" content="server"><meta property="article:published_time" content="2019-12-18T18:47:22+01:00"><meta property="article:modified_time" content="2019-12-18T18:47:22+01:00">
-<meta name=twitter:title content="Using ETH Cluster">
-<meta name=twitter:description content="​1. Stay connected with ETH (VPN) See wiki for detailed info. but the bottom line is that you have to stay connected all the time and this can be troublesome in linux or mobile devices.
-​2. Login (SSH) It&amp;rsquo;s easier to use the ssh key for login on laptop or PC at home (how).
-Otherwise, you should be able to login with the ETH passwords.
-2.1 File transfer See here for details but this should do the job for small files.">
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:published_time" content="2021-09-29T15:45:07+02:00"><meta property="article:modified_time" content="2021-09-29T15:45:07+02:00">
+<meta name=twitter:title content="Set up Aria2 and Chrome working nicely together">
+<meta name=twitter:description content="Install brew install aria2  YAAW, aria2 frontend for chrome Install Tampermonkey fake115, open raw link of this file fake115d.user.js, should auto redirect to Tampermonkey 115, download release, change crx to zip, drag it in Extensions in Chrome  Aria2 config Help: https://developpaper.com/how-to-configure-aria2-to-download-files/
+YYAW config Set the RPC like this:
+http://token:TOKEN@localhost:6800/jsonrpc Run aria2 in background on startup TBD
+Convert rmvb to mp4 See: https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132
+for f in *.rmvb; do ffmpeg -i &amp;quot;$f&amp;quot; -c:a copy -acodec copy &amp;quot;${f%}.">
 </head>
 <body class=article-page>
 <script>(function(){const a='StackColorScheme';localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
@@ -70,118 +73,42 @@ Guide
 </a>
 </header>
 <h2 class=article-title>
-<a href=/p/using-eth-cluster/>Using ETH Cluster</a>
+<a href=/p/set-up-aria2-and-chrome-working-nicely-together/>Set up Aria2 and Chrome working nicely together</a>
 </h2>
 <footer class=article-time>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
-<time class=article-time--published>Dec 18, 2019</time>
+<time class=article-time--published>Sep 29, 2021</time>
 </div>
 </footer>
 </div>
 </header>
 <section class=article-content>
-<h2 id=1-stay-connected-with-eth-vpn>​1. Stay connected with ETH (VPN)</h2>
-<p>See <a class=link href=https://ethz.ch/services/en/it-services/catalogue/networks-connections/remote.html target=_blank rel=noopener>wiki</a> for detailed info. but the bottom line is that you have to stay connected all the time and this can be troublesome in linux or mobile devices.</p>
-<h2 id=2-login-ssh>​2. Login (SSH)</h2>
-<p>It&rsquo;s easier to use the ssh key for login on laptop or PC at home (<a class=link href=https://scicomp.ethz.ch/wiki/Accessing_the_clusters#SSH_keys target=_blank rel=noopener>how</a>).</p>
-<p>Otherwise, you should be able to login with the ETH passwords.</p>
-<h3 id=21-file-transfer>2.1 File transfer</h3>
-<p>See <a class=link href=https://www.ssh.com/ssh/sftp/ target=_blank rel=noopener>here</a> for details but this should do the job for small files.</p>
-<ul>
-<li>To copy a file from <code>B</code>to <code>A</code> while logged into <code>B</code>:
-<ul>
-<li><code>scp /path/to/file username@a:/path/to/destination</code></li>
-</ul>
-</li>
-<li>To copy a file from <code>B</code>to <code>A</code> while logged into <code>A</code>:
-<ul>
-<li><code>scp username@b:/path/to/file /path/to/destination</code></li>
-</ul>
-</li>
-</ul>
-<p>​## 3. Writing code</p>
-<h3 id=31-jupyter-notebook>3.1 jupyter notebook</h3>
-<p>See: <a class=link href=https://gitlab.ethz.ch/sfux/Jupyter-on-Euler-or-Leonhard-Open target=_blank rel=noopener>https://gitlab.ethz.ch/sfux/Jupyter-on-Euler-or-Leonhard-Open</a></p>
-<p>It&rsquo;s quite time-consuming and clumsy for set up. Not recommended.</p>
-<p>One liner if have cloned the above repo:</p>
-<ul>
-<li>Euler
-<ul>
-<li><code>./start_jupyter_nb.sh Euler USERNAME 4 04:00 1024</code></li>
-</ul>
-</li>
-<li>Leonhard Open
-<ul>
-<li><code>./start_jupyter_nb.sh LeoOpen USERNAME 4 04:00 1024</code></li>
-</ul>
-</li>
-</ul>
-<h3 id=32-vs-code-remote-do-not-use>3.2 VS Code Remote (DO NOT USE!!!)</h3>
-<p>Stop using this since it will overload the single node on Euler for some reasons</p>
-<p>See <a class=link href=https://code.visualstudio.com/docs/remote/ssh target=_blank rel=noopener>here</a> for instructions, have to login each time with new folder, download appropriate extensions and set up <code>ENV</code>variables.</p>
-<p>But this is still the way to go as far as I am concern. Unless the black CLI interface works better for you.</p>
-<h3 id=33-cli>3.3 CLI</h3>
-<p>Good old ways of coding with Vim or nano (installed needed)</p>
-<h2 id=4-batch-system>​4. Batch system</h2>
-<h3 id=41-module-for-environments>4.1 Module for environments</h3>
-<p><a class=link href=https://scicomp.ethz.ch/wiki/Getting_started_with_clusters#Module_commands target=_blank rel=noopener>Details</a></p>
-<p>One can also write this in <code>~/.bash_rc</code> to load the modules needed every-time before login, but not recommended by Euler since the module will affect the batch system when submitting jobs</p>
-<p>Common ones:</p>
-<ul>
-<li>list current loaded modules files
-<ul>
-<li><code>module list</code></li>
-</ul>
-</li>
-<li>unload <strong>all</strong>currently loaded modules
-<ul>
-<li><code>module purge</code></li>
-</ul>
-</li>
-<li><code>unload</code>works similarly with <code>load</code></li>
-<li>python 3.7.1
-<ul>
-<li><code>module load new gcc/4.8.2 python/3.6.1 </code></li>
-</ul>
-</li>
-<li>python 3.6.1
-<ul>
-<li><code>module load new gcc/4.8.2 python/3.6.1 </code></li>
-</ul>
-</li>
-<li>R 3.6.0
-<ul>
-<li><code>module load new gcc/4.8.2 r/3.6.0 </code></li>
-</ul>
-</li>
-</ul>
-<p>Extra info. for python packages</p>
-<p>Packages can be installed in a per-user basis using <code>pip install --user package</code><a class=link href=https://scicomp.ethz.ch/wiki/Python#Installing_a_Python_package.2C_using_PIP target=_blank rel=noopener>details here</a></p>
-<h3 id=42-batch-job-submission>4.2 Batch job submission</h3>
-<p><strong>Job monitoring (<a class=link href=https://scicomp.ethz.ch/wiki/FAQ%23Monitoring_jobs target=_blank rel=noopener>more</a>)</strong></p>
-<ul>
-<li>Real time output</li>
-</ul>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>bpeek JOBID
-</code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>bpeek -J JOBNAME
-</code></pre></div><ul>
-<li>kill a job <code>bkill JOBID</code>****kill all <code>bkill 0</code></li>
-<li>Check all jobs <code>bjobs</code>(<code>-p</code>for pending jobs only)</li>
-</ul>
-<p><strong>Job submission(<a class=link href=https://scicomp.ethz.ch/wiki/FAQ#Submitting_jobs target=_blank rel=noopener>more</a>)</strong></p>
-<p>After loading modules files, <code>-n</code>specify number of cores
-requested, notify you by e-mail when your job begins and ends using
-<code>bsub -B</code>and <code>bsub -N</code>respectively</p>
-<p>Example:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>bsub -B -N -n <span class=m>4</span> -W <span class=m>120</span> -R <span class=s2>&#34;rusage[mem=2048]&#34;</span> -o output.txt python main.py
-</code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>bsub -B -N -n <span class=m>4</span> -W <span class=m>120</span> -o output.txt python main.py
-</code></pre></div>
+<h2 id=install>Install</h2>
+<pre tabindex=0><code>brew install aria2
+</code></pre><ol>
+<li><a class=link href=https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc/related target=_blank rel=noopener>YAAW, aria2 frontend for chrome</a></li>
+<li>Install <a class=link href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en" target=_blank rel=noopener>Tampermonkey</a></li>
+<li><a class=link href=https://github.com/kkHAIKE/fake115 target=_blank rel=noopener>fake115</a>, open raw link of this file <a class=link href=https://github.com/kkHAIKE/fake115/raw/master/fake115d.user.js target=_blank rel=noopener>fake115d.user.js</a>, should auto redirect to Tampermonkey</li>
+<li><a class=link href=https://github.com/acgotaku/115 target=_blank rel=noopener>115</a>, download release, change <code>crx</code> to <code>zip</code>, drag it in <strong>Extensions</strong> in Chrome</li>
+</ol>
+<h2 id=aria2-config>Aria2 config</h2>
+<p>Help: <a class=link href=https://developpaper.com/how-to-configure-aria2-to-download-files/ target=_blank rel=noopener>https://developpaper.com/how-to-configure-aria2-to-download-files/</a></p>
+<h2 id=yyaw-config>YYAW config</h2>
+<p>Set the RPC like this:</p>
+<pre tabindex=0><code>http://token:TOKEN@localhost:6800/jsonrpc
+</code></pre><h2 id=run-aria2-in-background-on-startup>Run aria2 in background on startup</h2>
+<p>TBD</p>
+<h2 id=convert-rmvb-to-mp4>Convert rmvb to mp4</h2>
+<p>See: <a class=link href=https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132 target=_blank rel=noopener>https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132</a></p>
+<pre tabindex=0><code>for f in *.rmvb; do ffmpeg -i &quot;$f&quot; -c:a copy -acodec copy &quot;${f%}.mp4&quot;; done
+# use filename only
+for f in *.rmvb; do ffmpeg -i &quot;$f&quot; -c:a copy -acodec copy -map_metadata -1 -map 0 &quot;${f%%.rmvb}.mp4&quot;; done 
+</code></pre><p>Remove all metadata along the way:</p>
+<pre tabindex=0><code>ffmpeg -i in.mkv -map_metadata -1 -c copy -map 0 out.mkv
+for f in *.mp4; do ffmpeg -i &quot;$f&quot; -map_metadata -1 -c copy -map 0 &quot;${f%}.nometa.mp4&quot;; done # do for loop
+</code></pre>
 </section>
 <footer class=article-footer>
-<section class=article-tags>
-<a href=/tags/eth/>eth</a>
-<a href=/tags/server/>server</a>
-</section>
 <section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
 <span>Licensed under CC BY-NC-SA 4.0</span>
 </section>
@@ -196,13 +123,6 @@ requested, notify you by e-mail when your job begins and ends using
 <a href=/p/x11-forwarding-on-macos/>
 <div class=article-details>
 <h2 class=article-title>x11 forwarding on macOS</h2>
-</div>
-</a>
-</article>
-<article>
-<a href=/p/set-up-aria2-and-chrome-working-nicely-together/>
-<div class=article-details>
-<h2 class=article-title>Set up Aria2 and Chrome working nicely together</h2>
 </div>
 </a>
 </article>
@@ -227,6 +147,13 @@ requested, notify you by e-mail when your job begins and ends using
 </div>
 <div class=article-details>
 <h2 class=article-title>Test for blog but no emoji in title :(</h2>
+</div>
+</a>
+</article>
+<article>
+<a href=/p/using-eth-cluster/>
+<div class=article-details>
+<h2 class=article-title>Using ETH Cluster</h2>
 </div>
 </a>
 </article>

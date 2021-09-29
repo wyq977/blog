@@ -11,7 +11,7 @@
 f(x) = e^x
 $$&lt;/p>
 &lt;p>Multiple-line does not render nicely with KaTex now&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-md" data-lang="md">$$
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">$$
 \begin{align}
 y &lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 1+1 \\\\\\
 &lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 2
@@ -38,45 +38,69 @@ b &amp;amp;= 2
 \end{aligned}
 $$&lt;/p>
 &lt;h2 id="图片">图片&lt;/h2>
-&lt;p>&lt;figure style="flex-grow: 66; flex-basis: 160px">
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg" data-size="667x1000">&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg"
-srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 66;
+flex-basis: 160px"
+>
+&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg" data-size="667x1000">
+&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg"
 width="667"
 height="1000"
+srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Photo by Florian Klauer on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Florian Klauer on Unsplash&lt;/figcaption>
-&lt;/figure> &lt;figure style="flex-grow: 149; flex-basis: 359px">
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg" data-size="1000x667">&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg"
-srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 149;
+flex-basis: 359px"
+>
+&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg" data-size="1000x667">
+&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg"
 width="1000"
 height="667"
+srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Photo by Luca Bravo on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Luca Bravo on Unsplash&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg" data-size="1000x750">&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg"
-srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg" data-size="1000x750">
+&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg"
 width="1000"
 height="750"
+srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Photo by Helena Hertz on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Helena Hertz on Unsplash&lt;/figcaption>
-&lt;/figure> &lt;figure style="flex-grow: 66; flex-basis: 160px">
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg" data-size="667x1000">&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
-srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 66;
+flex-basis: 160px"
+>
+&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg" data-size="667x1000">
+&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
 width="667"
 height="1000"
+srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Photo by Hudai Gayiran on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Hudai Gayiran on Unsplash&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-markdown" data-lang="markdown">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
 ![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Hugo ships with several &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
 >Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a class="link" href="https://gohugo.io/about/hugo-and-gdpr/" target="_blank" rel="noopener"

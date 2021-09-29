@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on My Blog</title><link>https://wyq977.github.io/categories/guide/</link><description>Recent content in Guide on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 31 Dec 2020 11:42:32 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>Install xQuartz If homebrew installed:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on My Blog</title><link>https://wyq977.github.io/categories/guide/</link><description>Recent content in Guide on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 29 Sep 2021 15:45:07 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Set up Aria2 and Chrome working nicely together</title><link>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</guid><description>Install brew install aria2 YAAW, aria2 frontend for chrome Install Tampermonkey fake115, open raw link of this file fake115d.user.js, should auto redirect to Tampermonkey 115, download release, change crx to zip, drag it in Extensions in Chrome Aria2 config Help: https://developpaper.com/how-to-configure-aria2-to-download-files/
+YYAW config Set the RPC like this:
+http://token:TOKEN@localhost:6800/jsonrpc Run aria2 in background on startup TBD
+Convert rmvb to mp4 See: https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132
+for f in *.rmvb; do ffmpeg -i &amp;quot;$f&amp;quot; -c:a copy -acodec copy &amp;quot;${f%}.</description></item><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>Install xQuartz If homebrew installed:
 brew install --cask xquartz Or install from XQuartz website
 Restart the machine
 Enable iglx Euler X11 macOS Euler X11 macOS troubleshooting extra help link defaults write org.macosforge.xquartz.X11 enable_iglx -bool true According to this discussion here, but might not be relevant
@@ -20,7 +24,7 @@ It might be easier for a few episodes to just copy and paste</description></item
 f(x) = e^x
 $$&lt;/p>
 &lt;p>Multiple-line does not render nicely with KaTex now&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-md" data-lang="md">$$
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">$$
 \begin{align}
 y &lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 1+1 \\\\\\
 &lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 2
@@ -47,45 +51,69 @@ b &amp;amp;= 2
 \end{aligned}
 $$&lt;/p>
 &lt;h2 id="图片">图片&lt;/h2>
-&lt;p>&lt;figure style="flex-grow: 66; flex-basis: 160px">
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg" data-size="667x1000">&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg"
-srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 66;
+flex-basis: 160px"
+>
+&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg" data-size="667x1000">
+&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg"
 width="667"
 height="1000"
+srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Photo by Florian Klauer on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Florian Klauer on Unsplash&lt;/figcaption>
-&lt;/figure> &lt;figure style="flex-grow: 149; flex-basis: 359px">
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg" data-size="1000x667">&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg"
-srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 149;
+flex-basis: 359px"
+>
+&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg" data-size="1000x667">
+&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg"
 width="1000"
 height="667"
+srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Photo by Luca Bravo on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Luca Bravo on Unsplash&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg" data-size="1000x750">&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg"
-srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg" data-size="1000x750">
+&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg"
 width="1000"
 height="750"
+srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Photo by Helena Hertz on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Helena Hertz on Unsplash&lt;/figcaption>
-&lt;/figure> &lt;figure style="flex-grow: 66; flex-basis: 160px">
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg" data-size="667x1000">&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
-srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 66;
+flex-basis: 160px"
+>
+&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg" data-size="667x1000">
+&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
 width="667"
 height="1000"
+srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Photo by Hudai Gayiran on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Hudai Gayiran on Unsplash&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-markdown" data-lang="markdown">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
 ![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Hugo ships with several &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
 >Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a class="link" href="https://gohugo.io/about/hugo-and-gdpr/" target="_blank" rel="noopener"

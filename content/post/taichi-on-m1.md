@@ -1,7 +1,6 @@
 ---
 title: "Taichi installation for Apple Silicon"
 date: 2021-02-31T11:42:32+01:00
-draft: true
 categories:
     - Guide
 ---
@@ -100,4 +99,20 @@ make DESTDIR=~/Downloads/llvm-install/ install
 
 # Check your LLVM installation
 llvm-config --version  # You should get 10.0.0
+```
+
+## Uninstall
+
+* Make a CMake target: https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake
+* remove all build target:
+
+```bash
+cd build && xargs rm < install_manifest.txt
+```
+
+* Unset all env var
+
+```bash
+unset TAICHI_REPO_DIR
+unset LLVM_DIR
 ```

@@ -45,3 +45,23 @@ Came across this signing in [dotfiles](https://github.com/alrra/dotfiles) and I 
 [gpg]
 	program = /usr/local/MacGPG2/bin/gpg2
 ```
+
+## Keep your email private
+
+At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already "exposed".
+
+You can check, see a [post](https://revoir.in/wiki/posts/git_custom_email_signed_commits/)
+
+```shell
+# You can clone any of your favorite repository/library
+
+git clone https://github.com/stretchr/testify && cd testify
+git log --format=email --abbrev-commit | grep -i mail | sort -u
+```
+
+The things and steps are pretty much just the same as the post but there's one thing worth mentioning.
+
+
+In the email setting in Github, a masked email address will be generated with a format: `NUMBER+username@github.noreply.github.com`. But `username@github.noreply.github.com` is the one to input in GPG key, the one with a number prefix is not gonna verfy the commits and github will show errors like "No githuub user associated with the email"
+
+[How to add email to gpg key](https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key)

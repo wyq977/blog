@@ -85,7 +85,16 @@ Guide
 <span class=c1># https://github.com/pstadler/keybase-gpg-github</span>
 <span class=k>[gpg]</span>
 	<span class=na>program</span> <span class=o>=</span> <span class=s>/usr/local/MacGPG2/bin/gpg2</span>
-</code></pre></div>
+</code></pre></div><h2 id=keep-your-email-private>Keep your email private</h2>
+<p>At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already &ldquo;exposed&rdquo;.</p>
+<p>You can check, see a <a class=link href=https://revoir.in/wiki/posts/git_custom_email_signed_commits/ target=_blank rel=noopener>post</a></p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=c1># You can clone any of your favorite repository/library</span>
+
+git clone https://github.com/stretchr/testify <span class=o>&amp;&amp;</span> <span class=nb>cd</span> testify
+git log --format<span class=o>=</span>email --abbrev-commit <span class=p>|</span> grep -i mail <span class=p>|</span> sort -u
+</code></pre></div><p>The things and steps are pretty much just the same as the post but there&rsquo;s one thing worth mentioning.</p>
+<p>In the email setting in Github, a masked email address will be generated with a format: <code>NUMBER+username@github.noreply.github.com</code>. But <code>username@github.noreply.github.com</code> is the one to input in GPG key, the one with a number prefix is not gonna verfy the commits and github will show errors like &ldquo;No githuub user associated with the email&rdquo;</p>
+<p><a class=link href=https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key target=_blank rel=noopener>How to add email to gpg key</a></p>
 </section>
 <footer class=article-footer>
 <section class=article-tags>
@@ -145,7 +154,7 @@ Guide
 <footer class=site-footer>
 <section class=copyright>
 &copy;
-2021 My Blog
+2022 My Blog
 </section>
 <section class=powerby>
 Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
@@ -199,6 +208,7 @@ Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=
 <ol>
 <li><a href=#motivation>Motivation</a></li>
 <li><a href=#how-to>How-to</a></li>
+<li><a href=#keep-your-email-private>Keep your email private</a></li>
 </ol>
 </nav>
 </div>

@@ -39,14 +39,14 @@ b &lt;span class="err">&amp;amp;&lt;/span>= 2
 $$
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
 \begin{align}
-y &amp;amp;=&amp;amp; 1+1 \\\&lt;br>
+y &amp;amp;=&amp;amp; 1+1 \\\
 &amp;amp;=&amp;amp; 2
 \end{align}
 $$&lt;/p>
 &lt;p>$$
 % This works as expected in KaTeX
 \begin{aligned}
-a &amp;amp;= 1 \&lt;br>
+a &amp;amp;= 1 \
 b &amp;amp;= 2
 \end{aligned}
 $$&lt;/p>

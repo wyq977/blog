@@ -124,7 +124,17 @@ loading="lazy"
 &lt;span class="c1"># https://github.com/pstadler/keybase-gpg-github&lt;/span>
 &lt;span class="k">[gpg]&lt;/span>
 &lt;span class="na">program&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">/usr/local/MacGPG2/bin/gpg2&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Download qq videos</title><link>https://wyq977.github.io/p/download-qq-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-qq-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="keep-your-email-private">Keep your email private&lt;/h2>
+&lt;p>At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already &amp;ldquo;exposed&amp;rdquo;.&lt;/p>
+&lt;p>You can check, see a &lt;a class="link" href="https://revoir.in/wiki/posts/git_custom_email_signed_commits/" target="_blank" rel="noopener"
+>post&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="c1"># You can clone any of your favorite repository/library&lt;/span>
+git clone https://github.com/stretchr/testify &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">cd&lt;/span> testify
+git log --format&lt;span class="o">=&lt;/span>email --abbrev-commit &lt;span class="p">|&lt;/span> grep -i mail &lt;span class="p">|&lt;/span> sort -u
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The things and steps are pretty much just the same as the post but there&amp;rsquo;s one thing worth mentioning.&lt;/p>
+&lt;p>In the email setting in Github, a masked email address will be generated with a format: &lt;code>NUMBER+username@github.noreply.github.com&lt;/code>. But &lt;code>username@github.noreply.github.com&lt;/code> is the one to input in GPG key, the one with a number prefix is not gonna verfy the commits and github will show errors like &amp;ldquo;No githuub user associated with the email&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key" target="_blank" rel="noopener"
+>How to add email to gpg key&lt;/a>&lt;/p></description></item><item><title>Download qq videos</title><link>https://wyq977.github.io/p/download-qq-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-qq-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
 >流水账：如何使用 annie 批量下载优酷 VIP 视频&lt;/a>&lt;/p>
 &lt;p>using &lt;a class="link" href="https://github.com/iawia002/annie" target="_blank" rel="noopener"
 >annie&lt;/a>, &lt;a class="link" href="https://ffmpeg.org/" target="_blank" rel="noopener"
@@ -174,14 +184,14 @@ b &lt;span class="err">&amp;amp;&lt;/span>= 2
 $$
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
 \begin{align}
-y &amp;amp;=&amp;amp; 1+1 \\\&lt;br>
+y &amp;amp;=&amp;amp; 1+1 \\\
 &amp;amp;=&amp;amp; 2
 \end{align}
 $$&lt;/p>
 &lt;p>$$
 % This works as expected in KaTeX
 \begin{aligned}
-a &amp;amp;= 1 \&lt;br>
+a &amp;amp;= 1 \
 b &amp;amp;= 2
 \end{aligned}
 $$&lt;/p>

@@ -161,6 +161,14 @@ events per second: 21082.14
 #### macos native
 CPU speed:
 events per second: 25912346.76
+#### macos Intel Core i5 - 10210U
+CPU speed:
+events per second: 8372004.44
+#### ubuntu on intel (Docker 4 CPUs 8 GB RAM swap 2 GB)
+# docker -v
+# Docker version 20.10.11, build dea9396
+CPU speed:
+events per second: 2526.18
 &lt;/code>&lt;/pre>&lt;p>WTF, why is VM takes such a dramatic hit, even with the right tool. I might ended up using the Sonarr/Radarr for macOS, 4.0.0 of Radarr already has osx-arm64 build, just waiting for Sonarr.&lt;/p>
 &lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Set up Aria2 and Chrome working nicely together</title><link>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</guid><description>&lt;h2 id="install">Install&lt;/h2>
 &lt;pre tabindex="0">&lt;code>brew install aria2

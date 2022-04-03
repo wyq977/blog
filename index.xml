@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 05 Jan 2022 10:48:47 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker M1 Mac</title><link>https://wyq977.github.io/p/docker-m1-mac/</link><pubDate>Wed, 05 Jan 2022 10:48:47 +0100</pubDate><guid>https://wyq977.github.io/p/docker-m1-mac/</guid><description>&lt;h1 id="yet-again-docker-macos">Yet Again, Docker macOS&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Apr 2022 09:00:36 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Conda Homebrew</title><link>https://wyq977.github.io/p/conda-homebrew/</link><pubDate>Sun, 03 Apr 2022 09:00:36 +0200</pubDate><guid>https://wyq977.github.io/p/conda-homebrew/</guid><description>&lt;h2 id="problems">Problems&lt;/h2>
+&lt;p>Miniforge installed via homebrew will remove all the env upon update/uninstall, &lt;a class="link" href="https://github.com/conda-forge/miniforge/issues/159" target="_blank" rel="noopener"
+>discussion&lt;/a>.&lt;/p>
+&lt;h2 id="solution">Solution&lt;/h2>
+&lt;p>&lt;a class="link" href="https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#specify-environment-directories-envs-dirs" target="_blank" rel="noopener"
+>Specify conda env in &lt;code>condarc&lt;/code>&lt;/a>&lt;/p>
+&lt;p>condarc example: &lt;a class="link" href="https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/sample-condarc.html" target="_blank" rel="noopener"
+>https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/sample-condarc.html&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">touch ~/.condarc
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir ~/.conda-envs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">envs_dirs:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - ~/.conda-envs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docker M1 Mac</title><link>https://wyq977.github.io/p/docker-m1-mac/</link><pubDate>Wed, 05 Jan 2022 10:48:47 +0100</pubDate><guid>https://wyq977.github.io/p/docker-m1-mac/</guid><description>&lt;h1 id="yet-again-docker-macos">Yet Again, Docker macOS&lt;/h1>
 &lt;p>After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.&lt;/p>
 &lt;p>I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and I also checked the box for using the new release virtualization framework in Experimental feature. However, the ram usage would still be going thr the limits and lagging, breakdown is also often seen. Eating roughly 4GB of RAM and I have seen errors where it said it used 30G but probably swap usage along with crashes&amp;hellip;&lt;/p>
 &lt;p>As under the hook, the Docker for Mac still basically created a Linux VM, kind of like podman. The underlying performance issues might be the way the VM is regulated/managed. So, why not just create a VM and use docker cli or simply ssh to the linux instance?&lt;/p>
@@ -34,17 +46,18 @@ alt="Test Results">
 &lt;ol>
 &lt;li>Remeber to change root user(root/password) and default user(debian/debian):&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">sudo passwd root
-sudo passwd debian
-&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo passwd root
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo passwd debian
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
 &lt;li>Update and install essential: SSH&lt;/li>
 &lt;/ol>
 &lt;p>Some problems with apt-get update: &lt;a class="link" href="https://stackoverflow.com/questions/68802802/repository-http-security-debian-org-debian-security-buster-updates-inrelease" target="_blank" rel="noopener"
 >https://stackoverflow.com/questions/68802802/repository-http-security-debian-org-debian-security-buster-updates-inrelease&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">sudo apt-get update -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install openssl-server
-&lt;span class="c1"># check&lt;/span>
-sudo systemctl status ssh
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>This confirms the SSH server is running and listening on port 22. If you need more help with that, PhoenixNap has a great tutorial on &lt;a class="link" href="https://phoenixnap.com/kb/how-to-enable-ssh-on-debian" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo apt-get update -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install openssl-server
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># check&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo systemctl status ssh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This confirms the SSH server is running and listening on port 22. If you need more help with that, PhoenixNap has a great tutorial on &lt;a class="link" href="https://phoenixnap.com/kb/how-to-enable-ssh-on-debian" target="_blank" rel="noopener"
 >How to Enable SSH on Debian&lt;/a>.&lt;/p>
 &lt;ol start="3">
 &lt;li>Install Docker on Debian 10.4 VM&lt;/li>
@@ -52,28 +65,38 @@ sudo systemctl status ssh
 &lt;p>Follow: &lt;a class="link" href="https://phoenixnap.com/kb/how-to-install-docker-on-debian-10" target="_blank" rel="noopener"
 >https://phoenixnap.com/kb/how-to-install-docker-on-debian-10&lt;/a>&lt;/p>
 &lt;p>Change amd64 to arm64&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="c1"># Step 1: Uninstall Default Docker Packages&lt;/span>
-sudo apt-get purge docker lxc-docker docker-engine docker.io
-&lt;span class="c1"># Step 2: Install Required Packages&lt;/span>
-&lt;span class="c1"># Update the default repository with the command:&lt;/span>
-sudo apt-get update
-&lt;span class="c1"># Download the following dependencies:&lt;/span>
-sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
-&lt;span class="c1"># Step 3: Install Docker&lt;/span>
-&lt;span class="c1"># Method 1&lt;/span>
-&lt;span class="c1"># 1. Download Docker’s official GPG key to verify the integrity of packages before installing:&lt;/span>
-curl -fsSL https://download.docker.com/linux/debian/gpg &lt;span class="p">|&lt;/span> sudo apt-key add -
-&lt;span class="c1"># 2. Add the Docker repository to your system repository with the following command:&lt;/span>
-sudo add-apt-repository &lt;span class="s2">&amp;#34;deb [arch=arm64] https://download.docker.com/linux/debian buster stable&amp;#34;&lt;/span>
-&lt;span class="c1"># 3. Update the apt repository:&lt;/span>
-sudo apt-get update
-&lt;span class="c1"># 4. Install Docker Engine – Community (the latest version of Docker) and containerd:&lt;/span>
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-&lt;span class="c1"># 5. The service will start automatically after the installation. Check the status by typing:&lt;/span>
-sudo systemctl status docker
-&lt;span class="c1"># check if docker works&lt;/span>
-docker -v
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="config-macos-docker-cli-to-use-vms-docker-enginer">Config macos Docker CLI to use VM&amp;rsquo;s Docker Enginer&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Step 1: Uninstall Default Docker Packages&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get purge docker lxc-docker docker-engine docker.io
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Step 2: Install Required Packages&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Update the default repository with the command:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get update
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Download the following dependencies:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Step 3: Install Docker&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Method 1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 1. Download Docker’s official GPG key to verify the integrity of packages before installing:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">curl -fsSL https://download.docker.com/linux/debian/gpg &lt;span class="p">|&lt;/span> sudo apt-key add -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 2. Add the Docker repository to your system repository with the following command:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo add-apt-repository &lt;span class="s2">&amp;#34;deb [arch=arm64] https://download.docker.com/linux/debian buster stable&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 3. Update the apt repository:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get update
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 4. Install Docker Engine – Community (the latest version of Docker) and containerd:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get install docker-ce docker-ce-cli containerd.io
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 5. The service will start automatically after the installation. Check the status by typing:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo systemctl status docker
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># check if docker works&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">docker -v
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="config-macos-docker-cli-to-use-vms-docker-enginer">Config macos Docker CLI to use VM&amp;rsquo;s Docker Enginer&lt;/h2>
 &lt;pre tabindex="0">&lt;code class="language-shel" data-lang="shel"># this should returns nothing/empty output
 ssh debian@127.0.0.1 -p 22022 -N -L/tmp/docker-on-debian.sock:/var/run/docker.sock ssh://debian@127.0.0.1
 # set up DOCKER_HOST location
@@ -81,8 +104,8 @@ export DOCKER_HOST=unix:///tmp/docker-on-debian.sock
 &lt;/code>&lt;/pre>&lt;blockquote>
 &lt;p>We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:&lt;/p>
 &lt;/blockquote>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">sudo usermod -aG docker &lt;span class="nv">$USER&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo usermod -aG docker &lt;span class="nv">$USER&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:&lt;/p>
 &lt;/blockquote>
 &lt;p>Working!&lt;/p>
@@ -141,11 +164,11 @@ WARNING: No swap limit support
 &lt;h3 id="ui-still-freezes-from-time-to-time-when-i-tried-to-resizeconfig-the-image-thats-annoying-af">UI still freezes from time to time when I tried to resize/config the image. Thats annoying af.&lt;/h3>
 &lt;h3 id="problems-with-porting">Problems with porting:&lt;/h3>
 &lt;p>It seems to I have to keep this ssh activa without CTRL+C&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">$ ssh debian@127.0.0.1 -p &lt;span class="m">22022&lt;/span> -N -L/tmp/docker-on-debian.sock:/var/run/docker.sock ssh://debian@127.0.0.1
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>After I stopped, I need to remove sock and re-do the whole thing.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">$ ssh debian@127.0.0.1 -p &lt;span class="m">22022&lt;/span> -N -L/tmp/docker-on-debian.sock:/var/run/docker.sock ssh://debian@127.0.0.1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After I stopped, I need to remove sock and re-do the whole thing.&lt;/p>
 &lt;p>Solution: treat the VM as remote host and modify &lt;code>DOCKER_HOST&lt;/code>, ssh create a private key and adds it to VM.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="nb">export&lt;/span> &lt;span class="nv">DOCKER_HOST&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;ssh://debian@127.0.0.1:22022&amp;#34;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="cpu-benchmark-1000-difference-with-native-sysbench">CPU Benchmark (1000 difference with native sysbench)&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">DOCKER_HOST&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;ssh://debian@127.0.0.1:22022&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="cpu-benchmark-1000-difference-with-native-sysbench">CPU Benchmark (1000 difference with native sysbench)&lt;/h3>
 &lt;p>&lt;a class="link" href="https://levelup.gitconnected.com/running-amd64-linux-on-apple-m1-with-qemu-utm-64d67cccd6f8" target="_blank" rel="noopener"
 >Another post benchmark cpu using &lt;code>sysbench&lt;/code>&lt;/a>&lt;/p>
 &lt;p>With a threads=2, I got 105585 in ubuntu docker&lt;/p>
@@ -194,16 +217,16 @@ events per second: 2526.18
 &lt;h2 id="convert-rmvb-to-mp4">Convert rmvb to mp4&lt;/h2>
 &lt;p>See: &lt;a class="link" href="https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132" target="_blank" rel="noopener"
 >https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132&lt;/a>&lt;/p>
-&lt;pre tabindex="0">&lt;code>for f in *.rmvb; do ffmpeg -i &amp;quot;$f&amp;quot; -c:a copy -acodec copy &amp;quot;${f%}.mp4&amp;quot;; done
+&lt;pre tabindex="0">&lt;code>for f in *.rmvb; do ffmpeg -i &amp;#34;$f&amp;#34; -c:a copy -acodec copy &amp;#34;${f%}.mp4&amp;#34;; done
 # use filename only
-for f in *.rmvb; do ffmpeg -i &amp;quot;$f&amp;quot; -c:a copy -acodec copy -map_metadata -1 -map 0 &amp;quot;${f%%.rmvb}.mp4&amp;quot;; done
+for f in *.rmvb; do ffmpeg -i &amp;#34;$f&amp;#34; -c:a copy -acodec copy -map_metadata -1 -map 0 &amp;#34;${f%%.rmvb}.mp4&amp;#34;; done
 &lt;/code>&lt;/pre>&lt;p>Remove all metadata along the way:&lt;/p>
 &lt;pre tabindex="0">&lt;code>ffmpeg -i in.mkv -map_metadata -1 -c copy -map 0 out.mkv
-for f in *.mp4; do ffmpeg -i &amp;quot;$f&amp;quot; -map_metadata -1 -c copy -map 0 &amp;quot;${f%}.nometa.mp4&amp;quot;; done # do for loop
+for f in *.mp4; do ffmpeg -i &amp;#34;$f&amp;#34; -map_metadata -1 -c copy -map 0 &amp;#34;${f%}.nometa.mp4&amp;#34;; done # do for loop
 &lt;/code>&lt;/pre></description></item><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
 &lt;p>If homebrew installed:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">brew install --cask xquartz
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Or install from &lt;a class="link" href="https://www.xquartz.org/" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install --cask xquartz
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Or install from &lt;a class="link" href="https://www.xquartz.org/" target="_blank" rel="noopener"
 >XQuartz website&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Restart the machine&lt;/strong>&lt;/p>
 &lt;h2 id="enable-iglx">Enable iglx&lt;/h2>
@@ -215,37 +238,41 @@ for f in *.mp4; do ffmpeg -i &amp;quot;$f&amp;quot; -map_metadata -1 -c copy -ma
 &lt;li>&lt;a class="link" href="https://www.visitusers.org/index.php?title=Re-enabling_INdirect_glx_on_your_X_server" target="_blank" rel="noopener"
 >extra help link&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">defaults write org.macosforge.xquartz.X11 enable_iglx -bool &lt;span class="nb">true&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>According to this discussion &lt;a class="link" href="https://discussions.apple.com/thread/2048176" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">defaults write org.macosforge.xquartz.X11 enable_iglx -bool &lt;span class="nb">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>According to this discussion &lt;a class="link" href="https://discussions.apple.com/thread/2048176" target="_blank" rel="noopener"
 >here&lt;/a>, but might not be relevant&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="c1"># check before writing&lt;/span>
-defaults &lt;span class="nb">read&lt;/span> com.apple.x11 nolisten_tcp
-defaults &lt;span class="nb">read&lt;/span> org.X.x11 nolisten_tcp
-defaults write com.apple.x11 nolisten_tcp -boolean &lt;span class="nb">false&lt;/span>
-defaults write org.X.x11 nolisten_tcp -boolean &lt;span class="nb">false&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>To validate:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">printenv DISPLAY
-&lt;span class="c1"># /private/tmp/com.apple.launchd.oyK9GxAmbh/org.macosforge.xquartz:0&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ssh-config">SSH config&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># check before writing&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">defaults &lt;span class="nb">read&lt;/span> com.apple.x11 nolisten_tcp
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">defaults &lt;span class="nb">read&lt;/span> org.X.x11 nolisten_tcp
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">defaults write com.apple.x11 nolisten_tcp -boolean &lt;span class="nb">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">defaults write org.X.x11 nolisten_tcp -boolean &lt;span class="nb">false&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>To validate:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">printenv DISPLAY
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># /private/tmp/com.apple.launchd.oyK9GxAmbh/org.macosforge.xquartz:0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ssh-config">SSH config&lt;/h2>
 &lt;p>locate your config file, mine is at &lt;code>~/.ssh/config&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">Host euler.ethz.ch
-HostName euler.ethz.ch
-User USERNAME
-ForwardX11Trusted yes
-ForwardX11 yes
-&lt;span class="c1"># XAuthLocation /opt/X11/bin/xauth # not required&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="connect--debug">Connect &amp;amp; Debug&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">ssh -Y USERNAME@euler.ethz.ch
-&lt;span class="c1"># debug&lt;/span>
-ssh -v -Y USERNAME@euler.ethz.ch
-&lt;span class="c1"># check for &lt;/span>
-&lt;span class="c1"># debug1: Requesting X11 forwarding with authentication spoofing.&lt;/span>
-&lt;span class="c1"># validate&lt;/span>
-printenv DISPLAY
-&lt;span class="c1"># localhost:10.0&lt;/span>
-display random.png
-&lt;span class="c1"># show up in the XQuartz window&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">Host euler.ethz.ch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName euler.ethz.ch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User USERNAME
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ForwardX11Trusted yes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ForwardX11 yes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># XAuthLocation /opt/X11/bin/xauth # not required&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="connect--debug">Connect &amp;amp; Debug&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh -Y USERNAME@euler.ethz.ch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># debug&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssh -v -Y USERNAME@euler.ethz.ch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># check for &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># debug1: Requesting X11 forwarding with authentication spoofing.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># validate&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">printenv DISPLAY
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># localhost:10.0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">display random.png
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># show up in the XQuartz window&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure
 >
 &lt;a href="https://wyq977.github.io/images/x11_foward_macos.png" >
 &lt;img src="https://wyq977.github.io/images/x11_foward_macos.png"
@@ -281,29 +308,36 @@ loading="lazy"
 &lt;li>&lt;a class="link" href="https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-gpg-key-to-your-github-account" target="_blank" rel="noopener"
 >Adding a new GPG key to your GitHub account&lt;/a>&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-ini" data-lang="ini">&lt;span class="k">[commit]&lt;/span>
-&lt;span class="c1"># Sign commits using GPG.&lt;/span>
-&lt;span class="c1"># https://help.github.com/articles/signing-commits-using-gpg/&lt;/span>
-&lt;span class="na">gpgsign&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">true&lt;/span>
-&lt;span class="k">[user]&lt;/span>
-&lt;span class="na">name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">
-&lt;/span>&lt;span class="s"> email =
-&lt;/span>&lt;span class="s"> signingkey =
-&lt;/span>&lt;span class="s"> # signkey
-&lt;/span>&lt;span class="s"> # See https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/telling-git-about-your-signing-key&lt;/span>
-&lt;span class="c1"># Tell git about gpg path&lt;/span>
-&lt;span class="c1"># https://gist.github.com/danieleggert/b029d44d4a54b328c0bac65d46ba4c65&lt;/span>
-&lt;span class="c1"># https://github.com/pstadler/keybase-gpg-github&lt;/span>
-&lt;span class="k">[gpg]&lt;/span>
-&lt;span class="na">program&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">/usr/local/MacGPG2/bin/gpg2&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="keep-your-email-private">Keep your email private&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-ini" data-lang="ini">&lt;span class="line">&lt;span class="cl">&lt;span class="k">[commit]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># Sign commits using GPG.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># https://help.github.com/articles/signing-commits-using-gpg/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">gpgsign&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">[user]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> email =
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> signingkey =
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> # signkey
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> # See https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/telling-git-about-your-signing-key&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Tell git about gpg path&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://gist.github.com/danieleggert/b029d44d4a54b328c0bac65d46ba4c65&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://github.com/pstadler/keybase-gpg-github&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">[gpg]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">program&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">/usr/local/MacGPG2/bin/gpg2&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="keep-your-email-private">Keep your email private&lt;/h2>
 &lt;p>At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already &amp;ldquo;exposed&amp;rdquo;.&lt;/p>
 &lt;p>You can check, see a &lt;a class="link" href="https://revoir.in/wiki/posts/git_custom_email_signed_commits/" target="_blank" rel="noopener"
 >post&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="c1"># You can clone any of your favorite repository/library&lt;/span>
-git clone https://github.com/stretchr/testify &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">cd&lt;/span> testify
-git log --format&lt;span class="o">=&lt;/span>email --abbrev-commit &lt;span class="p">|&lt;/span> grep -i mail &lt;span class="p">|&lt;/span> sort -u
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The things and steps are pretty much just the same as the post but there&amp;rsquo;s one thing worth mentioning.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># You can clone any of your favorite repository/library&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git clone https://github.com/stretchr/testify &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">cd&lt;/span> testify
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git log --format&lt;span class="o">=&lt;/span>email --abbrev-commit &lt;span class="p">|&lt;/span> grep -i mail &lt;span class="p">|&lt;/span> sort -u
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The things and steps are pretty much just the same as the post but there&amp;rsquo;s one thing worth mentioning.&lt;/p>
 &lt;p>In the email setting in Github, a masked email address will be generated with a format: &lt;code>NUMBER+username@github.noreply.github.com&lt;/code>. But &lt;code>username@github.noreply.github.com&lt;/code> is the one to input in GPG key, the one with a number prefix is not gonna verfy the commits and github will show errors like &amp;ldquo;No githuub user associated with the email&amp;rdquo;&lt;/p>
 &lt;p>&lt;a class="link" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key" target="_blank" rel="noopener"
 >How to add email to gpg key&lt;/a>&lt;/p></description></item><item><title>Download qq videos</title><link>https://wyq977.github.io/p/download-qq-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-qq-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
@@ -312,9 +346,9 @@ git log --format&lt;span class="o">=&lt;/span>email --abbrev-commit &lt;span cla
 >annie&lt;/a>, &lt;a class="link" href="https://ffmpeg.org/" target="_blank" rel="noopener"
 >ffmpeg&lt;/a>&lt;/p>
 &lt;p>Both of them can be installed on macOS via homebrew&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">brew install annie
-brew install ffmpeg
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="get-cookies">Get cookies&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install annie
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">brew install ffmpeg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="get-cookies">Get cookies&lt;/h2>
 &lt;ul>
 &lt;li>In console (Dev. Tools): &lt;code>document.cookie&lt;/code>&lt;/li>
 &lt;li>Or you can use EditThisCookie to get cookie of a vip account&lt;/li>
@@ -323,11 +357,11 @@ brew install ffmpeg
 &lt;p>Copy each episode or follow the guide, grap href using online tools:http://tools.buzzstream.com/link-building-extract-urls&lt;/p>
 &lt;p>It might be easier for a few episodes to just copy and paste&lt;/p>
 &lt;h2 id="download">Download&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="c1"># check info&lt;/span>
-annie -i -f fhd -c qqvip.txt -F s01.csv
-&lt;span class="c1"># download fhd if present&lt;/span>
-annie -f fhd -c qqvip.txt -F s01.csv
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="extra">Extra&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># check info&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">annie -i -f fhd -c qqvip.txt -F s01.csv
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># download fhd if present&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">annie -f fhd -c qqvip.txt -F s01.csv
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="extra">Extra&lt;/h2>
 &lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>Test for blog but no emoji in title :(</title><link>https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/</link><pubDate>Thu, 17 Dec 2020 22:55:41 +0100</pubDate><guid>https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/</guid><description>&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Test for blog but no emoji in title :(" />&lt;p>Copied from &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack/tree/master/exampleSite" target="_blank" rel="noopener"
 >example site&lt;/a>&lt;/p>
 &lt;h2 id="test-for-a-single-post">Test for a single post&lt;/h2>
@@ -341,20 +375,21 @@ annie -f fhd -c qqvip.txt -F s01.csv
 f(x) = e^x
 $$&lt;/p>
 &lt;p>Multiple-line does not render nicely with KaTex now&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">$$
-\begin{align}
-y &lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 1+1 \\\\\\
-&lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 2
-\end{align}
-$$
-$$
-% This works as expected in KaTeX
-\begin{aligned}
-a &lt;span class="err">&amp;amp;&lt;/span>= 1 \\
-b &lt;span class="err">&amp;amp;&lt;/span>= 2
-\end{aligned}
-$$
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\begin{align}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">y &lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 1+1 \\\\\\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\end{align}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">% This works as expected in KaTeX
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\begin{aligned}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">a &lt;span class="err">&amp;amp;&lt;/span>= 1 \\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">b &lt;span class="err">&amp;amp;&lt;/span>= 2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\end{aligned}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
 \begin{align}
 y &amp;amp;=&amp;amp; 1+1 \\\
 &amp;amp;=&amp;amp; 2
@@ -430,9 +465,10 @@ alt="Photo by Hudai Gayiran on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Hudai Gayiran on Unsplash&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
-![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hugo ships with several &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hugo ships with several &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
 >Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a class="link" href="https://gohugo.io/about/hugo-and-gdpr/" target="_blank" rel="noopener"
 >Privacy Config&lt;/a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p>
 &lt;hr>
@@ -702,9 +738,9 @@ allowfullscreen="true"
 &lt;ul>
 &lt;li>Real time output&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">bpeek JOBID
-&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">bpeek -J JOBNAME
-&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">bpeek JOBID
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">bpeek -J JOBNAME
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>kill a job &lt;code>bkill JOBID&lt;/code>****kill all &lt;code>bkill 0&lt;/code>&lt;/li>
 &lt;li>Check all jobs &lt;code>bjobs&lt;/code>(&lt;code>-p&lt;/code>for pending jobs only)&lt;/li>
 &lt;/ul>
@@ -714,40 +750,43 @@ allowfullscreen="true"
 requested, notify you by e-mail when your job begins and ends using
 &lt;code>bsub -B&lt;/code>and &lt;code>bsub -N&lt;/code>respectively&lt;/p>
 &lt;p>Example:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">bsub -B -N -n &lt;span class="m">4&lt;/span> -W &lt;span class="m">120&lt;/span> -R &lt;span class="s2">&amp;#34;rusage[mem=2048]&amp;#34;&lt;/span> -o output.txt python main.py
-&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">bsub -B -N -n &lt;span class="m">4&lt;/span> -W &lt;span class="m">120&lt;/span> -o output.txt python main.py
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Taichi installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">conda create -n taichi &lt;span class="nv">python&lt;/span>&lt;span class="o">=&lt;/span>3.8
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="install-dependencies">Install Dependencies&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">bsub -B -N -n &lt;span class="m">4&lt;/span> -W &lt;span class="m">120&lt;/span> -R &lt;span class="s2">&amp;#34;rusage[mem=2048]&amp;#34;&lt;/span> -o output.txt python main.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">bsub -B -N -n &lt;span class="m">4&lt;/span> -W &lt;span class="m">120&lt;/span> -o output.txt python main.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Taichi installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">conda create -n taichi &lt;span class="nv">python&lt;/span>&lt;span class="o">=&lt;/span>3.8
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="install-dependencies">Install Dependencies&lt;/h2>
 &lt;p>See &lt;a class="link" href="https://www.anaconda.com/blog/using-pip-in-a-conda-environment" target="_blank" rel="noopener"
 >best practice using pip in a conda&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">conda activate taichi
-python3 -m pip install setuptools astor pybind11 pylint &lt;span class="c1"># sourceinspect&lt;/span>
-python3 -m pip install pytest pytest-rerunfailures pytest-xdist yapf
-python3 -m pip install GitPython coverage colorama &lt;span class="c1"># autograd&lt;/span>
-&lt;span class="c1"># install pypi packages with no whl avaiable for Apple Arm64&lt;/span>
-python3 -m pip install numpy autograd sourceinspect --compile --pre
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="build-llvm-1000-from-source">Build LLVM 10.0.0 from source&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz
-tar xvJf llvm-10.0.0.src.tar.xz
-&lt;span class="nb">cd&lt;/span> llvm-10.0.0.src
-mkdir build
-&lt;span class="nb">cd&lt;/span> build
-&lt;span class="c1"># install to specific location&lt;/span>
-&lt;span class="c1"># https://llvm.org/docs/CMake.html&lt;/span>
-cmake .. &lt;span class="se">\
-&lt;/span>&lt;span class="se">&lt;/span> -DLLVM_ENABLE_RTTI:BOOL&lt;span class="o">=&lt;/span>ON &lt;span class="se">\
-&lt;/span>&lt;span class="se">&lt;/span> -DBUILD_SHARED_LIBS:BOOL&lt;span class="o">=&lt;/span>OFF &lt;span class="se">\
-&lt;/span>&lt;span class="se">&lt;/span> -DCMAKE_BUILD_TYPE&lt;span class="o">=&lt;/span>Release &lt;span class="se">\
-&lt;/span>&lt;span class="se">&lt;/span> -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span> &lt;span class="se">\
-&lt;/span>&lt;span class="se">&lt;/span> -DLLVM_ENABLE_ASSERTIONS&lt;span class="o">=&lt;/span>ON &lt;span class="se">\
-&lt;/span>&lt;span class="se">&lt;/span> -DCMAKE_INSTALL_PREFIX&lt;span class="o">=&lt;/span>/Users/wyq977/projects/llvm-install/10.0.0
-make -j &lt;span class="m">8&lt;/span>
-make install
-&lt;span class="c1"># Check your LLVM installation&lt;/span>
-&lt;span class="c1"># You should get 10.0.0&lt;/span>
-llvm-config --version
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="build-taichi">Build Taichi&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">conda activate taichi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install setuptools astor pybind11 pylint &lt;span class="c1"># sourceinspect&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install pytest pytest-rerunfailures pytest-xdist yapf
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install GitPython coverage colorama &lt;span class="c1"># autograd&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install pypi packages with no whl avaiable for Apple Arm64&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install numpy autograd sourceinspect --compile --pre
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="build-llvm-1000-from-source">Build LLVM 10.0.0 from source&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tar xvJf llvm-10.0.0.src.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> llvm-10.0.0.src
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir build
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install to specific location&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://llvm.org/docs/CMake.html&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cmake .. &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_ENABLE_RTTI:BOOL&lt;span class="o">=&lt;/span>ON &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DBUILD_SHARED_LIBS:BOOL&lt;span class="o">=&lt;/span>OFF &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DCMAKE_BUILD_TYPE&lt;span class="o">=&lt;/span>Release &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span> &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_ENABLE_ASSERTIONS&lt;span class="o">=&lt;/span>ON &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DCMAKE_INSTALL_PREFIX&lt;span class="o">=&lt;/span>/Users/wyq977/projects/llvm-install/10.0.0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make -j &lt;span class="m">8&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check your LLVM installation&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># You should get 10.0.0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">llvm-config --version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="build-taichi">Build Taichi&lt;/h2>
 &lt;p>Installing collected packages: numpy
 WARNING: The scripts f2py, f2py3 and f2py3.8 are installed in &amp;lsquo;/Users/wyq977/.local/bin&amp;rsquo; which is not on PATH.
 Consider adding this directory to PATH or, if you prefer to suppress this warning, use &amp;ndash;no-warn-script-location.
@@ -768,32 +807,35 @@ autograd&lt;/p>
 746 cmake ..
 747 cmake .. -DTI_WITH_CUDA=OFF -DTI_WITH_OPENGL=OFF -DTI_WITH_CC=OFF
 763 cd cmake/&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">cmake .. -DTI_WITH_CUDA&lt;span class="o">=&lt;/span>OFF -DTI_WITH_OPENGL&lt;span class="o">=&lt;/span>OFF -DTI_WITH_CC&lt;span class="o">=&lt;/span>OFF -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="llvm-build-from-source">LLVM (build from source)&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz
-tar xvJf llvm-10.0.0.src.tar.xz
-&lt;span class="nb">cd&lt;/span> llvm-10.0.0.src
-mkdir build
-&lt;span class="nb">cd&lt;/span> build
-cmake .. -DLLVM_ENABLE_RTTI:BOOL&lt;span class="o">=&lt;/span>ON -DBUILD_SHARED_LIBS:BOOL&lt;span class="o">=&lt;/span>OFF -DCMAKE_BUILD_TYPE&lt;span class="o">=&lt;/span>Release -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span> -DLLVM_ENABLE_ASSERTIONS&lt;span class="o">=&lt;/span>ON
-make -j &lt;span class="m">8&lt;/span>
-&lt;span class="c1"># install llvm in custom dir instead of /&lt;/span>
-make &lt;span class="nv">DESTDIR&lt;/span>&lt;span class="o">=&lt;/span>~/Downloads/llvm-install/ install
-&lt;span class="c1"># add this to bash_profile&lt;/span>
-&lt;span class="c1"># export PATH=&amp;#34;/Users/wyq977/Downloads/llvm-install/usr/local/bin:$PATH&amp;#34; &lt;/span>
-&lt;span class="c1"># export LLVM_DIR=&amp;#34;/Users/wyq977/Downloads/llvm-install/usr/local/lib/cmake&amp;#34;&lt;/span>
-&lt;span class="c1"># Check your LLVM installation&lt;/span>
-llvm-config --version &lt;span class="c1"># You should get 10.0.0&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="uninstall">Uninstall&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cmake .. -DTI_WITH_CUDA&lt;span class="o">=&lt;/span>OFF -DTI_WITH_OPENGL&lt;span class="o">=&lt;/span>OFF -DTI_WITH_CC&lt;span class="o">=&lt;/span>OFF -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="llvm-build-from-source">LLVM (build from source)&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tar xvJf llvm-10.0.0.src.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> llvm-10.0.0.src
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir build
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cmake .. -DLLVM_ENABLE_RTTI:BOOL&lt;span class="o">=&lt;/span>ON -DBUILD_SHARED_LIBS:BOOL&lt;span class="o">=&lt;/span>OFF -DCMAKE_BUILD_TYPE&lt;span class="o">=&lt;/span>Release -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span> -DLLVM_ENABLE_ASSERTIONS&lt;span class="o">=&lt;/span>ON
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make -j &lt;span class="m">8&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install llvm in custom dir instead of /&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make &lt;span class="nv">DESTDIR&lt;/span>&lt;span class="o">=&lt;/span>~/Downloads/llvm-install/ install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># add this to bash_profile&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># export PATH=&amp;#34;/Users/wyq977/Downloads/llvm-install/usr/local/bin:$PATH&amp;#34; &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># export LLVM_DIR=&amp;#34;/Users/wyq977/Downloads/llvm-install/usr/local/lib/cmake&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check your LLVM installation&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">llvm-config --version &lt;span class="c1"># You should get 10.0.0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="uninstall">Uninstall&lt;/h2>
 &lt;ul>
 &lt;li>Make a CMake target: &lt;a class="link" href="https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake" target="_blank" rel="noopener"
 >https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake&lt;/a>&lt;/li>
 &lt;li>remove all build target:&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="nb">cd&lt;/span> build &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> xargs rm &amp;lt; install_manifest.txt
-&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> xargs rm &amp;lt; install_manifest.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>Unset all env var&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="nb">unset&lt;/span> TAICHI_REPO_DIR
-&lt;span class="nb">unset&lt;/span> LLVM_DIR
-&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> TAICHI_REPO_DIR
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> LLVM_DIR
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

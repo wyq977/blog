@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My Blog</title><link>https://wyq977.github.io/post/</link><description>Recent content in Posts on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 05 Jan 2022 10:48:47 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker M1 Mac</title><link>https://wyq977.github.io/p/docker-m1-mac/</link><pubDate>Wed, 05 Jan 2022 10:48:47 +0100</pubDate><guid>https://wyq977.github.io/p/docker-m1-mac/</guid><description>Yet Again, Docker macOS After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My Blog</title><link>https://wyq977.github.io/post/</link><description>Recent content in Posts on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Apr 2022 09:00:36 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Conda Homebrew</title><link>https://wyq977.github.io/p/conda-homebrew/</link><pubDate>Sun, 03 Apr 2022 09:00:36 +0200</pubDate><guid>https://wyq977.github.io/p/conda-homebrew/</guid><description>Problems Miniforge installed via homebrew will remove all the env upon update/uninstall, discussion.
+Solution Specify conda env in condarc
+condarc example: https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/sample-condarc.html
+touch ~/.condarc mkdir ~/.conda-envs envs_dirs: - ~/.conda-envs</description></item><item><title>Docker M1 Mac</title><link>https://wyq977.github.io/p/docker-m1-mac/</link><pubDate>Wed, 05 Jan 2022 10:48:47 +0100</pubDate><guid>https://wyq977.github.io/p/docker-m1-mac/</guid><description>Yet Again, Docker macOS After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.
 I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and I also checked the box for using the new release virtualization framework in Experimental feature.</description></item><item><title>Set up Aria2 and Chrome working nicely together</title><link>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</guid><description>Install brew install aria2 YAAW, aria2 frontend for chrome Install Tampermonkey fake115, open raw link of this file fake115d.user.js, should auto redirect to Tampermonkey 115, download release, change crx to zip, drag it in Extensions in Chrome Aria2 config Help: https://developpaper.com/how-to-configure-aria2-to-download-files/
 YYAW config Set the RPC like this:
 http://token:TOKEN@localhost:6800/jsonrpc Run aria2 in background on startup TBD
 Convert rmvb to mp4 See: https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132
-for f in *.rmvb; do ffmpeg -i &amp;quot;$f&amp;quot; -c:a copy -acodec copy &amp;quot;${f%}.</description></item><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>Install xQuartz If homebrew installed:
+for f in *.rmvb; do ffmpeg -i &amp;#34;$f&amp;#34; -c:a copy -acodec copy &amp;#34;${f%}.</description></item><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>Install xQuartz If homebrew installed:
 brew install --cask xquartz Or install from XQuartz website
 Restart the machine
 Enable iglx Euler X11 macOS Euler X11 macOS troubleshooting extra help link defaults write org.macosforge.xquartz.X11 enable_iglx -bool true According to this discussion here, but might not be relevant
@@ -25,20 +28,21 @@ It might be easier for a few episodes to just copy and paste</description></item
 f(x) = e^x
 $$&lt;/p>
 &lt;p>Multiple-line does not render nicely with KaTex now&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">$$
-\begin{align}
-y &lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 1+1 \\\\\\
-&lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 2
-\end{align}
-$$
-$$
-% This works as expected in KaTeX
-\begin{aligned}
-a &lt;span class="err">&amp;amp;&lt;/span>= 1 \\
-b &lt;span class="err">&amp;amp;&lt;/span>= 2
-\end{aligned}
-$$
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\begin{align}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">y &lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 1+1 \\\\\\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&amp;amp;&lt;/span>=&lt;span class="err">&amp;amp;&lt;/span> 2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\end{align}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">% This works as expected in KaTeX
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\begin{aligned}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">a &lt;span class="err">&amp;amp;&lt;/span>= 1 \\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">b &lt;span class="err">&amp;amp;&lt;/span>= 2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\end{aligned}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
 \begin{align}
 y &amp;amp;=&amp;amp; 1+1 \\\
 &amp;amp;=&amp;amp; 2
@@ -114,9 +118,10 @@ alt="Photo by Hudai Gayiran on Unsplash">
 &lt;/a>
 &lt;figcaption>Photo by Hudai Gayiran on Unsplash&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
-![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hugo ships with several &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hugo ships with several &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
 >Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a class="link" href="https://gohugo.io/about/hugo-and-gdpr/" target="_blank" rel="noopener"
 >Privacy Config&lt;/a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p></description></item><item><title>itx Build</title><link>https://wyq977.github.io/p/itx-build/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/itx-build/</guid><description>See the PCPartPicker Part List for detailed list including the history
 Build (2019-03-12) Type Item Price(CHF) Price (CNY)* CPU AMD Ryzen 5 2600 3.4 GHz 6-Core Processor 187 1243.55 CPU Cooler Noctua NH-L9x65 SE-AM4 CPU Cooler 59 392.35 Motherboard MSI B450I GAMING PLUS AC Mini ITX AM4 Motherboard 131 871.15 Memory Corsair Vengeance LPX 16 GB (2 x 8 GB) DDR4-3000 CL15 Memory 130 864.</description></item><item><title>Using ETH Cluster</title><link>https://wyq977.github.io/p/using-eth-cluster/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/using-eth-cluster/</guid><description>​1. Stay connected with ETH (VPN) See wiki for detailed info. but the bottom line is that you have to stay connected all the time and this can be troublesome in linux or mobile devices.

@@ -193,7 +193,45 @@ events per second: 8372004.44
 CPU speed:
 events per second: 2526.18
 &lt;/code>&lt;/pre>&lt;p>WTF, why is VM takes such a dramatic hit, even with the right tool. I might ended up using the Sonarr/Radarr for macOS, 4.0.0 of Radarr already has osx-arm64 build, just waiting for Sonarr.&lt;/p>
-&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Set up Aria2 and Chrome working nicely together</title><link>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</guid><description>&lt;h2 id="install">Install&lt;/h2>
+&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Video Stuff</title><link>https://wyq977.github.io/p/video-stuff/</link><pubDate>Sun, 03 Oct 2021 16:25:14 +0200</pubDate><guid>https://wyq977.github.io/p/video-stuff/</guid><description>&lt;h2 id="quality-for-video-downloads">Quality for video downloads&lt;/h2>
+&lt;p>Ref: &lt;a class="link" href="https://wiki.servarr.com/sonarr/settings#qualities-defined" target="_blank" rel="noopener"
+>https://wiki.servarr.com/sonarr/settings#qualities-defined&lt;/a>&lt;/p>
+&lt;p>&lt;strong>In brief:&lt;/strong> Remux == Bluray &amp;gt; WEBDL &amp;gt; WEBRip &amp;gt; HDTV&lt;/p>
+&lt;p>Summary:&lt;/p>
+&lt;ol>
+&lt;li>WEBDL: losslessly ripped from streaming like NF, AMZN, HULU or iTunes. Quality is quite good since they are not reencoded. The video (H.264 or H.265) and audio (AC3/AAC) streams are usually extracted from the iTunes or Amazon Video and remuxed into a MKV container without sacrificing quality.&lt;/li>
+&lt;li>WEBRip: the file is often extracted using the HLS or RTMP/E protocols and remuxed from a TS, MP4 or FLV container to MKV. Usually WEB-DL is better&lt;/li>
+&lt;li>Bluray: A re-encode of the final released Blu-ray&lt;/li>
+&lt;li>Remux: a rip of a Blu-ray or HD DVD disc to another container format or just stripping the disc of menus and bonus material while keeping the contents of its audio and video streams intact (also keeping the current codecs), guaranteeing the exact 1:1 movie quality as on original disc.&lt;/li>
+&lt;li>HDTV: A re-encode of the final released Blu-ray, but broadcast over HD cable or satellite. This is released usually several months after a retail release, but sometimes upscaled versions of a Standard Definition film are released on cable channels such as STARZ or HBO, and they would be the only HD copies of that specific film available. These are generally MKV or MP4 container.&lt;/li>
+&lt;/ol>
+&lt;p>Quality: High -&amp;gt; Low&lt;/p>
+&lt;ul>
+&lt;li>2160p
+&lt;ul>
+&lt;li>&lt;code>Remux-2160p&lt;/code>, &lt;code>Bluray-2160p&lt;/code>, &lt;code>WEBRip-2160p&lt;/code>, &lt;code>WEBDL-2160p&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>1080p
+&lt;ul>
+&lt;li>&lt;code>Remux-1080p&lt;/code>, &lt;code>Bluray-1080p&lt;/code>, &lt;code>WEBRip-1080p&lt;/code>, &lt;code>WEBDL-1080p&lt;/code>, &lt;code>HDTV-1080p&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>720p
+&lt;ul>
+&lt;li>&lt;code>Bluray-720p&lt;/code>, &lt;code>WEBRip-720p&lt;/code>, &lt;code>HDTV-720p&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>480p or lower
+&lt;ul>
+&lt;li>&lt;code>DVD&lt;/code>, &lt;code>WEBRip-480p&lt;/code>, &lt;code>WEBDL-480p&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info-about-media-files">Info. about media files&lt;/h2>
+&lt;p>MKV or MP4: just a container, does not really say a lot about quality, can be converted with &lt;code>ffmepg&lt;/code> or mkvtoolnix&lt;/p>
+&lt;p>TS: video format is a container format for MPEG, known as &amp;ldquo;Transport Stream&amp;rdquo;, which is used most frequently by digital broadcasting systems (digital cable, satellite, etc). &lt;a class="link" href="https://askubuntu.com/a/10596" target="_blank" rel="noopener"
+>ref&lt;/a>&lt;/p></description></item><item><title>Set up Aria2 and Chrome working nicely together</title><link>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</guid><description>&lt;h2 id="install">Install&lt;/h2>
 &lt;pre tabindex="0">&lt;code>brew install aria2
 &lt;/code>&lt;/pre>&lt;ol>
 &lt;li>&lt;a class="link" href="https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc/related" target="_blank" rel="noopener"

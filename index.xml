@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Apr 2022 09:00:36 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Conda Homebrew</title><link>https://wyq977.github.io/p/conda-homebrew/</link><pubDate>Sun, 03 Apr 2022 09:00:36 +0200</pubDate><guid>https://wyq977.github.io/p/conda-homebrew/</guid><description>&lt;h2 id="problems">Problems&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 13 May 2022 13:30:58 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Wechat AntiDuck</title><link>https://wyq977.github.io/p/wechat-antiduck/</link><pubDate>Fri, 13 May 2022 13:30:58 +0200</pubDate><guid>https://wyq977.github.io/p/wechat-antiduck/</guid><description>&lt;p>There&amp;rsquo;s this annoying feature on macOS that would lower the media volume when you are on a call or Facetime which appears in Wechat, Facetime or Skype. Basically, you can&amp;rsquo;t listen to YT when you are on a call.&lt;/p>
+&lt;p>To avoid that, &lt;a class="link" href="https://github.com/icpz/WeChat-AntiDuck" target="_blank" rel="noopener"
+>Wechat-AntiDuck&lt;/a> comes to help.&lt;/p>
+&lt;h2 id="fix-no-permission-to-open">Fix &amp;ldquo;No permission to open&amp;rdquo;&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo codesign --force --deep --sign - &lt;span class="s2">&amp;#34;/Applications/WeChat.app&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This doesn&amp;rsquo;t work with the following warning.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">/Applications/WeChat.app: the codesign_allocate helper tool cannot be found or used
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Tried re-installing the homebrew version, no luck.
+Tried installing the app store version, still no luck.&lt;/p>
+&lt;p>Tried following this guide: &lt;a class="link" href="https://stackoverflow.com/questions/29848622/codesign-allocate-error-unable-to-find-utility-codesign-allocate-not-a-deve" target="_blank" rel="noopener"
+>https://stackoverflow.com/questions/29848622/codesign-allocate-error-unable-to-find-utility-codesign-allocate-not-a-deve&lt;/a>, still doesn&amp;rsquo;t work&lt;/p>
+&lt;p>According to this &lt;a class="link" href="https://stackoverflow.com/questions/29848622/codesign-allocate-error-unable-to-find-utility-codesign-allocate-not-a-deve" target="_blank" rel="noopener"
+>discussion&lt;/a>, I just copied the app to another folder, signed it and then replaced it with the one in &lt;code>/Applications&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>For more details, see &lt;a class="link" href="https://github.com/Homebrew/brew/issues/9082" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p>
+&lt;/blockquote></description></item><item><title>Conda Homebrew</title><link>https://wyq977.github.io/p/conda-homebrew/</link><pubDate>Sun, 03 Apr 2022 09:00:36 +0200</pubDate><guid>https://wyq977.github.io/p/conda-homebrew/</guid><description>&lt;h2 id="problems">Problems&lt;/h2>
 &lt;p>Miniforge installed via homebrew will remove all the env upon update/uninstall, &lt;a class="link" href="https://github.com/conda-forge/miniforge/issues/159" target="_blank" rel="noopener"
 >discussion&lt;/a>.&lt;/p>
 &lt;h2 id="solution">Solution&lt;/h2>

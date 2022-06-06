@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 02 Jun 2022 15:32:31 +0300</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>VSCode Latex Mac</title><link>https://wyq977.github.io/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos">Using Latex on macOS&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Jun 2022 15:27:45 +0300</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>iMessages/FaceTime logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
+&lt;ul>
+&lt;li>Tel. A (main, ✅ iMessages)&lt;/li>
+&lt;li>Tel. B (backup, ❌ iMessages)&lt;/li>
+&lt;li>email A (login, ✅ iMessages)&lt;/li>
+&lt;li>email B (public, ❌ iMessages)&lt;/li>
+&lt;/ul>
+&lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)&lt;/h2>
+&lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>
+&lt;h2 id="use-imessage-on-mac">use iMessage on mac&lt;/h2>
+&lt;p>&lt;figure
+>
+&lt;a href="https://wyq977.github.io/images/imessage_mac_setting.png" >
+&lt;img src="https://wyq977.github.io/images/imessage_mac_setting.png"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p>
+&lt;p>despite you disable in the last setting, iMessages can still arrive while regular text won&amp;rsquo;t.&lt;/p>
+&lt;p>Right now I can be reached via the gmail, if I checked the &lt;strong>Tel. A&lt;/strong>, I can also receive iMessage text on my mac&lt;/p>
+&lt;h2 id="sync-text-message-on-other-iphone-not-tested">sync TEXT message on other iPhone NOT TESTED&lt;/h2>
+&lt;p>both iPhone needs to enable message in iCloud,&lt;/p>
+&lt;p>I think you need to enable iMessage for the other phone number, not sure tho&lt;/p>
+&lt;p>update on 2022-04-28, I received a text message (07:55) from &lt;strong>Tel. B&lt;/strong> on 11:15 WTF?&lt;/p>
+&lt;h2 id="updated-2022-06-06">Updated 2022-06-06&lt;/h2>
+&lt;p>On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p></description></item><item><title>VSCode Latex Mac</title><link>https://wyq977.github.io/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos">Using Latex on macOS&lt;/h2>
 &lt;p>Download MacTex (~3/4 GB with most packages included), via homebrew, support for Apple Silicon&lt;/p>
 &lt;h2 id="guide">Guide&lt;/h2>
 &lt;p>I followed mostly &lt;a class="link" href="http://homepages.rpi.edu/home/36/wangy52/public_html/PersonalWebsite/build/html/Misc/Mac/VSCode/VSCode-LaTeX.html" target="_blank" rel="noopener"

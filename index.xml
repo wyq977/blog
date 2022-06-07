@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Jun 2022 15:27:45 +0300</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>iMessages/FaceTime logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jun 2022 16:50:18 +0300</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon">Trouble with VPN (Loon)&lt;/h2>
+&lt;p>Though the filter rule support local and self-defined resource parser, GeoIP resolver, etc.
+I still came across many times where I had trouble with Loon enabled.&lt;/p>
+&lt;p>This is one of easiest case involved, I would like certain app to follow certain policy,
+such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (added)&lt;/code>.&lt;/p>
+&lt;p>It can be achieved as followed, where all the traffic via Facebook app will be blocked.&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Rule]
+USER-AGENT,com.facebook.Facebook,REJECT
+&lt;/code>&lt;/pre>&lt;p>Examples can be found here: &lt;a class="link" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list" target="_blank" rel="noopener"
+>https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list&lt;/a>&lt;/p>
+&lt;h2 id="how-to-find-bundle-id-of-an-ios-app--step-by-step---mr-virk-mediahttpsmrvirkcomhow-to-find-app-bundle-id-ioshtml">&lt;a class="link" href="https://mrvirk.com/how-to-find-app-bundle-id-ios.html" target="_blank" rel="noopener"
+>How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a>&lt;/h2>
+&lt;p>Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
+>https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a>&lt;/p>
+&lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>iMessages/FaceTime logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
 &lt;ul>
 &lt;li>Tel. A (main, ✅ iMessages)&lt;/li>
 &lt;li>Tel. B (backup, ❌ iMessages)&lt;/li>

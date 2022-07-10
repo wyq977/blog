@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jun 2022 16:50:18 +0300</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon">Trouble with VPN (Loon)&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 10 Jul 2022 23:05:21 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS CRON</title><link>https://wyq977.github.io/p/macos-cron/</link><pubDate>Sun, 10 Jul 2022 23:05:21 +0200</pubDate><guid>https://wyq977.github.io/p/macos-cron/</guid><description>&lt;h2 id="crontab-on-macos">CRONTAB on macOS&lt;/h2>
+&lt;p>It&amp;rsquo;s annoying on macOS that each editing would prompt the pop up for authorization of scheduled task.&lt;/p>
+&lt;h2 id="plist-what-is-it">.plist What is it?&lt;/h2>
+&lt;p>To load/unload a plist&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">launchctl load ~/Library/LaunchAgents/test.plist
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">launchctl unload ~/Library/LaunchAgents/test.plist
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Due to the limitations of recent macOS updates, it&amp;rsquo;s getting increasingly difficult to run a small command via shell, which is totally understandable at a security standpoint.&lt;/p>
+&lt;p>Therefore, we need to use the Automator.app from Apple to essentially run any scripts (fixed) daily.&lt;/p>
+&lt;p>Example.plist which runs daily at 09:27&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-xml" data-lang="xml">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!DOCTYPE plist PUBLIC &amp;#34;-//Apple//DTD PLIST 1.0//EN&amp;#34; &amp;#34;http://www.apple.com/DTDs/PropertyList-1.0.dtd&amp;#34;&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;plist&lt;/span> &lt;span class="na">version=&lt;/span>&lt;span class="s">&amp;#34;1.0&amp;#34;&lt;/span>&lt;span class="nt">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;dict&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;key&amp;gt;&lt;/span>Label&lt;span class="nt">&amp;lt;/key&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;string&amp;gt;&lt;/span>test.label&lt;span class="nt">&amp;lt;/string&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;key&amp;gt;&lt;/span>ProgramArguments&lt;span class="nt">&amp;lt;/key&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;array&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;string&amp;gt;&lt;/span>/usr/bin/open&lt;span class="nt">&amp;lt;/string&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;string&amp;gt;&lt;/span>-a&lt;span class="nt">&amp;lt;/string&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;string&amp;gt;&lt;/span>/Applications/Backup Brewfile.app&lt;span class="nt">&amp;lt;/string&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;/array&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;key&amp;gt;&lt;/span>RunAtLoad&lt;span class="nt">&amp;lt;/key&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;true/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;key&amp;gt;&lt;/span>StartCalendarInterval&lt;span class="nt">&amp;lt;/key&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;dict&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;key&amp;gt;&lt;/span>Hour&lt;span class="nt">&amp;lt;/key&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;integer&amp;gt;&lt;/span>09&lt;span class="nt">&amp;lt;/integer&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;key&amp;gt;&lt;/span>Minute&lt;span class="nt">&amp;lt;/key&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;integer&amp;gt;&lt;/span>27&lt;span class="nt">&amp;lt;/integer&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;/dict&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;/dict&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;/plist&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Example app&lt;/p>
+&lt;p>&lt;figure
+>
+&lt;a href="https://wyq977.github.io/images/brew_update_automator.png" >
+&lt;img src="https://wyq977.github.io/images/brew_update_automator.png"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Ref:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://apple.stackexchange.com/questions/249446/launchd-plist-format-for-running-a-command-at-a-specific-time-on-a-weekday" target="_blank" rel="noopener"
+>launchd plist format for running a command at a specific time on a weekday - Ask Different&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://super-unix.com/superuser/how-to-get-a-script-to-run-every-day-on-mac-os-x/" target="_blank" rel="noopener"
+>Macos – How to get a script to run every day on Mac OS X – Unix Server Solutions&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://git.herrbischoff.com/awesome-macos-command-line/tree/launchagents.md" target="_blank" rel="noopener"
+>launchagents.md - awesome-macos-command-line - Use your macOS terminal shell to do awesome things.&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon">Trouble with VPN (Loon)&lt;/h2>
 &lt;p>Though the filter rule support local and self-defined resource parser, GeoIP resolver, etc.
 I still came across many times where I had trouble with Loon enabled.&lt;/p>
 &lt;p>This is one of easiest case involved, I would like certain app to follow certain policy,

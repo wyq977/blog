@@ -1,7 +1,7 @@
 ---
 title: "R on Apple Silicon"
 date: 2022-05-09T16:04:42+02:00
-draft: true
+draft: false
 categories:
     - Guide
 tags:
@@ -58,5 +58,49 @@ sudo gfortran-update-sdk
 
 Details here: https://mac.r-project.org/tools/
 
-###
+## Compilers, openMP, etc
 
+Following the guide: https://pat-s.me/transitioning-from-x86-to-arm64-on-macos-experiences-of-an-r-user/#virtual-machines--parallels
+
+`gcc, llvm, openmp` needs to be installed.
+
+To my surprise, the `~/.R/Makevars` is not present after installation.
+
+Now it's my config in `~/.R/Makevars`:
+
+```shell
+# homebrew
+FLIBS   =-L/opt/homebrew/opt/gfortran/lib
+F77     = /opt/homebrew/bin/gfortran
+FC      = /opt/homebrew/bin/gfortran
+
+CFLAGS   = -I/opt/homebrew/include
+CPPFLAGS = -I/opt/homebrew/include
+CXXFLAGS = -I/opt/homebrew/include
+
+# opemmp support
+LDFLAGS += -L/opt/homebrew/opt/libomp/lib -lomp
+CPPFLAGS += -Xclang -fopenmp
+```
+
+### Speeding up by replacing the BLAS lib
+
+[Here](https://www.mail-archive.com/r-sig-mac@r-project.org/msg06199.html)'s a post about matrix manipulation by new BLAS lib:
+
+```shell
+# create a symbolic link pointing libRblas.dylib to the optimized BLAS implementation
+cd /Library/Frameworks/R.framework/Resources/lib/
+ln -s -i -v libRblas.vecLib.dylib libRblas.dylib
+
+# If you ever want to revert this, do
+cd /Library/Frameworks/R.framework/Resources/lib/
+ln -s -i -v libRblas.0.dylib libRblas.dylib
+```
+
+In my test, using `benchmarkme` in [plot_benchmark_BLAS.R](plot_benchmark_BLAS.R), it does improves significantly:
+
+![](benchmark_plot.jpg)
+
+Original csv:
+* [`libRblas.vecLib.dylib`](benchmark_vel_BLAS.csv)
+* [`libRblas.0.dylib`](benchmark_default_BLAS.csv)

@@ -493,7 +493,93 @@ for f in *.rmvb; do ffmpeg -i &amp;#34;$f&amp;#34; -c:a copy -acodec copy -map_m
 &lt;/code>&lt;/pre>&lt;p>Remove all metadata along the way:&lt;/p>
 &lt;pre tabindex="0">&lt;code>ffmpeg -i in.mkv -map_metadata -1 -c copy -map 0 out.mkv
 for f in *.mp4; do ffmpeg -i &amp;#34;$f&amp;#34; -map_metadata -1 -c copy -map 0 &amp;#34;${f%}.nometa.mp4&amp;#34;; done # do for loop
-&lt;/code>&lt;/pre></description></item><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
+&lt;/code>&lt;/pre></description></item><item><title>Taichi installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">conda create -n taichi &lt;span class="nv">python&lt;/span>&lt;span class="o">=&lt;/span>3.8
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="install-dependencies">Install Dependencies&lt;/h2>
+&lt;p>See &lt;a class="link" href="https://www.anaconda.com/blog/using-pip-in-a-conda-environment" target="_blank" rel="noopener"
+>best practice using pip in a conda&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">conda activate taichi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install setuptools astor pybind11 pylint &lt;span class="c1"># sourceinspect&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install pytest pytest-rerunfailures pytest-xdist yapf
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install GitPython coverage colorama &lt;span class="c1"># autograd&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install pypi packages with no whl avaiable for Apple Arm64&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install numpy autograd sourceinspect --compile --pre
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="build-llvm-1000-from-source">Build LLVM 10.0.0 from source&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tar xvJf llvm-10.0.0.src.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> llvm-10.0.0.src
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir build
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install to specific location&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://llvm.org/docs/CMake.html&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cmake .. &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_ENABLE_RTTI:BOOL&lt;span class="o">=&lt;/span>ON &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DBUILD_SHARED_LIBS:BOOL&lt;span class="o">=&lt;/span>OFF &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DCMAKE_BUILD_TYPE&lt;span class="o">=&lt;/span>Release &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span> &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_ENABLE_ASSERTIONS&lt;span class="o">=&lt;/span>ON &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DCMAKE_INSTALL_PREFIX&lt;span class="o">=&lt;/span>/Users/wyq977/projects/llvm-install/10.0.0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make -j &lt;span class="m">8&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check your LLVM installation&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># You should get 10.0.0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">llvm-config --version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="build-taichi">Build Taichi&lt;/h2>
+&lt;p>Installing collected packages: numpy
+WARNING: The scripts f2py, f2py3 and f2py3.8 are installed in &amp;lsquo;/Users/wyq977/.local/bin&amp;rsquo; which is not on PATH.
+Consider adding this directory to PATH or, if you prefer to suppress this warning, use &amp;ndash;no-warn-script-location.
+Successfully installed numpy-1.20.2&lt;/p>
+&lt;p>astor
+sourceinspect
+pytest-rerunfailures
+pytest-xdist
+yapf
+GitPython
+coverage
+colorama
+autograd&lt;/p>
+&lt;p>721 brew install cmake
+723 cmake &amp;ndash;version
+724 cmake ..
+726 cmake ..
+746 cmake ..
+747 cmake .. -DTI_WITH_CUDA=OFF -DTI_WITH_OPENGL=OFF -DTI_WITH_CC=OFF
+763 cd cmake/&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cmake .. -DTI_WITH_CUDA&lt;span class="o">=&lt;/span>OFF -DTI_WITH_OPENGL&lt;span class="o">=&lt;/span>OFF -DTI_WITH_CC&lt;span class="o">=&lt;/span>OFF -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="llvm-build-from-source">LLVM (build from source)&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tar xvJf llvm-10.0.0.src.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> llvm-10.0.0.src
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir build
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cmake .. -DLLVM_ENABLE_RTTI:BOOL&lt;span class="o">=&lt;/span>ON -DBUILD_SHARED_LIBS:BOOL&lt;span class="o">=&lt;/span>OFF -DCMAKE_BUILD_TYPE&lt;span class="o">=&lt;/span>Release -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span> -DLLVM_ENABLE_ASSERTIONS&lt;span class="o">=&lt;/span>ON
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make -j &lt;span class="m">8&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install llvm in custom dir instead of /&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make &lt;span class="nv">DESTDIR&lt;/span>&lt;span class="o">=&lt;/span>~/Downloads/llvm-install/ install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># add this to bash_profile&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># export PATH=&amp;#34;/Users/wyq977/Downloads/llvm-install/usr/local/bin:$PATH&amp;#34; &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># export LLVM_DIR=&amp;#34;/Users/wyq977/Downloads/llvm-install/usr/local/lib/cmake&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check your LLVM installation&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">llvm-config --version &lt;span class="c1"># You should get 10.0.0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="uninstall">Uninstall&lt;/h2>
+&lt;ul>
+&lt;li>Make a CMake target: &lt;a class="link" href="https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake" target="_blank" rel="noopener"
+>https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake&lt;/a>&lt;/li>
+&lt;li>remove all build target:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> xargs rm &amp;lt; install_manifest.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Unset all env var&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> TAICHI_REPO_DIR
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> LLVM_DIR
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
 &lt;p>If homebrew installed:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install --cask xquartz
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Or install from &lt;a class="link" href="https://www.xquartz.org/" target="_blank" rel="noopener"
@@ -1032,90 +1118,4 @@ requested, notify you by e-mail when your job begins and ends using
 &lt;p>Example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">bsub -B -N -n &lt;span class="m">4&lt;/span> -W &lt;span class="m">120&lt;/span> -R &lt;span class="s2">&amp;#34;rusage[mem=2048]&amp;#34;&lt;/span> -o output.txt python main.py
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">bsub -B -N -n &lt;span class="m">4&lt;/span> -W &lt;span class="m">120&lt;/span> -o output.txt python main.py
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Taichi installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">conda create -n taichi &lt;span class="nv">python&lt;/span>&lt;span class="o">=&lt;/span>3.8
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="install-dependencies">Install Dependencies&lt;/h2>
-&lt;p>See &lt;a class="link" href="https://www.anaconda.com/blog/using-pip-in-a-conda-environment" target="_blank" rel="noopener"
->best practice using pip in a conda&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">conda activate taichi
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install setuptools astor pybind11 pylint &lt;span class="c1"># sourceinspect&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install pytest pytest-rerunfailures pytest-xdist yapf
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install GitPython coverage colorama &lt;span class="c1"># autograd&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install pypi packages with no whl avaiable for Apple Arm64&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install numpy autograd sourceinspect --compile --pre
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="build-llvm-1000-from-source">Build LLVM 10.0.0 from source&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tar xvJf llvm-10.0.0.src.tar.xz
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> llvm-10.0.0.src
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir build
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install to specific location&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://llvm.org/docs/CMake.html&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cmake .. &lt;span class="se">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_ENABLE_RTTI:BOOL&lt;span class="o">=&lt;/span>ON &lt;span class="se">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DBUILD_SHARED_LIBS:BOOL&lt;span class="o">=&lt;/span>OFF &lt;span class="se">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DCMAKE_BUILD_TYPE&lt;span class="o">=&lt;/span>Release &lt;span class="se">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span> &lt;span class="se">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DLLVM_ENABLE_ASSERTIONS&lt;span class="o">=&lt;/span>ON &lt;span class="se">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> -DCMAKE_INSTALL_PREFIX&lt;span class="o">=&lt;/span>/Users/wyq977/projects/llvm-install/10.0.0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make -j &lt;span class="m">8&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make install
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check your LLVM installation&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># You should get 10.0.0&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">llvm-config --version
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="build-taichi">Build Taichi&lt;/h2>
-&lt;p>Installing collected packages: numpy
-WARNING: The scripts f2py, f2py3 and f2py3.8 are installed in &amp;lsquo;/Users/wyq977/.local/bin&amp;rsquo; which is not on PATH.
-Consider adding this directory to PATH or, if you prefer to suppress this warning, use &amp;ndash;no-warn-script-location.
-Successfully installed numpy-1.20.2&lt;/p>
-&lt;p>astor
-sourceinspect
-pytest-rerunfailures
-pytest-xdist
-yapf
-GitPython
-coverage
-colorama
-autograd&lt;/p>
-&lt;p>721 brew install cmake
-723 cmake &amp;ndash;version
-724 cmake ..
-726 cmake ..
-746 cmake ..
-747 cmake .. -DTI_WITH_CUDA=OFF -DTI_WITH_OPENGL=OFF -DTI_WITH_CC=OFF
-763 cd cmake/&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cmake .. -DTI_WITH_CUDA&lt;span class="o">=&lt;/span>OFF -DTI_WITH_OPENGL&lt;span class="o">=&lt;/span>OFF -DTI_WITH_CC&lt;span class="o">=&lt;/span>OFF -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="llvm-build-from-source">LLVM (build from source)&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tar xvJf llvm-10.0.0.src.tar.xz
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> llvm-10.0.0.src
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir build
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cmake .. -DLLVM_ENABLE_RTTI:BOOL&lt;span class="o">=&lt;/span>ON -DBUILD_SHARED_LIBS:BOOL&lt;span class="o">=&lt;/span>OFF -DCMAKE_BUILD_TYPE&lt;span class="o">=&lt;/span>Release -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span> -DLLVM_ENABLE_ASSERTIONS&lt;span class="o">=&lt;/span>ON
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make -j &lt;span class="m">8&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install llvm in custom dir instead of /&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make &lt;span class="nv">DESTDIR&lt;/span>&lt;span class="o">=&lt;/span>~/Downloads/llvm-install/ install
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># add this to bash_profile&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># export PATH=&amp;#34;/Users/wyq977/Downloads/llvm-install/usr/local/bin:$PATH&amp;#34; &lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># export LLVM_DIR=&amp;#34;/Users/wyq977/Downloads/llvm-install/usr/local/lib/cmake&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check your LLVM installation&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">llvm-config --version &lt;span class="c1"># You should get 10.0.0&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="uninstall">Uninstall&lt;/h2>
-&lt;ul>
-&lt;li>Make a CMake target: &lt;a class="link" href="https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake" target="_blank" rel="noopener"
->https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake&lt;/a>&lt;/li>
-&lt;li>remove all build target:&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> build &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> xargs rm &amp;lt; install_manifest.txt
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>Unset all env var&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> TAICHI_REPO_DIR
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> LLVM_DIR
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

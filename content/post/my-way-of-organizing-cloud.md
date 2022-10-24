@@ -1,7 +1,7 @@
 ---
 title: "My way of Organizing Cloud"
 date: 2022-09-05T14:25:04+02:00
-draft: true
+draft: false
 categories:
     - Blog
 ---

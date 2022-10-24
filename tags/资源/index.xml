@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>资源 on My Blog</title><link>https://wyq977.github.io/tags/%E8%B5%84%E6%BA%90/</link><description>Recent content in 资源 on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 18 Dec 2020 18:29:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/tags/%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml"/><item><title>Download qq videos</title><link>https://wyq977.github.io/p/download-qq-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-qq-videos/</guid><description>Mostly based on 流水账：如何使用 annie 批量下载优酷 VIP 视频
-using annie, ffmpeg
-Both of them can be installed on macOS via homebrew
-brew install annie brew install ffmpeg Get cookies In console (Dev. Tools): document.cookie Or you can use EditThisCookie to get cookie of a vip account Get url Copy each episode or follow the guide, grap href using online tools:http://tools.buzzstream.com/link-building-extract-urls
-It might be easier for a few episodes to just copy and paste</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>资源 on My Blog</title><link>https://wyq977.github.io/tags/%E8%B5%84%E6%BA%90/</link><description>Recent content in 资源 on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 18 Dec 2020 18:29:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/tags/%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml"/><item><title>Download qq videos</title><link>https://wyq977.github.io/p/download-qq-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-qq-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
+>流水账：如何使用 annie 批量下载优酷 VIP 视频&lt;/a>&lt;/p>
+&lt;p>using &lt;a class="link" href="https://github.com/iawia002/annie" target="_blank" rel="noopener"
+>annie&lt;/a>, &lt;a class="link" href="https://ffmpeg.org/" target="_blank" rel="noopener"
+>ffmpeg&lt;/a>&lt;/p>
+&lt;p>Both of them can be installed on macOS via homebrew&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install annie
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">brew install ffmpeg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="get-cookies">Get cookies&lt;/h2>
+&lt;ul>
+&lt;li>In console (Dev. Tools): &lt;code>document.cookie&lt;/code>&lt;/li>
+&lt;li>Or you can use EditThisCookie to get cookie of a vip account&lt;/li>
+&lt;/ul>
+&lt;h2 id="get-url">Get url&lt;/h2>
+&lt;p>Copy each episode or follow the guide, grap href using online tools:http://tools.buzzstream.com/link-building-extract-urls&lt;/p>
+&lt;p>It might be easier for a few episodes to just copy and paste&lt;/p>
+&lt;h2 id="download">Download&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># check info&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">annie -i -f fhd -c qqvip.txt -F s01.csv
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># download fhd if present&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">annie -f fhd -c qqvip.txt -F s01.csv
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="extra">Extra&lt;/h2>
+&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item></channel></rss>

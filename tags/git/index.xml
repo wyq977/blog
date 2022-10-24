@@ -1,2 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on My Blog</title><link>https://wyq977.github.io/tags/git/</link><description>Recent content in git on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 31 Dec 2020 09:41:52 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>Motivation Came across this signing in dotfiles and I would also want to have the verified in each commit I made in my pc so why not?
-How-to Install GPG Suite as it allows storing in macOS keychain, without typing each time brew install --cask gpg-suite Don&amp;rsquo;t install gpg or pinentry-mac as it might cause conflict and also can not be stored in keychain Create a key either from CLI or in GPG Keychain app Noted the name and email should be the same as the git configure Specify location for git In ~/.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on My Blog</title><link>https://wyq977.github.io/tags/git/</link><description>Recent content in git on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 31 Dec 2020 09:41:52 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;p>Came across this signing in &lt;a class="link" href="https://github.com/alrra/dotfiles" target="_blank" rel="noopener"
+>dotfiles&lt;/a> and I would also want to have the verified in each commit I made in my pc so why not?&lt;/p>
+&lt;h2 id="how-to">How-to&lt;/h2>
+&lt;ol>
+&lt;li>Install &lt;a class="link" href="https://gpgtools.org/" target="_blank" rel="noopener"
+>GPG Suite&lt;/a> as it allows storing in macOS keychain, without typing each time
+&lt;ul>
+&lt;li>&lt;code>brew install --cask gpg-suite&lt;/code>&lt;/li>
+&lt;li>Don&amp;rsquo;t install &lt;code>gpg&lt;/code> or &lt;code>pinentry-mac&lt;/code> as it might cause conflict and also can not be stored in keychain&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Create a key either from &lt;a class="link" href="https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key" target="_blank" rel="noopener"
+>CLI&lt;/a> or in GPG Keychain app
+&lt;ul>
+&lt;li>Noted the name and email should be the same as the git configure&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Specify location for git
+&lt;ul>
+&lt;li>In &lt;code>~/.gitconfig.local&lt;/code>: modify as below&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-gpg-key-to-your-github-account" target="_blank" rel="noopener"
+>Adding a new GPG key to your GitHub account&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-ini" data-lang="ini">&lt;span class="line">&lt;span class="cl">&lt;span class="k">[commit]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># Sign commits using GPG.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># https://help.github.com/articles/signing-commits-using-gpg/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">gpgsign&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">[user]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> email =
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> signingkey =
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> # signkey
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> # See https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/telling-git-about-your-signing-key&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Tell git about gpg path&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://gist.github.com/danieleggert/b029d44d4a54b328c0bac65d46ba4c65&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://github.com/pstadler/keybase-gpg-github&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">[gpg]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">program&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">/usr/local/MacGPG2/bin/gpg2&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="keep-your-email-private">Keep your email private&lt;/h2>
+&lt;p>At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already &amp;ldquo;exposed&amp;rdquo;.&lt;/p>
+&lt;p>You can check, see a &lt;a class="link" href="https://revoir.in/wiki/posts/git_custom_email_signed_commits/" target="_blank" rel="noopener"
+>post&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># You can clone any of your favorite repository/library&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git clone https://github.com/stretchr/testify &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">cd&lt;/span> testify
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git log --format&lt;span class="o">=&lt;/span>email --abbrev-commit &lt;span class="p">|&lt;/span> grep -i mail &lt;span class="p">|&lt;/span> sort -u
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The things and steps are pretty much just the same as the post but there&amp;rsquo;s one thing worth mentioning.&lt;/p>
+&lt;p>In the email setting in Github, a masked email address will be generated with a format: &lt;code>NUMBER+username@github.noreply.github.com&lt;/code>. But &lt;code>username@github.noreply.github.com&lt;/code> is the one to input in GPG key, the one with a number prefix is not gonna verfy the commits and github will show errors like &amp;ldquo;No githuub user associated with the email&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key" target="_blank" rel="noopener"
+>How to add email to gpg key&lt;/a>&lt;/p></description></item></channel></rss>

@@ -31,14 +31,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;/dict&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;/plist&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Example app&lt;/p>
-&lt;p>&lt;figure
->
-&lt;a href="https://wyq977.github.io/images/brew_update_automator.png" >
-&lt;img src="https://wyq977.github.io/images/brew_update_automator.png"
+&lt;p>&lt;img src="https://wyq977.github.io/images/brew_update_automator.png"
 loading="lazy"
->
-&lt;/a>
-&lt;/figure>&lt;/p>
+>&lt;/p>
 &lt;p>Ref:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://apple.stackexchange.com/questions/249446/launchd-plist-format-for-running-a-command-at-a-specific-time-on-a-weekday" target="_blank" rel="noopener"
@@ -71,14 +66,9 @@ USER-AGENT,com.facebook.Facebook,REJECT
 &lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)&lt;/h2>
 &lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>
 &lt;h2 id="use-imessage-on-mac">use iMessage on mac&lt;/h2>
-&lt;p>&lt;figure
->
-&lt;a href="https://wyq977.github.io/images/imessage_mac_setting.png" >
-&lt;img src="https://wyq977.github.io/images/imessage_mac_setting.png"
+&lt;p>&lt;img src="https://wyq977.github.io/images/imessage_mac_setting.png"
 loading="lazy"
->
-&lt;/a>
-&lt;/figure>&lt;/p>
+>&lt;/p>
 &lt;p>Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p>
 &lt;p>despite you disable in the last setting, iMessages can still arrive while regular text won&amp;rsquo;t.&lt;/p>
 &lt;p>Right now I can be reached via the gmail, if I checked the &lt;strong>Tel. A&lt;/strong>, I can also receive iMessage text on my mac&lt;/p>
@@ -211,21 +201,15 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> /Library/Frameworks/R.framework/Resources/lib/
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ln -s -i -v libRblas.0.dylib libRblas.dylib
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In my test, using &lt;code>benchmarkme&lt;/code> in &lt;a class="link" href="plot_benchmark_BLAS.R" >plot_benchmark_BLAS.R&lt;/a>, it does improves significantly:&lt;/p>
-&lt;p>&lt;figure
-class="gallery-image"
-style="
-flex-grow: 100;
-flex-basis: 240px"
->
-&lt;a href="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot.jpg" data-size="2100x2100">
-&lt;img src="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot.jpg"
+&lt;p>&lt;img src="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot.jpg"
 width="2100"
 height="2100"
 srcset="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu6dcf285f8f2a62566f46ddfc4f7aa1a3_279022_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu6dcf285f8f2a62566f46ddfc4f7aa1a3_279022_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
->
-&lt;/a>
-&lt;/figure>&lt;/p>
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+>&lt;/p>
 &lt;p>Original csv:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="benchmark_vel_BLAS.csv" >&lt;code>libRblas.vecLib.dylib&lt;/code>&lt;/a>&lt;/li>
@@ -255,15 +239,10 @@ loading="lazy"
 &lt;h2 id="perfomance-issues">Perfomance issues&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.lifeintech.com/2021/11/03/docker-performance-on-m1/" target="_blank" rel="noopener"
 >The article&lt;/a> caught my eyes as it compares docker build time on Intel/Apple Silicon Macs with different hyperviser.&lt;/p>
-&lt;p>&lt;figure
->
-&lt;a href="https://www.lifeintech.com/images/posts/dockerperformanceonm101.jpg" >
-&lt;img src="https://www.lifeintech.com/images/posts/dockerperformanceonm101.jpg"
+&lt;p>&lt;img src="https://www.lifeintech.com/images/posts/dockerperformanceonm101.jpg"
 loading="lazy"
-alt="Test Results">
-&lt;/a>
-&lt;figcaption>Test Results&lt;/figcaption>
-&lt;/figure>&lt;/p>
+alt="Test Results"
+>&lt;/p>
 &lt;p>The Table said it all, whatever it is, the Docker for Mac makes it hard for macOS to deliver the performance it is capable of. And that last line is the one I am interested.&lt;/p>
 &lt;h2 id="devicevolume-mounting-issue">device/volume mounting issue&lt;/h2>
 &lt;p>For me, personally, theres a need to use the volume in Docker and that volume is not one M1&amp;rsquo;s SSD but on another network device mounted on macOS via SMB/CIFS.&lt;/p>
@@ -628,14 +607,9 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">display random.png
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># show up in the XQuartz window&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure
->
-&lt;a href="https://wyq977.github.io/images/x11_foward_macos.png" >
-&lt;img src="https://wyq977.github.io/images/x11_foward_macos.png"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://wyq977.github.io/images/x11_foward_macos.png"
 loading="lazy"
->
-&lt;/a>
-&lt;/figure>&lt;/p>
+>&lt;/p>
 &lt;h2 id="note">Note&lt;/h2>
 &lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
 &lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>
@@ -718,7 +692,16 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># download fhd if present&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">annie -f fhd -c qqvip.txt -F s01.csv
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="extra">Extra&lt;/h2>
-&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>Test for blog but no emoji in title :(</title><link>https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/</link><pubDate>Thu, 17 Dec 2020 22:55:41 +0100</pubDate><guid>https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/</guid><description>&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Test for blog but no emoji in title :(" />&lt;p>Copied from &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack/tree/master/exampleSite" target="_blank" rel="noopener"
+&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>About</title><link>https://wyq977.github.io/about/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><guid>https://wyq977.github.io/about/</guid><description>&lt;p>I am a M.S student student in the &lt;a class="link" href="http://bsse.ethz.ch/" target="_blank" rel="noopener"
+>BSSE&lt;/a> Department at &lt;a class="link" href="https://ethz.ch/en.html" target="_blank" rel="noopener"
+>ETHz&lt;/a>. I studied &lt;a class="link" href="https://www.polyu.edu.hk/abct/en/undergraduate_studies/admission/bcs_abb/index.html" target="_blank" rel="noopener"
+>Biology&lt;/a> in &lt;a class="link" href="https://www.polyu.edu.hk/abct/en/home/index.html" target="_blank" rel="noopener"
+>ABCT&lt;/a> Department at &lt;a class="link" href="https://www.polyu.edu.hk/en/" target="_blank" rel="noopener"
+>The Hong Kong Polytechnic University&lt;/a> for my B.S. degree.&lt;/p>
+&lt;p>My one page resume: &lt;a class="link" href="https://raw.githack.com/wyq977/resume/master/resume.pdf" target="_blank" rel="noopener"
+>PDF&lt;/a>&lt;/p>
+&lt;p>This blog is mainly for my personal use, including personal blogs (thoughts, opinions), technical document (design doc) or just some snippets I found online.&lt;/p>
+&lt;p>&lt;em>Note&lt;/em>: Opinions expressed here are solely my own and do not express the views or opinions of my employer(s) or school(s).&lt;/p></description></item><item><title>Test for blog but no emoji in title :(</title><link>https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/</link><pubDate>Thu, 17 Dec 2020 22:55:41 +0100</pubDate><guid>https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/</guid><description>&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Test for blog but no emoji in title :(" />&lt;p>Copied from &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack/tree/master/exampleSite" target="_blank" rel="noopener"
 >example site&lt;/a>&lt;/p>
 &lt;h2 id="test-for-a-single-post">Test for a single post&lt;/h2>
 &lt;p>created by &lt;code>hugo new post/my-first-post.md&lt;/code>&lt;/p>
@@ -759,68 +742,44 @@ b &amp;amp;= 2
 \end{aligned}
 $$&lt;/p>
 &lt;h2 id="图片">图片&lt;/h2>
-&lt;p>&lt;figure
-class="gallery-image"
-style="
-flex-grow: 66;
-flex-basis: 160px"
->
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg" data-size="667x1000">
-&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg"
+&lt;p>&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash.jpg"
 width="667"
 height="1000"
 srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
-alt="Photo by Florian Klauer on Unsplash">
-&lt;/a>
-&lt;figcaption>Photo by Florian Klauer on Unsplash&lt;/figcaption>
-&lt;/figure> &lt;figure
+alt="Photo by Florian Klauer on Unsplash"
 class="gallery-image"
-style="
-flex-grow: 149;
-flex-basis: 359px"
->
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg" data-size="1000x667">
-&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg"
+data-flex-grow="66"
+data-flex-basis="160px"
+> &lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash.jpg"
 width="1000"
 height="667"
 srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
-alt="Photo by Luca Bravo on Unsplash">
-&lt;/a>
-&lt;figcaption>Photo by Luca Bravo on Unsplash&lt;/figcaption>
-&lt;/figure>&lt;/p>
-&lt;p>&lt;figure
+alt="Photo by Luca Bravo on Unsplash"
 class="gallery-image"
-style="
-flex-grow: 133;
-flex-basis: 320px"
->
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg" data-size="1000x750">
-&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg"
+data-flex-grow="149"
+data-flex-basis="359px"
+>&lt;/p>
+&lt;p>&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash.jpg"
 width="1000"
 height="750"
 srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
-alt="Photo by Helena Hertz on Unsplash">
-&lt;/a>
-&lt;figcaption>Photo by Helena Hertz on Unsplash&lt;/figcaption>
-&lt;/figure> &lt;figure
+alt="Photo by Helena Hertz on Unsplash"
 class="gallery-image"
-style="
-flex-grow: 66;
-flex-basis: 160px"
->
-&lt;a href="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg" data-size="667x1000">
-&lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
+data-flex-grow="133"
+data-flex-basis="320px"
+> &lt;img src="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
 width="667"
 height="1000"
 srcset="https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/test-for-blog-but-no-emoji-in-title/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
-alt="Photo by Hudai Gayiran on Unsplash">
-&lt;/a>
-&lt;figcaption>Photo by Hudai Gayiran on Unsplash&lt;/figcaption>
-&lt;/figure>&lt;/p>
+alt="Photo by Hudai Gayiran on Unsplash"
+class="gallery-image"
+data-flex-grow="66"
+data-flex-basis="160px"
+>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
@@ -1118,4 +1077,4 @@ requested, notify you by e-mail when your job begins and ends using
 &lt;p>Example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">bsub -B -N -n &lt;span class="m">4&lt;/span> -W &lt;span class="m">120&lt;/span> -R &lt;span class="s2">&amp;#34;rusage[mem=2048]&amp;#34;&lt;/span> -o output.txt python main.py
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">bsub -B -N -n &lt;span class="m">4&lt;/span> -W &lt;span class="m">120&lt;/span> -o output.txt python main.py
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Archives</title><link>https://wyq977.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://wyq977.github.io/archives/</guid><description/></item><item><title>Search</title><link>https://wyq977.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wyq977.github.io/search/</guid><description/></item></channel></rss>

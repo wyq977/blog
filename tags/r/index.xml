@@ -1,2 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R on My Blog</title><link>https://wyq977.github.io/tags/r/</link><description>Recent content in R on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 May 2022 16:04:42 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/tags/r/index.xml" rel="self" type="application/rss+xml"/><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/p/r-on-apple-silicon/</guid><description>Why Version control on R has always been a hassle for me personally since most of the bioinformatics tools or workflows relies too heavily on RMD or Notebook-like script due to its high flexibility. Despite its convenience in parameters tuning and data manipulation, it&amp;rsquo;s much more difficult than sharing the list of python packages in other workflows.
-Existing solution Someone used Anaconda environment file but I personally find that a bit too clumsy.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R on My Blog</title><link>https://wyq977.github.io/tags/r/</link><description>Recent content in R on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 May 2022 16:04:42 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/tags/r/index.xml" rel="self" type="application/rss+xml"/><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why">Why&lt;/h2>
+&lt;p>Version control on R has always been a hassle for me personally since most of the bioinformatics tools or workflows relies too heavily on RMD or Notebook-like script due to its high flexibility. Despite its convenience in parameters tuning and data manipulation, it&amp;rsquo;s much more difficult than sharing the list of python packages in other workflows.&lt;/p>
+&lt;h2 id="existing-solution">Existing solution&lt;/h2>
+&lt;p>Someone used Anaconda environment file but I personally find that a bit too clumsy. I never tried it but I assume if one put &lt;code>R==4.1/4.2&lt;/code> in &lt;code>env.yml&lt;/code>, conda will try to download and install a different version inside each env directory.&lt;/p>
+&lt;p>However, this approach might be a lot more useful if a workflow involves a lot of cli tools such as &lt;code>bwa&lt;/code> of different version or self-compiled one. Keeping everything isolated definitely make things easier.&lt;/p>
+&lt;p>stackoverflow discussion: &lt;a class="link" href="https://stackoverflow.com/questions/62187736/creating-an-r-environment-using-anaconda" target="_blank" rel="noopener"
+>https://stackoverflow.com/questions/62187736/creating-an-r-environment-using-anaconda&lt;/a>&lt;/p>
+&lt;h2 id="r-specific-approach">R-specific approach&lt;/h2>
+&lt;p>As shown in &lt;a class="link" href="https://mp.weixin.qq.com/s/BsEm76Eq9_tbw3myobD_SA?" target="_blank" rel="noopener"
+>this post&lt;/a>, RStudio became so successful to a point that it&amp;rsquo;s synonymous with R even though it can run in IDE or vim.&lt;/p>
+&lt;p>Previously, what I experienced and interacted with R is mostly through RStudio but it might be better to explore more options to gain a better understanding of the packages installation, distribution and version control which is extremely important in real-world application where legacy packages are involved.&lt;/p>
+&lt;h3 id="where-is-r-and-its-packages">Where is R and its packages&lt;/h3>
+&lt;p>On my personal computer, R can be installed from a version compiled by homebrew (&lt;code>brew install r&lt;/code>) or r-project one (&lt;code>brew install --cask r&lt;/code>). Later is preferred but I couldn&amp;rsquo;t find the references now.&lt;/p>
+&lt;p>&lt;code>renv&lt;/code> or &lt;code>Packrat&lt;/code> are manager that are trying to mimic the functionality of &lt;code>python virtual enviroments&lt;/code> without user-specific custom directories for each different versions of R packages, which requires too many user-defined path and custom env.&lt;/p>
+&lt;p>ORC provides a great post on &lt;a class="link" href="http://wiki.orc.gmu.edu/mkdocs/How_to_manage_R_packages/" target="_blank" rel="noopener"
+>managing R Packages&lt;/a> and &lt;a class="link" href="http://wiki.orc.gmu.edu/mkdocs/How_to_manage_R_packages/#renv-basic-operation" target="_blank" rel="noopener"
+>renv basics&lt;/a>.&lt;/p>
+&lt;h3 id="error-with-r-dependency-when-compiling-is-required-apple-silicon">Error with R dependency when compiling is required (Apple Silicon)&lt;/h3>
+&lt;p>This is specific to Apple silicon Macs, an experimental build of GNU Fortran compiler is required otherwise errors like these would pop up during installation:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-error" data-lang="error">ld: warning: directory not found for option &amp;#39;-L/opt/R/arm64/gfortran/lib/gcc/aarch64-apple-darwin20.6.0/12.0.1&amp;#39;
+&lt;/code>&lt;/pre>&lt;p>This is due to &lt;a class="link" href="https://support.bioconductor.org/p/9138121/" target="_blank" rel="noopener"
+>no Fortran compiler&lt;/a> and it can be solved with a experimental build.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># for R&amp;gt;=4.2.0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">curl -O https://mac.r-project.org/tools/gfortran-12.0.1-20220312-is-darwin20-arm64.tar.xz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># unpack&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo tar fxz gfortran-12.0.1-20220312-is-darwin20-arm64.tar.xz -C /
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># /opt/R/arm64/gfortran/SDK has to point to your macOS SDK&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo gfortran-update-sdk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Details here: &lt;a class="link" href="https://mac.r-project.org/tools/" target="_blank" rel="noopener"
+>https://mac.r-project.org/tools/&lt;/a>&lt;/p>
+&lt;h2 id="compilers-openmp-etc">Compilers, openMP, etc&lt;/h2>
+&lt;p>Following the guide: &lt;a class="link" href="https://pat-s.me/transitioning-from-x86-to-arm64-on-macos-experiences-of-an-r-user/#virtual-machines--parallels" target="_blank" rel="noopener"
+>https://pat-s.me/transitioning-from-x86-to-arm64-on-macos-experiences-of-an-r-user/#virtual-machines--parallels&lt;/a>&lt;/p>
+&lt;p>&lt;code>gcc, llvm, openmp&lt;/code> needs to be installed.&lt;/p>
+&lt;p>To my surprise, the &lt;code>~/.R/Makevars&lt;/code> is not present after installation.&lt;/p>
+&lt;p>Now it&amp;rsquo;s my config in &lt;code>~/.R/Makevars&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># homebrew&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">FLIBS&lt;/span> &lt;span class="o">=&lt;/span>-L/opt/homebrew/opt/gfortran/lib
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">F77&lt;/span> &lt;span class="o">=&lt;/span> /opt/homebrew/bin/gfortran
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">FC&lt;/span> &lt;span class="o">=&lt;/span> /opt/homebrew/bin/gfortran
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">CFLAGS&lt;/span> &lt;span class="o">=&lt;/span> -I/opt/homebrew/include
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">CPPFLAGS&lt;/span> &lt;span class="o">=&lt;/span> -I/opt/homebrew/include
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">CXXFLAGS&lt;/span> &lt;span class="o">=&lt;/span> -I/opt/homebrew/include
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># opemmp support&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">LDFLAGS&lt;/span> &lt;span class="o">+=&lt;/span> -L/opt/homebrew/opt/libomp/lib -lomp
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">CPPFLAGS&lt;/span> &lt;span class="o">+=&lt;/span> -Xclang -fopenmp
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="speeding-up-by-replacing-the-blas-lib">Speeding up by replacing the BLAS lib&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.mail-archive.com/r-sig-mac@r-project.org/msg06199.html" target="_blank" rel="noopener"
+>Here&lt;/a>&amp;rsquo;s a post about matrix manipulation by new BLAS lib:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># create a symbolic link pointing libRblas.dylib to the optimized BLAS implementation&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> /Library/Frameworks/R.framework/Resources/lib/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ln -s -i -v libRblas.vecLib.dylib libRblas.dylib
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># If you ever want to revert this, do&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> /Library/Frameworks/R.framework/Resources/lib/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ln -s -i -v libRblas.0.dylib libRblas.dylib
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In my test, using &lt;code>benchmarkme&lt;/code> in &lt;a class="link" href="plot_benchmark_BLAS.R" >plot_benchmark_BLAS.R&lt;/a>, it does improves significantly:&lt;/p>
+&lt;p>&lt;img src="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot.jpg"
+width="2100"
+height="2100"
+srcset="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu6dcf285f8f2a62566f46ddfc4f7aa1a3_279022_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu6dcf285f8f2a62566f46ddfc4f7aa1a3_279022_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+>&lt;/p>
+&lt;p>Original csv:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="benchmark_vel_BLAS.csv" >&lt;code>libRblas.vecLib.dylib&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="benchmark_default_BLAS.csv" >&lt;code>libRblas.0.dylib&lt;/code>&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

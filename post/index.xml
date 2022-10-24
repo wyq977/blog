@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My Blog</title><link>https://wyq977.github.io/post/</link><description>Recent content in Posts on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 10 Jul 2022 23:05:21 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS CRON</title><link>https://wyq977.github.io/p/macos-cron/</link><pubDate>Sun, 10 Jul 2022 23:05:21 +0200</pubDate><guid>https://wyq977.github.io/p/macos-cron/</guid><description>&lt;h2 id="crontab-on-macos">CRONTAB on macOS&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My Blog</title><link>https://wyq977.github.io/post/</link><description>Recent content in Posts on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Sep 2022 14:25:04 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>My way of Organizing Cloud</title><link>https://wyq977.github.io/p/my-way-of-organizing-cloud/</link><pubDate>Mon, 05 Sep 2022 14:25:04 +0200</pubDate><guid>https://wyq977.github.io/p/my-way-of-organizing-cloud/</guid><description>&lt;h2 id="whats-the-difficulty-about-it">What’s the difficulty about it?&lt;/h2>
+&lt;p>I mean, you would wonder what’s the big deal about it, can’t you just use a single &lt;strong>“Cloud-thingy”&lt;/strong> for all your personal shits? Google Drive, iCloud, Microsoft or some of those smaller ones that claims have better privacy protection and other gimmicks.&lt;/p>
+&lt;h2 id="actual-setup">Actual setup&lt;/h2>
+&lt;ul>
+&lt;li>e-mail: Google
+&lt;ul>
+&lt;li>PRO: linked with UZH, ETH, Hotmail, I can just use 1 fucking app for all&lt;/li>
+&lt;li>CON: The GFW in mainland China&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Calendar: Google
+&lt;ul>
+&lt;li>TBH, I can use Microsoft instead, might be switching to it.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>TODO: Microsoft&lt;/li>
+&lt;li>Drive:
+&lt;ul>
+&lt;li>iCloud: Still the best for i-Devices&lt;/li>
+&lt;li>One Drive: Works well with i-Devices and workable in Linux&lt;/li>
+&lt;li>Google Drive: Decide to use less of it as it’s constantly encouraging the sharing functionality&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Browser: Edge
+&lt;ul>
+&lt;li>PRO: It really works well in Linux as well as macOS&lt;/li>
+&lt;li>CON: still prefer Safari in iOS&lt;/li>
+&lt;li>Safari’s support for extension is there but just not all the way through like Chromium based ones. You need to pay more for extensions and tools that’s free elsewhere and still not that great.&lt;/li>
+&lt;li>PS. Firefox is dying, sadly.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-problem-is-choosing-between-consistency-and-compatibility">The Problem is choosing between consistency and compatibility&lt;/h2>
+&lt;p>a bit info. on the systems that I run daily:&lt;/p>
+&lt;ul>
+&lt;li>Apple:
+&lt;ul>
+&lt;li>Mac Mini w/ M1 chip&lt;/li>
+&lt;li>iPhone 11 Pro&lt;/li>
+&lt;li>iPhone XS Max (CN ver.)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Linux:
+&lt;ul>
+&lt;li>Legion 5 Laptop&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>So the simplest way seems to be all in on Apple Ecosystem right?&lt;/p>
+&lt;p>But wait, there’re just so many things that I hate about it. For example, the users do &lt;strong>NOT&lt;/strong> have any control about which version of a specific app they are allowed to use without using 3-rd party tools.&lt;/p>
+&lt;p>Let’s assume you put all of your data and info. with Apple system. There’s something that not a lot of people encountered but it’s annoying for people who travel or live in many regions or country.&lt;/p>
+&lt;p>The Tech companies policy does not go well with one person having multiple regions/countries for obvious reasons: tax, regulations and pricing.&lt;/p>
+&lt;p>For the Apple system, my mom and dad’s accounts are in China Mainland but I daily used a US region account. If I used that in China, that’s against the ToS of Apple, Inc. and I do not want to deal with that and certainly do not have the trust of putting all my data with one service.&lt;/p>
+&lt;h2 id="the-inconvenience-of-using-different-services">The inconvenience of using different services&lt;/h2>
+&lt;p>For privacy reasons, of course one should have different account for different services and they should even use different emails/phone number for different sites or apps. But this level of privacy concerns are simply not gonna fit well with everyday life of an &lt;strong>normal&lt;/strong> person with a moderate level of concerns over his/her privacy.&lt;/p>
+&lt;p>Surely one has to give certain info. to the service provider for the convenience or the customization of information feed. Take a look at YouTube on a fresh computer, the home page is full of things that you do not even want to click or hover your mouse over.&lt;/p>
+&lt;p>Again, this is for people that &lt;strong>DO&lt;/strong> want a bit of customization on the recommendation or feeding on platforms like Twitter, YouTube or Facebook. If one were hardcore enough to just use RSS to get his info., then there’s no need for these.&lt;/p>
+&lt;p>For example, you cannot use Google reminder on Apple’s Native apps while Microsoft’s TODO fits well on iOS native app. That’s why I choose Microsoft.&lt;/p></description></item><item><title>macOS CRON</title><link>https://wyq977.github.io/p/macos-cron/</link><pubDate>Sun, 10 Jul 2022 23:05:21 +0200</pubDate><guid>https://wyq977.github.io/p/macos-cron/</guid><description>&lt;h2 id="crontab-on-macos">CRONTAB on macOS&lt;/h2>
 &lt;p>It&amp;rsquo;s annoying on macOS that each editing would prompt the pop up for authorization of scheduled task.&lt;/p>
 &lt;h2 id="plist-what-is-it">.plist What is it?&lt;/h2>
 &lt;p>To load/unload a plist&lt;/p>

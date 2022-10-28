@@ -3,13 +3,50 @@ I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and 
 I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and I also checked the box for using the new release virtualization framework in Experimental feature."><meta property="og:url" content="https://wyq977.github.io/p/docker-m1-mac/"><meta property="og:site_name" content="My Blog"><meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:published_time" content="2022-01-05T10:48:47+01:00"><meta property="article:modified_time" content="2022-01-05T10:48:47+01:00"><meta name=twitter:title content="Docker M1 Mac"><meta name=twitter:description content="Yet Again, Docker macOS After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.
 I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and I also checked the box for using the new release virtualization framework in Experimental feature."></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label="Toggle Menu">
 <span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src=/img/profile_hu744aa5c57ef2ec0d7351be032d376919_11725_300x0_resize_box_3.png width=300 height=300 class=site-logo loading=lazy alt=Avatar></a>
-<span class=emoji>🎯</span></figure><div class=site-meta><h1 class=site-name><a href=/>My Blog</a></h1><h2 class=site-description>Just another blog :p</h2></div></header><ol class=menu id=main-menu><li><a href=/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg><span>Home</span></a></li><li><a href=/about><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg><span>About</span></a></li><li><a href=/archives><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg><span>Archives</span></a></li><li><a href=/search><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg><span>Search</span></a></li><div class=menu-bottom-section><li id=dark-mode-toggle><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><span>Dark Mode</span></li></div></ol></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><header class=article-category><a href=/categories/guide/ style=background-color:#0177b8;color:#fff>Guide</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/p/docker-m1-mac/>Docker M1 Mac</a></h2></div><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg><time class=article-time--published>Jan 05, 2022</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg><time class=article-time--reading>6 minute read</time></div></footer></div></header><section class=article-content><h1 id=yet-again-docker-macos>Yet Again, Docker macOS</h1><p>After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.</p><p>I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and I also checked the box for using the new release virtualization framework in Experimental feature. However, the ram usage would still be going thr the limits and lagging, breakdown is also often seen. Eating roughly 4GB of RAM and I have seen errors where it said it used 30G but probably swap usage along with crashes&mldr;</p><p>As under the hook, the Docker for Mac still basically created a Linux VM, kind of like podman. The underlying performance issues might be the way the VM is regulated/managed. So, why not just create a VM and use docker cli or simply ssh to the linux instance?</p><p>There are a bit headaches and issues with Docker on macOS.</p><ol><li>IO has always been a really big issue, causing really slow build and even slow git for bigger project. I never tested on new build now.</li><li>Volume mounting.</li></ol><p>Although creating your own VM will also lead to a plate of problmes such as network device/video device/volume storage mounting. But those issues are also persistant on macOS app. After all its not linux.</p><h2 id=perfomance-issues>Perfomance issues</h2><p><a class=link href=https://www.lifeintech.com/2021/11/03/docker-performance-on-m1/ target=_blank rel=noopener>The article</a> caught my eyes as it compares docker build time on Intel/Apple Silicon Macs with different hyperviser.</p><p><img src=https://www.lifeintech.com/images/posts/dockerperformanceonm101.jpg loading=lazy alt="Test Results"></p><p>The Table said it all, whatever it is, the Docker for Mac makes it hard for macOS to deliver the performance it is capable of. And that last line is the one I am interested.</p><h2 id=devicevolume-mounting-issue>device/volume mounting issue</h2><p>For me, personally, theres a need to use the volume in Docker and that volume is not one M1&rsquo;s SSD but on another network device mounted on macOS via SMB/CIFS.</p><p>It was slow on macOS itself and it will probably take a bigger blow with all that connection protocol added on top of that with introducing VM. So I am curious about how it went going forward.</p><h2 id=actual-set-up>Actual set up</h2><p><a class=link href=https://www.codeluge.com/post/setting-up-docker-on-macos-m1-arm64-to-use-debian-10.4-docker-engine/#configuring-mac-os-host-docker-cli-to-use-debians-docker-engine target=_blank rel=noopener>A detailed post on setting up UTM VM with Docker on macOS</a></p><p>First, install <a class=link href=https://mac.getutm.app/ target=_blank rel=noopener>UTM</a>, a free and open source VM tool built only for macOS.</p><p>A minial debian build <a class=link href=https://mac.getutm.app/gallery/debian-10-4-minimal target=_blank rel=noopener>Debian 10.4</a> were used for installing Docker, in theory, more trimming can be done to reduce the overhead on that instance.</p><ol><li>Remeber to change root user(root/password) and default user(debian/debian):</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>sudo passwd root
+<span class=emoji>🎯</span></figure><div class=site-meta><h1 class=site-name><a href=/>My Blog</a></h1><h2 class=site-description>Just another blog :p</h2></div></header><ol class=social-menu><li><a href=https://github.com/wyq977 target=_blank title=GitHub><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li></ol><ol class=menu id=main-menu><li><a href=/ target=_blank><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg><span>Home</span></a></li><li><a href=/about target=_blank><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg><span>About</span></a></li><div class=menu-bottom-section><li id=dark-mode-toggle><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><span>Dark Mode</span></li></div></ol></aside><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">Table of contents</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#perfomance-issues>Perfomance issues</a></li><li><a href=#devicevolume-mounting-issue>device/volume mounting issue</a></li><li><a href=#actual-set-up>Actual set up</a></li><li><a href=#config-macos-docker-cli-to-use-vms-docker-enginer>Config macos Docker CLI to use VM&rsquo;s Docker Enginer</a></li><li><a href=#problems-with-utm>Problems with UTM</a><ol><li><a href=#ui-still-freezes-from-time-to-time-when-i-tried-to-resizeconfig-the-image-thats-annoying-af>UI still freezes from time to time when I tried to resize/config the image. Thats annoying af.</a></li><li><a href=#problems-with-porting>Problems with porting:</a></li><li><a href=#cpu-benchmark-1000-difference-with-native-sysbench>CPU Benchmark (1000 difference with native sysbench)</a></li></ol></li></ol></nav></div></section></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><header class=article-category><a href=/categories/guide/ style=background-color:#0177b8;color:#fff>Guide</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/p/docker-m1-mac/>Docker M1 Mac</a></h2></div><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg><time class=article-time--published>Jan 05, 2022</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg><time class=article-time--reading>7 minute read</time></div></footer></div></header><section class=article-content><h1 id=yet-again-docker-macos>Yet Again, Docker macOS</h1><p>After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.</p><p>I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and I also checked the box for using the new release virtualization framework in Experimental feature. However, the ram usage would still be going thr the limits and lagging, breakdown is also often seen. Eating roughly 4GB of RAM and I have seen errors where it said it used 30G but probably swap usage along with crashes&mldr;</p><p>As under the hook, the Docker for Mac still basically created a Linux VM, kind of like podman. The underlying performance issues might be the way the VM is regulated/managed. So, why not just create a VM and use docker cli or simply ssh to the linux instance?</p><p>There are a bit headaches and issues with Docker on macOS.</p><ol><li>IO has always been a really big issue, causing really slow build and even slow git for bigger project. I never tested on new build now.</li><li>Volume mounting.</li></ol><p>Although creating your own VM will also lead to a plate of problmes such as network device/video device/volume storage mounting. But those issues are also persistant on macOS app. After all its not linux.</p><h2 id=perfomance-issues>Perfomance issues</h2><p><a class=link href=https://www.lifeintech.com/2021/11/03/docker-performance-on-m1/ target=_blank rel=noopener>The article</a> caught my eyes as it compares docker build time on Intel/Apple Silicon Macs with different hyperviser.</p><p><img src=https://www.lifeintech.com/images/posts/dockerperformanceonm101.jpg loading=lazy alt="Test Results"></p><p>The Table said it all, whatever it is, the Docker for Mac makes it hard for macOS to deliver the performance it is capable of. And that last line is the one I am interested.</p><h2 id=devicevolume-mounting-issue>device/volume mounting issue</h2><p>For me, personally, theres a need to use the volume in Docker and that volume is not one M1&rsquo;s SSD but on another network device mounted on macOS via SMB/CIFS.</p><p>It was slow on macOS itself and it will probably take a bigger blow with all that connection protocol added on top of that with introducing VM. So I am curious about how it went going forward.</p><h2 id=actual-set-up>Actual set up</h2><p><a class=link href=https://www.codeluge.com/post/setting-up-docker-on-macos-m1-arm64-to-use-debian-10.4-docker-engine/#configuring-mac-os-host-docker-cli-to-use-debians-docker-engine target=_blank rel=noopener>A detailed post on setting up UTM VM with Docker on macOS</a></p><p>First, install <a class=link href=https://mac.getutm.app/ target=_blank rel=noopener>UTM</a>, a free and open source VM tool built only for macOS.</p><p>A minial debian build <a class=link href=https://mac.getutm.app/gallery/debian-10-4-minimal target=_blank rel=noopener>Debian 10.4</a> were used for installing Docker, in theory, more trimming can be done to reduce the overhead on that instance.</p><ol><li>Remeber to change root user(root/password) and default user(debian/debian):</li></ol><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>sudo passwd root
 </span></span><span class=line><span class=cl>sudo passwd debian
-</span></span></code></pre></div><ol start=2><li>Update and install essential: SSH</li></ol><p>Some problems with apt-get update: <a class=link href=https://stackoverflow.com/questions/68802802/repository-http-security-debian-org-debian-security-buster-updates-inrelease target=_blank rel=noopener>https://stackoverflow.com/questions/68802802/repository-http-security-debian-org-debian-security-buster-updates-inrelease</a></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>sudo apt-get update -y <span class=o>&amp;&amp;</span> sudo apt-get install openssl-server
+</span></span></code></pre></td></tr></table></div></div><ol start=2><li>Update and install essential: SSH</li></ol><p>Some problems with apt-get update: <a class=link href=https://stackoverflow.com/questions/68802802/repository-http-security-debian-org-debian-security-buster-updates-inrelease target=_blank rel=noopener>https://stackoverflow.com/questions/68802802/repository-http-security-debian-org-debian-security-buster-updates-inrelease</a></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>sudo apt-get update -y <span class=o>&amp;&amp;</span> sudo apt-get install openssl-server
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># check</span>
 </span></span><span class=line><span class=cl>sudo systemctl status ssh
-</span></span></code></pre></div><p>This confirms the SSH server is running and listening on port 22. If you need more help with that, PhoenixNap has a great tutorial on <a class=link href=https://phoenixnap.com/kb/how-to-enable-ssh-on-debian target=_blank rel=noopener>How to Enable SSH on Debian</a>.</p><ol start=3><li>Install Docker on Debian 10.4 VM</li></ol><p>Follow: <a class=link href=https://phoenixnap.com/kb/how-to-install-docker-on-debian-10 target=_blank rel=noopener>https://phoenixnap.com/kb/how-to-install-docker-on-debian-10</a></p><p>Change amd64 to arm64</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl><span class=c1># Step 1: Uninstall Default Docker Packages</span>
+</span></span></code></pre></td></tr></table></div></div><p>This confirms the SSH server is running and listening on port 22. If you need more help with that, PhoenixNap has a great tutorial on <a class=link href=https://phoenixnap.com/kb/how-to-enable-ssh-on-debian target=_blank rel=noopener>How to Enable SSH on Debian</a>.</p><ol start=3><li>Install Docker on Debian 10.4 VM</li></ol><p>Follow: <a class=link href=https://phoenixnap.com/kb/how-to-install-docker-on-debian-10 target=_blank rel=noopener>https://phoenixnap.com/kb/how-to-install-docker-on-debian-10</a></p><p>Change amd64 to arm64</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl><span class=c1># Step 1: Uninstall Default Docker Packages</span>
 </span></span><span class=line><span class=cl>sudo apt-get purge docker lxc-docker docker-engine docker.io
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># Step 2: Install Required Packages</span>
@@ -40,91 +77,176 @@ I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and 
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># check if docker works</span>
 </span></span><span class=line><span class=cl>docker -v
-</span></span></code></pre></div><h2 id=config-macos-docker-cli-to-use-vms-docker-enginer>Config macos Docker CLI to use VM&rsquo;s Docker Enginer</h2><pre tabindex=0><code class=language-shel data-lang=shel># this should returns nothing/empty output
-ssh debian@127.0.0.1 -p 22022 -N -L/tmp/docker-on-debian.sock:/var/run/docker.sock ssh://debian@127.0.0.1
-# set up DOCKER_HOST location
-export DOCKER_HOST=unix:///tmp/docker-on-debian.sock
-</code></pre><blockquote><p>We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:</p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>sudo usermod -aG docker <span class=nv>$USER</span> 
-</span></span></code></pre></div><blockquote><p>Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:</p></blockquote><p>Working!</p><pre tabindex=0><code>$ docker system info
-Client:
- Context:    default
- Debug Mode: false
-
-Server:
- Containers: 0
-  Running: 0
-  Paused: 0
-  Stopped: 0
- Images: 0
- Server Version: 20.10.12
- Storage Driver: overlay2
-  Backing Filesystem: extfs
-  Supports d_type: true
-  Native Overlay Diff: true
-  userxattr: false
- Logging Driver: json-file
- Cgroup Driver: cgroupfs
- Cgroup Version: 1
- Plugins:
-  Volume: local
-  Network: bridge host ipvlan macvlan null overlay
-  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
- Swarm: inactive
- Runtimes: runc io.containerd.runc.v2 io.containerd.runtime.v1.linux
- Default Runtime: runc
- Init Binary: docker-init
- containerd version: 7b11cfaabd73bb80907dd23182b9347b4245eb5d
- runc version: v1.0.2-0-g52b36a2
- init version: de40ad0
- Security Options:
-  apparmor
-  seccomp
-   Profile: default
- Kernel Version: 4.19.0-9-arm64
- Operating System: Debian GNU/Linux 10 (buster)
- OSType: linux
- Architecture: aarch64
- CPUs: 8
- Total Memory: 1.45GiB
- Name: debian
- ID: R5BA:KFRQ:37TY:VCYD:HPVW:NTVN:2F5L:RS4S:GLNT:CXCX:6RUJ:C6U6
- Docker Root Dir: /var/lib/docker
- Debug Mode: false
- Registry: https://index.docker.io/v1/
- Labels:
- Experimental: false
- Insecure Registries:
-  127.0.0.0/8
- Live Restore Enabled: false
-
-WARNING: No swap limit support
-</code></pre><h2 id=problems-with-utm>Problems with UTM</h2><h3 id=ui-still-freezes-from-time-to-time-when-i-tried-to-resizeconfig-the-image-thats-annoying-af>UI still freezes from time to time when I tried to resize/config the image. Thats annoying af.</h3><h3 id=problems-with-porting>Problems with porting:</h3><p>It seems to I have to keep this ssh activa without CTRL+C</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>$ ssh debian@127.0.0.1 -p <span class=m>22022</span> -N -L/tmp/docker-on-debian.sock:/var/run/docker.sock ssh://debian@127.0.0.1
-</span></span></code></pre></div><p>After I stopped, I need to remove sock and re-do the whole thing.</p><p>Solution: treat the VM as remote host and modify <code>DOCKER_HOST</code>, ssh create a private key and adds it to VM.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl><span class=nb>export</span> <span class=nv>DOCKER_HOST</span><span class=o>=</span><span class=s2>&#34;ssh://debian@127.0.0.1:22022&#34;</span>
-</span></span></code></pre></div><h3 id=cpu-benchmark-1000-difference-with-native-sysbench>CPU Benchmark (1000 difference with native sysbench)</h3><p><a class=link href=https://levelup.gitconnected.com/running-amd64-linux-on-apple-m1-with-qemu-utm-64d67cccd6f8 target=_blank rel=noopener>Another post benchmark cpu using <code>sysbench</code></a></p><p>With a threads=2, I got 105585 in ubuntu docker</p><pre tabindex=0><code>docker run -it --rm ubuntu
-apt-get update &amp;&amp; apt-get install sysbench
-sysbench cpu --threads=2 run
-</code></pre><pre tabindex=0><code class=language-log data-lang=log>#### ubuntu docker (arm) on 1.5 GB ram Debian VM by UTM
-CPU speed:
-    events per second: 21115.40
-
-#### UTM Debian 10.4 
-CPU speed:
-    events per second: 21082.14
-
-#### macos native
-CPU speed:
-    events per second: 25912346.76
-
-#### macos Intel Core i5 - 10210U
-CPU speed:
-    events per second: 8372004.44
-
-#### ubuntu on intel (Docker 4 CPUs 8 GB RAM swap 2 GB)
-# docker -v
-# Docker version 20.10.11, build dea9396
-CPU speed:
-    events per second:  2526.18
-</code></pre><p>WTF, why is VM takes such a dramatic hit, even with the right tool. I might ended up using the Sonarr/Radarr for macOS, 4.0.0 of Radarr already has osx-arm64 build, just waiting for Sonarr.</p><p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM</p></section><footer class=article-footer><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg><span>Licensed under CC BY-NC-SA 4.0</span></section></footer><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css integrity="sha256-J+iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s=" crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js integrity="sha256-InsNdER1b2xUewP+pKCUJpkhiqwHgqiPXDlIk7GzBu4=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI=" crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script></article><aside class=related-content--wrapper><h2 class=section-title>Related content</h2><div class=related-content><div class="flex article-list--tile"><article><a href=/p/macos-cron/><div class=article-details><h2 class=article-title>macOS CRON</h2></div></a></article><article><a href=/p/filter-on-a-per-app-basis-on-ios/><div class=article-details><h2 class=article-title>Filter on a per-app basis on iOS</h2></div></a></article><article><a href=/p/vscode-latex-mac/><div class=article-details><h2 class=article-title>VSCode Latex Mac</h2></div></a></article><article><a href=/p/wechat-antiduck/><div class=article-details><h2 class=article-title>Wechat AntiDuck</h2></div></a></article><article><a href=/p/r-on-apple-silicon/><div class=article-details><h2 class=article-title>R on Apple Silicon</h2></div></a></article></div></div></aside><footer class=site-footer><section class=copyright>&copy;
+</span></span></code></pre></td></tr></table></div></div><h2 id=config-macos-docker-cli-to-use-vms-docker-enginer>Config macos Docker CLI to use VM&rsquo;s Docker Enginer</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl># this should returns nothing/empty output
+</span></span><span class=line><span class=cl>ssh debian@127.0.0.1 -p 22022 -N -L/tmp/docker-on-debian.sock:/var/run/docker.sock ssh://debian@127.0.0.1
+</span></span><span class=line><span class=cl># set up DOCKER_HOST location
+</span></span><span class=line><span class=cl>export DOCKER_HOST=unix:///tmp/docker-on-debian.sock
+</span></span></code></pre></td></tr></table></div></div><blockquote><p>We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:</p></blockquote><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>sudo usermod -aG docker <span class=nv>$USER</span> 
+</span></span></code></pre></td></tr></table></div></div><blockquote><p>Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:</p></blockquote><p>Working!</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>$ docker system info
+</span></span><span class=line><span class=cl>Client:
+</span></span><span class=line><span class=cl> Context:    default
+</span></span><span class=line><span class=cl> Debug Mode: false
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Server:
+</span></span><span class=line><span class=cl> Containers: 0
+</span></span><span class=line><span class=cl>  Running: 0
+</span></span><span class=line><span class=cl>  Paused: 0
+</span></span><span class=line><span class=cl>  Stopped: 0
+</span></span><span class=line><span class=cl> Images: 0
+</span></span><span class=line><span class=cl> Server Version: 20.10.12
+</span></span><span class=line><span class=cl> Storage Driver: overlay2
+</span></span><span class=line><span class=cl>  Backing Filesystem: extfs
+</span></span><span class=line><span class=cl>  Supports d_type: true
+</span></span><span class=line><span class=cl>  Native Overlay Diff: true
+</span></span><span class=line><span class=cl>  userxattr: false
+</span></span><span class=line><span class=cl> Logging Driver: json-file
+</span></span><span class=line><span class=cl> Cgroup Driver: cgroupfs
+</span></span><span class=line><span class=cl> Cgroup Version: 1
+</span></span><span class=line><span class=cl> Plugins:
+</span></span><span class=line><span class=cl>  Volume: local
+</span></span><span class=line><span class=cl>  Network: bridge host ipvlan macvlan null overlay
+</span></span><span class=line><span class=cl>  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+</span></span><span class=line><span class=cl> Swarm: inactive
+</span></span><span class=line><span class=cl> Runtimes: runc io.containerd.runc.v2 io.containerd.runtime.v1.linux
+</span></span><span class=line><span class=cl> Default Runtime: runc
+</span></span><span class=line><span class=cl> Init Binary: docker-init
+</span></span><span class=line><span class=cl> containerd version: 7b11cfaabd73bb80907dd23182b9347b4245eb5d
+</span></span><span class=line><span class=cl> runc version: v1.0.2-0-g52b36a2
+</span></span><span class=line><span class=cl> init version: de40ad0
+</span></span><span class=line><span class=cl> Security Options:
+</span></span><span class=line><span class=cl>  apparmor
+</span></span><span class=line><span class=cl>  seccomp
+</span></span><span class=line><span class=cl>   Profile: default
+</span></span><span class=line><span class=cl> Kernel Version: 4.19.0-9-arm64
+</span></span><span class=line><span class=cl> Operating System: Debian GNU/Linux 10 (buster)
+</span></span><span class=line><span class=cl> OSType: linux
+</span></span><span class=line><span class=cl> Architecture: aarch64
+</span></span><span class=line><span class=cl> CPUs: 8
+</span></span><span class=line><span class=cl> Total Memory: 1.45GiB
+</span></span><span class=line><span class=cl> Name: debian
+</span></span><span class=line><span class=cl> ID: R5BA:KFRQ:37TY:VCYD:HPVW:NTVN:2F5L:RS4S:GLNT:CXCX:6RUJ:C6U6
+</span></span><span class=line><span class=cl> Docker Root Dir: /var/lib/docker
+</span></span><span class=line><span class=cl> Debug Mode: false
+</span></span><span class=line><span class=cl> Registry: https://index.docker.io/v1/
+</span></span><span class=line><span class=cl> Labels:
+</span></span><span class=line><span class=cl> Experimental: false
+</span></span><span class=line><span class=cl> Insecure Registries:
+</span></span><span class=line><span class=cl>  127.0.0.0/8
+</span></span><span class=line><span class=cl> Live Restore Enabled: false
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>WARNING: No swap limit support
+</span></span></code></pre></td></tr></table></div></div><h2 id=problems-with-utm>Problems with UTM</h2><h3 id=ui-still-freezes-from-time-to-time-when-i-tried-to-resizeconfig-the-image-thats-annoying-af>UI still freezes from time to time when I tried to resize/config the image. Thats annoying af.</h3><h3 id=problems-with-porting>Problems with porting:</h3><p>It seems to I have to keep this ssh activa without CTRL+C</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>$ ssh debian@127.0.0.1 -p <span class=m>22022</span> -N -L/tmp/docker-on-debian.sock:/var/run/docker.sock ssh://debian@127.0.0.1
+</span></span></code></pre></td></tr></table></div></div><p>After I stopped, I need to remove sock and re-do the whole thing.</p><p>Solution: treat the VM as remote host and modify <code>DOCKER_HOST</code>, ssh create a private key and adds it to VM.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl><span class=nb>export</span> <span class=nv>DOCKER_HOST</span><span class=o>=</span><span class=s2>&#34;ssh://debian@127.0.0.1:22022&#34;</span>
+</span></span></code></pre></td></tr></table></div></div><h3 id=cpu-benchmark-1000-difference-with-native-sysbench>CPU Benchmark (1000 difference with native sysbench)</h3><p><a class=link href=https://levelup.gitconnected.com/running-amd64-linux-on-apple-m1-with-qemu-utm-64d67cccd6f8 target=_blank rel=noopener>Another post benchmark cpu using <code>sysbench</code></a></p><p>With a threads=2, I got 105585 in ubuntu docker</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>docker run -it --rm ubuntu
+</span></span><span class=line><span class=cl>apt-get update &amp;&amp; apt-get install sysbench
+</span></span><span class=line><span class=cl>sysbench cpu --threads=2 run
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>#### ubuntu docker (arm) on 1.5 GB ram Debian VM by UTM
+</span></span><span class=line><span class=cl>CPU speed:
+</span></span><span class=line><span class=cl>    events per second: 21115.40
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>#### UTM Debian 10.4 
+</span></span><span class=line><span class=cl>CPU speed:
+</span></span><span class=line><span class=cl>    events per second: 21082.14
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>#### macos native
+</span></span><span class=line><span class=cl>CPU speed:
+</span></span><span class=line><span class=cl>    events per second: 25912346.76
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>#### macos Intel Core i5 - 10210U
+</span></span><span class=line><span class=cl>CPU speed:
+</span></span><span class=line><span class=cl>    events per second: 8372004.44
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>#### ubuntu on intel (Docker 4 CPUs 8 GB RAM swap 2 GB)
+</span></span><span class=line><span class=cl># docker -v
+</span></span><span class=line><span class=cl># Docker version 20.10.11, build dea9396
+</span></span><span class=line><span class=cl>CPU speed:
+</span></span><span class=line><span class=cl>    events per second:  2526.18
+</span></span></code></pre></td></tr></table></div></div><p>WTF, why is VM takes such a dramatic hit, even with the right tool. I might ended up using the Sonarr/Radarr for macOS, 4.0.0 of Radarr already has osx-arm64 build, just waiting for Sonarr.</p><p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM</p></section><footer class=article-footer><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg><span>Licensed under CC BY-NC-SA 4.0</span></section></footer></article><aside class=related-content--wrapper><h2 class=section-title>Related content</h2><div class=related-content><div class="flex article-list--tile"><article><a href=/p/macos-cron/><div class=article-details><h2 class=article-title>macOS CRON</h2></div></a></article><article><a href=/p/filter-on-a-per-app-basis-on-ios/><div class=article-details><h2 class=article-title>Filter on a per-app basis on iOS</h2></div></a></article><article><a href=/p/vscode-latex-mac/><div class=article-details><h2 class=article-title>VSCode Latex Mac</h2></div></a></article><article><a href=/p/wechat-antiduck/><div class=article-details><h2 class=article-title>Wechat AntiDuck</h2></div></a></article><article><a href=/p/r-on-apple-silicon/><div class=article-details><h2 class=article-title>R on Apple Silicon</h2></div></a></article></div></div></aside><footer class=site-footer><section class=copyright>&copy;
+2020 -
 2022 My Blog</section><section class=powerby>Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.15.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>

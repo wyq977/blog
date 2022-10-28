@@ -4,9 +4,17 @@
 >annie&lt;/a>, &lt;a class="link" href="https://ffmpeg.org/" target="_blank" rel="noopener"
 >ffmpeg&lt;/a>&lt;/p>
 &lt;p>Both of them can be installed on macOS via homebrew&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install annie
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install annie
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">brew install ffmpeg
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="get-cookies">Get cookies&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="get-cookies">Get cookies&lt;/h2>
 &lt;ul>
 &lt;li>In console (Dev. Tools): &lt;code>document.cookie&lt;/code>&lt;/li>
 &lt;li>Or you can use EditThisCookie to get cookie of a vip account&lt;/li>
@@ -15,9 +23,19 @@
 &lt;p>Copy each episode or follow the guide, grap href using online tools:http://tools.buzzstream.com/link-building-extract-urls&lt;/p>
 &lt;p>It might be easier for a few episodes to just copy and paste&lt;/p>
 &lt;h2 id="download">Download&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># check info&lt;/span>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># check info&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">annie -i -f fhd -c qqvip.txt -F s01.csv
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># download fhd if present&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">annie -f fhd -c qqvip.txt -F s01.csv
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="extra">Extra&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="extra">Extra&lt;/h2>
 &lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item></channel></rss>

@@ -4,9 +4,17 @@ I still came across many times where I had trouble with Loon enabled.&lt;/p>
 &lt;p>This is one of easiest case involved, I would like certain app to follow certain policy,
 such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (added)&lt;/code>.&lt;/p>
 &lt;p>It can be achieved as followed, where all the traffic via Facebook app will be blocked.&lt;/p>
-&lt;pre tabindex="0">&lt;code>[Rule]
-USER-AGENT,com.facebook.Facebook,REJECT
-&lt;/code>&lt;/pre>&lt;p>Examples can be found here: &lt;a class="link" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[Rule]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">USER-AGENT,com.facebook.Facebook,REJECT
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Examples can be found here: &lt;a class="link" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list" target="_blank" rel="noopener"
 >https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list&lt;/a>&lt;/p>
 &lt;h2 id="how-to-find-bundle-id-of-an-ios-app--step-by-step---mr-virk-mediahttpsmrvirkcomhow-to-find-app-bundle-id-ioshtml">&lt;a class="link" href="https://mrvirk.com/how-to-find-app-bundle-id-ios.html" target="_blank" rel="noopener"
 >How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a>&lt;/h2>

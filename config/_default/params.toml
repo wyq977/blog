@@ -3,7 +3,11 @@ mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
 
-featuredImageField = "image"
+# favicon
+# plain text from https://codebeautify.org/favicon-generator
+favicon = "/cb-favicon180x180.ico"
+
+featuredImageField = "image"    
 
 [footer]
 since = 2020

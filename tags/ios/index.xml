@@ -22,10 +22,10 @@ such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (
 >https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a>&lt;/p>
 &lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>iMessages/FaceTime logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
 &lt;ul>
-&lt;li>Tel. A (main, ✅ iMessages)&lt;/li>
-&lt;li>Tel. B (backup, ❌ iMessages)&lt;/li>
-&lt;li>email A (login, ✅ iMessages)&lt;/li>
-&lt;li>email B (public, ❌ iMessages)&lt;/li>
+&lt;li>Tel. A (main, :white_check_mark: iMessages)&lt;/li>
+&lt;li>Tel. B (backup, :x: iMessages)&lt;/li>
+&lt;li>email A (login, :white_check_mark: iMessages)&lt;/li>
+&lt;li>email B (public, :x: iMessages)&lt;/li>
 &lt;/ul>
 &lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)&lt;/h2>
 &lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>

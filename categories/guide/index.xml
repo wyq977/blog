@@ -1237,8 +1237,8 @@ loading="lazy"
 >example site&lt;/a>&lt;/p>
 &lt;h2 id="test-for-a-single-post">Test for a single post&lt;/h2>
 &lt;p>created by &lt;code>hugo new post/my-first-post.md&lt;/code>&lt;/p>
-&lt;h2 id="test-for-emoji-support-">Test for emoji support 😄&lt;/h2>
-&lt;p>😄&lt;/p>
+&lt;h2 id="test-for-emoji-support-smile">Test for emoji support :smile:&lt;/h2>
+&lt;p>:smile:&lt;/p>
 &lt;p>Not supported in the title yet so one has to edit the layout on the theme &lt;a class="link" href="https://stackoverflow.com/questions/61753165/emoji-not-displayed-in-deployed-hugo-website-netlify" target="_blank" rel="noopener"
 >stackoverflow&lt;/a>, too much trouble&amp;hellip;&lt;/p>
 &lt;h2 id="math-is-still-not-perfect">Math is still not perfect&lt;/h2>

@@ -57,10 +57,10 @@
 &lt;p>Again, this is for people that &lt;strong>DO&lt;/strong> want a bit of customization on the recommendation or feeding on platforms like Twitter, YouTube or Facebook. If one were hardcore enough to just use RSS to get his info., then there’s no need for these.&lt;/p>
 &lt;p>For example, you cannot use Google reminder on Apple’s Native apps while Microsoft’s TODO fits well on iOS native app. That’s why I choose Microsoft.&lt;/p></description></item><item><title>iMessages/FaceTime logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
 &lt;ul>
-&lt;li>Tel. A (main, ✅ iMessages)&lt;/li>
-&lt;li>Tel. B (backup, ❌ iMessages)&lt;/li>
-&lt;li>email A (login, ✅ iMessages)&lt;/li>
-&lt;li>email B (public, ❌ iMessages)&lt;/li>
+&lt;li>Tel. A (main, :white_check_mark: iMessages)&lt;/li>
+&lt;li>Tel. B (backup, :x: iMessages)&lt;/li>
+&lt;li>email A (login, :white_check_mark: iMessages)&lt;/li>
+&lt;li>email B (public, :x: iMessages)&lt;/li>
 &lt;/ul>
 &lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)&lt;/h2>
 &lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>
@@ -170,36 +170,36 @@ loading="lazy"
 >PCPartPicker&lt;/a> 2020-12-18 12:49 EST-0500 &lt;/sub>&lt;/p>
 &lt;h2 id="update-sell">Update (sell)&lt;/h2>
 &lt;ul>
-&lt;li>2022-01-12: ✅ &lt;strong>68&lt;/strong> CHF for
+&lt;li>2022-01-12: :white_check_mark: &lt;strong>68&lt;/strong> CHF for
 PC Case Phanteks Eclipse P400A ATX Midi Tower on &lt;strong>tutti&lt;/strong>&lt;/li>
-&lt;li>2021-03-18: ✅ &lt;strong>88&lt;/strong> CHF for
+&lt;li>2021-03-18: :white_check_mark: &lt;strong>88&lt;/strong> CHF for
 Samsung 970 on &lt;strong>Facebook&lt;/strong>&lt;/li>
-&lt;li>2021-03-16: ✅ &lt;strong>38.7&lt;/strong> CHF for
+&lt;li>2021-03-16: :white_check_mark: &lt;strong>38.7&lt;/strong> CHF for
 Glorious PC Gaming Race model D on &lt;strong>digitec&lt;/strong>&lt;/li>
-&lt;li>2021-03-15: ✅ &lt;strong>43&lt;/strong> CHF for
+&lt;li>2021-03-15: :white_check_mark: &lt;strong>43&lt;/strong> CHF for
 Corsair Vengeance LPX 16 GB on &lt;strong>digitec&lt;/strong>&lt;/li>
-&lt;li>2021-03-15: ✅ &lt;strong>207.2&lt;/strong> CHF for
+&lt;li>2021-03-15: :white_check_mark: &lt;strong>207.2&lt;/strong> CHF for
 MSI RX580 8gb on &lt;strong>Ricardo&lt;/strong>&lt;/li>
-&lt;li>2020-09-29: ✅ &lt;strong>45&lt;/strong> CHF for Corsair PSU on &lt;strong>tutti&lt;/strong>&lt;/li>
-&lt;li>2020-09-25: ✅ &lt;strong>210&lt;/strong> CHF for Louqe S1 + custom PSU cable on &lt;strong>tutti&lt;/strong>&lt;/li>
-&lt;li>2020-09-01: ✅ &lt;strong>200&lt;/strong> CHF for MSI B450I Gaming Plus AC + Noctua NH-L9x65 SE-AM4 + AMD Ryzen 5 2600 on &lt;strong>tutti&lt;/strong>&lt;/li>
+&lt;li>2020-09-29: :white_check_mark: &lt;strong>45&lt;/strong> CHF for Corsair PSU on &lt;strong>tutti&lt;/strong>&lt;/li>
+&lt;li>2020-09-25: :white_check_mark: &lt;strong>210&lt;/strong> CHF for Louqe S1 + custom PSU cable on &lt;strong>tutti&lt;/strong>&lt;/li>
+&lt;li>2020-09-01: :white_check_mark: &lt;strong>200&lt;/strong> CHF for MSI B450I Gaming Plus AC + Noctua NH-L9x65 SE-AM4 + AMD Ryzen 5 2600 on &lt;strong>tutti&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;h2 id="update-buy">Update (buy)&lt;/h2>
 &lt;ul>
-&lt;li>2020-09-26: ❌ &lt;strong>24.8&lt;/strong> CHF for Microsoft 600 Englishg on &lt;a class="link" href="https://www.digitec.ch/en/s1/product/microsoft-600-eng-int-cable-keyboards-11812564" target="_blank" rel="noopener"
+&lt;li>2020-09-26: :x: &lt;strong>24.8&lt;/strong> CHF for Microsoft 600 Englishg on &lt;a class="link" href="https://www.digitec.ch/en/s1/product/microsoft-600-eng-int-cable-keyboards-11812564" target="_blank" rel="noopener"
 >&lt;strong>digitec&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>2020-10-18: ❌ &lt;strong>68&lt;/strong> CHF for MX Master 3 on &lt;a class="link" href="https://www.ricardo.ch/de/a/mx-master-3-ungeoeffnet-1139803814/" target="_blank" rel="noopener"
+&lt;li>2020-10-18: :x: &lt;strong>68&lt;/strong> CHF for MX Master 3 on &lt;a class="link" href="https://www.ricardo.ch/de/a/mx-master-3-ungeoeffnet-1139803814/" target="_blank" rel="noopener"
 >&lt;strong>Ricardo&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>2020-09-26: ❌ &lt;strong>126&lt;/strong> CHF for Seasonic Focus GX (850W) on &lt;a class="link" href="https://www.digitec.ch/en/s1/product/seasonic-focus-gx-850w-pc-netzteil-12301874" target="_blank" rel="noopener"
+&lt;li>2020-09-26: :x: &lt;strong>126&lt;/strong> CHF for Seasonic Focus GX (850W) on &lt;a class="link" href="https://www.digitec.ch/en/s1/product/seasonic-focus-gx-850w-pc-netzteil-12301874" target="_blank" rel="noopener"
 >&lt;strong>digitec&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>2020-09-23: ❌ &lt;strong>80&lt;/strong> CHF for Phanteks Eclipse P400A (Midi Tower) on &lt;a class="link" href="https://www.digitec.ch/en/s1/product/phanteks-eclipse-p400a-midi-tower-pc-cases-11685782" target="_blank" rel="noopener"
+&lt;li>2020-09-23: :x: &lt;strong>80&lt;/strong> CHF for Phanteks Eclipse P400A (Midi Tower) on &lt;a class="link" href="https://www.digitec.ch/en/s1/product/phanteks-eclipse-p400a-midi-tower-pc-cases-11685782" target="_blank" rel="noopener"
 >&lt;strong>digitec&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>2020-09-23: ❌ &lt;strong>16&lt;/strong> CHF for Gehäuselüfter Noctua 120 mm on &lt;a class="link" href="https://www.ricardo.ch/de/a/gehaeuseluefter-noctua-120-mm-1136211306/" target="_blank" rel="noopener"
+&lt;li>2020-09-23: :x: &lt;strong>16&lt;/strong> CHF for Gehäuselüfter Noctua 120 mm on &lt;a class="link" href="https://www.ricardo.ch/de/a/gehaeuseluefter-noctua-120-mm-1136211306/" target="_blank" rel="noopener"
 >&lt;strong>Ricardo&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>2020-09-01: ❌ &lt;strong>123&lt;/strong> CHF ASUS ROG Strix H370-I &lt;a class="link" href="https://www.digitec.ch/en/s1/product/asus-rog-strix-h370-f-gaming-lga-1151-intel-h370-atx-motherboards-8281518" target="_blank" rel="noopener"
+&lt;li>2020-09-01: :x: &lt;strong>123&lt;/strong> CHF ASUS ROG Strix H370-I &lt;a class="link" href="https://www.digitec.ch/en/s1/product/asus-rog-strix-h370-f-gaming-lga-1151-intel-h370-atx-motherboards-8281518" target="_blank" rel="noopener"
 >&lt;strong>digitec&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>2020-09-01: ❌ &lt;strong>61.4&lt;/strong> CHF Intel i3 8100 &lt;a class="link" href="https://www.interdiscount.ch/de/computer-gaming/pc-komponenten/prozessoren--c581000/intel-core-i3-8100-prozessor--p0001407378" target="_blank" rel="noopener"
+&lt;li>2020-09-01: :x: &lt;strong>61.4&lt;/strong> CHF Intel i3 8100 &lt;a class="link" href="https://www.interdiscount.ch/de/computer-gaming/pc-komponenten/prozessoren--c581000/intel-core-i3-8100-prozessor--p0001407378" target="_blank" rel="noopener"
 >&lt;strong>Interdiscount&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>2020-07-30: ❌ &lt;strong>52.21&lt;/strong> CHF Glorious PC Gaming Race model D (Cable) &lt;a class="link" href="https://www.digitec.ch/en/s1/product/glorious-pc-gaming-race-model-d-cable-mice-12392165" target="_blank" rel="noopener"
+&lt;li>2020-07-30: :x: &lt;strong>52.21&lt;/strong> CHF Glorious PC Gaming Race model D (Cable) &lt;a class="link" href="https://www.digitec.ch/en/s1/product/glorious-pc-gaming-race-model-d-cable-mice-12392165" target="_blank" rel="noopener"
 >&lt;strong>digitec&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>

@@ -7,6 +7,38 @@ tags:
     - git 
 ---
 
+## Backup
+
+1. Backup Public key to `public_key.asc`
+    - See: https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys
+2. Backup Secret key to `secret_key.gpg`
+    - `gpg --export-secret-keys YOUR_ID_HERE > secret_key.gpg`
+3. Backup `.gnupg/` just in case
+
+gpg-agent.conf
+
+```
+default-cache-ttl 600
+max-cache-ttl 7200
+pinentry-program /usr/local/MacGPG2/libexec/pinentry-mac.app/Contents/MacOS/pinentry-mac
+```
+
+gpg.conf
+
+```
+auto-key-retrieve
+no-emit-version
+no-tty
+default-key YOUR_ID_HERE
+```
+
+## Restore
+
+After install gpg-suite, simply click the `public_key.asc` and 
+`secret_key.gpg`, it will prompts for password for secret keys.
+
+Simply copy conf files to `~/.gnupg`
+
 ## Motivation
 
 Came across this signing in [dotfiles](https://github.com/alrra/dotfiles) and I would also want to have the verified in each commit I made in my pc so why not?

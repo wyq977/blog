@@ -1125,7 +1125,54 @@ loading="lazy"
 >&lt;/p>
 &lt;h2 id="note">Note&lt;/h2>
 &lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
-&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup&lt;/h2>
+&lt;ol>
+&lt;li>Backup Public key to &lt;code>public_key.asc&lt;/code>
+&lt;ul>
+&lt;li>See: &lt;a class="link" href="https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys" target="_blank" rel="noopener"
+>https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Backup Secret key to &lt;code>secret_key.gpg&lt;/code>
+&lt;ul>
+&lt;li>&lt;code>gpg --export-secret-keys YOUR_ID_HERE &amp;gt; secret_key.gpg&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Backup &lt;code>.gnupg/&lt;/code> just in case&lt;/li>
+&lt;/ol>
+&lt;p>gpg-agent.conf&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">default-cache-ttl 600
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">max-cache-ttl 7200
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pinentry-program /usr/local/MacGPG2/libexec/pinentry-mac.app/Contents/MacOS/pinentry-mac
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>gpg.conf&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">auto-key-retrieve
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">no-emit-version
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">no-tty
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">default-key YOUR_ID_HERE
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="restore">Restore&lt;/h2>
+&lt;p>After install gpg-suite, simply click the &lt;code>public_key.asc&lt;/code> and
+&lt;code>secret_key.gpg&lt;/code>, it will prompts for password for secret keys.&lt;/p>
+&lt;p>Simply copy conf files to &lt;code>~/.gnupg&lt;/code>&lt;/p>
+&lt;h2 id="motivation">Motivation&lt;/h2>
 &lt;p>Came across this signing in &lt;a class="link" href="https://github.com/alrra/dotfiles" target="_blank" rel="noopener"
 >dotfiles&lt;/a> and I would also want to have the verified in each commit I made in my pc so why not?&lt;/p>
 &lt;h2 id="how-to">How-to&lt;/h2>

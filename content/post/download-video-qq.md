@@ -4,7 +4,7 @@ date: 2020-12-18T18:29:33+01:00
 categories:
     - Guide
 tags:
-    - 资源
+    - download
 ---
 
 Mostly based on [流水账：如何使用 annie 批量下载优酷 VIP 视频](https://meta.appinn.net/t/topic/13946)

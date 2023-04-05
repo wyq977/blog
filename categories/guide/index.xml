@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on My Blog</title><link>https://wyq977.github.io/categories/guide/</link><description>Recent content in Guide on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 03 Feb 2023 10:00:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/p/macos-chinese-font/</guid><description>&lt;p>I came across a issue when opening a &lt;code>doc&lt;/code> file in macOS (12.5.1).&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Yongqi Wang</title><link>https://wyq977.github.io/categories/guide/</link><description>Recent content in Guide on Yongqi Wang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 03 Feb 2023 10:00:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/p/macos-chinese-font/</guid><description>&lt;p>I came across a issue when opening a &lt;code>doc&lt;/code> file in macOS (12.5.1).&lt;/p>
 &lt;p>Pages keeps reming me that fonts are missing despite I have already installed
 them from file.&lt;/p>
 &lt;p>It turns out that the Family name in font is not Chinese, which somehow makes
@@ -53,7 +53,7 @@ data-flex-basis="364px"
 &lt;p>&lt;a class="link" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/office-365-word/2808fe89-04ea-472a-a656-62897916c5eb" target="_blank" rel="noopener"
 >office 365 word 所有中文字体变成英文。 - Microsoft Community&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/office%E4%B8%AD%E5%AD%97%E4%BD%93%E5%90%8D/87b26b57-8913-460c-9194-41f2b8090078" target="_blank" rel="noopener"
->office中，字体名称全部变成了英文，例如“宋体”变成了“SimSun&amp;amp;# - Microsoft Community&lt;/a>&lt;/p></description></item><item><title>Play iOS games on Apple Silicon Macs</title><link>https://wyq977.github.io/p/play-ios-games-on-apple-silicon-macs/</link><pubDate>Wed, 07 Dec 2022 12:03:07 +0200</pubDate><guid>https://wyq977.github.io/p/play-ios-games-on-apple-silicon-macs/</guid><description>&lt;h2 id="genshin-impact-yuanshen">Genshin Impact (Yuanshen)&lt;/h2>
+>office中，字体名称全部变成了英文，例如“宋体”变成了“SimSun&amp;amp;# - Microsoft Community&lt;/a>&lt;/p></description></item><item><title>iOS Games on Apple Silicon Macs</title><link>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</link><pubDate>Wed, 07 Dec 2022 12:03:07 +0200</pubDate><guid>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</guid><description>&lt;h2 id="genshin-impact-yuanshen">Genshin Impact (Yuanshen)&lt;/h2>
 &lt;p>GenshinImpact with PlayCover on M1&lt;/p>
 &lt;p>Install PlayCover: &lt;a class="link" href="https://playcover.io/" target="_blank" rel="noopener"
 >https://playcover.io/&lt;/a>&lt;/p>
@@ -822,7 +822,7 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>WTF, why is VM takes such a dramatic hit, even with the right tool. I might ended up using the Sonarr/Radarr for macOS, 4.0.0 of Radarr already has osx-arm64 build, just waiting for Sonarr.&lt;/p>
-&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Set up Aria2 and Chrome working nicely together</title><link>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</guid><description>&lt;h2 id="install">Install&lt;/h2>
+&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Aria2 and Chrome</title><link>https://wyq977.github.io/p/aria2-and-chrome/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/aria2-and-chrome/</guid><description>&lt;h2 id="install">Install&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -883,7 +883,7 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">for f in *.mp4; do ffmpeg -i &amp;#34;$f&amp;#34; -map_metadata -1 -c copy -map 0 &amp;#34;${f%}.nometa.mp4&amp;#34;; done # do for loop
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Taichi installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
+&lt;/div></description></item><item><title>Taichi Installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -1061,7 +1061,7 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> LLVM_DIR
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
+&lt;/div></description></item><item><title>x11 Forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
 &lt;p>If homebrew installed:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1180,7 +1180,7 @@ loading="lazy"
 >&lt;/p>
 &lt;h2 id="note">Note&lt;/h2>
 &lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
-&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup&lt;/h2>
+&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign with GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup&lt;/h2>
 &lt;ol>
 &lt;li>Backup Public key to &lt;code>public_key.asc&lt;/code>
 &lt;ul>
@@ -1322,7 +1322,7 @@ loading="lazy"
 &lt;/div>&lt;p>The things and steps are pretty much just the same as the post but there&amp;rsquo;s one thing worth mentioning.&lt;/p>
 &lt;p>In the email setting in Github, a masked email address will be generated with a format: &lt;code>NUMBER+username@github.noreply.github.com&lt;/code>. But &lt;code>username@github.noreply.github.com&lt;/code> is the one to input in GPG key, the one with a number prefix is not gonna verfy the commits and github will show errors like &amp;ldquo;No githuub user associated with the email&amp;rdquo;&lt;/p>
 &lt;p>&lt;a class="link" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key" target="_blank" rel="noopener"
->How to add email to gpg key&lt;/a>&lt;/p></description></item><item><title>Download qq videos</title><link>https://wyq977.github.io/p/download-qq-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-qq-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
+>How to add email to gpg key&lt;/a>&lt;/p></description></item><item><title>Download Tencent Videos</title><link>https://wyq977.github.io/p/download-tencent-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-tencent-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
 >流水账：如何使用 annie 批量下载优酷 VIP 视频&lt;/a>&lt;/p>
 &lt;p>using &lt;a class="link" href="https://github.com/iawia002/annie" target="_blank" rel="noopener"
 >annie&lt;/a>, &lt;a class="link" href="https://ffmpeg.org/" target="_blank" rel="noopener"

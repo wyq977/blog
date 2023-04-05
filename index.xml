@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Blog</title><link>https://wyq977.github.io/</link><description>Recent content on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 03 Feb 2023 10:00:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/p/macos-chinese-font/</guid><description>&lt;p>I came across a issue when opening a &lt;code>doc&lt;/code> file in macOS (12.5.1).&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yongqi Wang</title><link>https://wyq977.github.io/</link><description>Recent content on Yongqi Wang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 03 Feb 2023 10:00:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/p/macos-chinese-font/</guid><description>&lt;p>I came across a issue when opening a &lt;code>doc&lt;/code> file in macOS (12.5.1).&lt;/p>
 &lt;p>Pages keeps reming me that fonts are missing despite I have already installed
 them from file.&lt;/p>
 &lt;p>It turns out that the Family name in font is not Chinese, which somehow makes
@@ -53,7 +53,7 @@ data-flex-basis="364px"
 &lt;p>&lt;a class="link" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/office-365-word/2808fe89-04ea-472a-a656-62897916c5eb" target="_blank" rel="noopener"
 >office 365 word 所有中文字体变成英文。 - Microsoft Community&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/office%E4%B8%AD%E5%AD%97%E4%BD%93%E5%90%8D/87b26b57-8913-460c-9194-41f2b8090078" target="_blank" rel="noopener"
->office中，字体名称全部变成了英文，例如“宋体”变成了“SimSun&amp;amp;# - Microsoft Community&lt;/a>&lt;/p></description></item><item><title>Play iOS games on Apple Silicon Macs</title><link>https://wyq977.github.io/p/play-ios-games-on-apple-silicon-macs/</link><pubDate>Wed, 07 Dec 2022 12:03:07 +0200</pubDate><guid>https://wyq977.github.io/p/play-ios-games-on-apple-silicon-macs/</guid><description>&lt;h2 id="genshin-impact-yuanshen">Genshin Impact (Yuanshen)&lt;/h2>
+>office中，字体名称全部变成了英文，例如“宋体”变成了“SimSun&amp;amp;# - Microsoft Community&lt;/a>&lt;/p></description></item><item><title>iOS Games on Apple Silicon Macs</title><link>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</link><pubDate>Wed, 07 Dec 2022 12:03:07 +0200</pubDate><guid>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</guid><description>&lt;h2 id="genshin-impact-yuanshen">Genshin Impact (Yuanshen)&lt;/h2>
 &lt;p>GenshinImpact with PlayCover on M1&lt;/p>
 &lt;p>Install PlayCover: &lt;a class="link" href="https://playcover.io/" target="_blank" rel="noopener"
 >https://playcover.io/&lt;/a>&lt;/p>
@@ -80,7 +80,7 @@ data-flex-basis="364px"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-xml" data-lang="xml">&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;string&amp;gt;&lt;/span>com.miHoYo.Yuanshen&lt;span class="nt">&amp;lt;/string&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>My way of Organizing Cloud</title><link>https://wyq977.github.io/p/my-way-of-organizing-cloud/</link><pubDate>Mon, 05 Sep 2022 14:25:04 +0200</pubDate><guid>https://wyq977.github.io/p/my-way-of-organizing-cloud/</guid><description>&lt;h2 id="whats-the-difficulty-about-it">What’s the difficulty about it?&lt;/h2>
+&lt;/div></description></item><item><title>Organizing Cloud</title><link>https://wyq977.github.io/p/organizing-cloud/</link><pubDate>Mon, 05 Sep 2022 14:25:04 +0200</pubDate><guid>https://wyq977.github.io/p/organizing-cloud/</guid><description>&lt;h2 id="whats-the-difficulty-about-it">What’s the difficulty about it?&lt;/h2>
 &lt;p>I mean, you would wonder what’s the big deal about it, can’t you just use a single &lt;strong>“Cloud-thingy”&lt;/strong> for all your personal shits? Google Drive, iCloud, Microsoft or some of those smaller ones that claims have better privacy protection and other gimmicks.&lt;/p>
 &lt;h2 id="actual-setup">Actual setup&lt;/h2>
 &lt;ul>
@@ -240,7 +240,7 @@ such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (
 >How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a>&lt;/h2>
 &lt;p>Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
 >https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a>&lt;/p>
-&lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>iMessages/FaceTime logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
+&lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>iMessages/FaceTime Logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
 &lt;ul>
 &lt;li>Tel. A (main, :white_check_mark: iMessages)&lt;/li>
 &lt;li>Tel. B (backup, :x: iMessages)&lt;/li>
@@ -900,7 +900,7 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>WTF, why is VM takes such a dramatic hit, even with the right tool. I might ended up using the Sonarr/Radarr for macOS, 4.0.0 of Radarr already has osx-arm64 build, just waiting for Sonarr.&lt;/p>
-&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Video Stuff</title><link>https://wyq977.github.io/p/video-stuff/</link><pubDate>Sun, 03 Oct 2021 16:25:14 +0200</pubDate><guid>https://wyq977.github.io/p/video-stuff/</guid><description>&lt;h2 id="quality-for-video-downloads">Quality for video downloads&lt;/h2>
+&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Video Download Formats</title><link>https://wyq977.github.io/p/video-download-formats/</link><pubDate>Sun, 03 Oct 2021 16:25:14 +0200</pubDate><guid>https://wyq977.github.io/p/video-download-formats/</guid><description>&lt;h2 id="quality-for-video-downloads">Quality for video downloads&lt;/h2>
 &lt;p>Ref: &lt;a class="link" href="https://wiki.servarr.com/sonarr/settings#qualities-defined" target="_blank" rel="noopener"
 >https://wiki.servarr.com/sonarr/settings#qualities-defined&lt;/a>&lt;/p>
 &lt;p>&lt;strong>In brief:&lt;/strong> Remux == Bluray &amp;gt; WEBDL &amp;gt; WEBRip &amp;gt; HDTV&lt;/p>
@@ -938,7 +938,7 @@ alt="Test Results"
 &lt;h2 id="info-about-media-files">Info. about media files&lt;/h2>
 &lt;p>MKV or MP4: just a container, does not really say a lot about quality, can be converted with &lt;code>ffmepg&lt;/code> or mkvtoolnix&lt;/p>
 &lt;p>TS: video format is a container format for MPEG, known as &amp;ldquo;Transport Stream&amp;rdquo;, which is used most frequently by digital broadcasting systems (digital cable, satellite, etc). &lt;a class="link" href="https://askubuntu.com/a/10596" target="_blank" rel="noopener"
->ref&lt;/a>&lt;/p></description></item><item><title>Set up Aria2 and Chrome working nicely together</title><link>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/set-up-aria2-and-chrome-working-nicely-together/</guid><description>&lt;h2 id="install">Install&lt;/h2>
+>ref&lt;/a>&lt;/p></description></item><item><title>Aria2 and Chrome</title><link>https://wyq977.github.io/p/aria2-and-chrome/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/aria2-and-chrome/</guid><description>&lt;h2 id="install">Install&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -999,7 +999,7 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">for f in *.mp4; do ffmpeg -i &amp;#34;$f&amp;#34; -map_metadata -1 -c copy -map 0 &amp;#34;${f%}.nometa.mp4&amp;#34;; done # do for loop
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Taichi installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
+&lt;/div></description></item><item><title>Taichi Installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -1177,7 +1177,7 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> LLVM_DIR
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>x11 forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
+&lt;/div></description></item><item><title>x11 Forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
 &lt;p>If homebrew installed:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1296,7 +1296,7 @@ loading="lazy"
 >&lt;/p>
 &lt;h2 id="note">Note&lt;/h2>
 &lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
-&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign With GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup&lt;/h2>
+&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign with GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup&lt;/h2>
 &lt;ol>
 &lt;li>Backup Public key to &lt;code>public_key.asc&lt;/code>
 &lt;ul>
@@ -1438,7 +1438,7 @@ loading="lazy"
 &lt;/div>&lt;p>The things and steps are pretty much just the same as the post but there&amp;rsquo;s one thing worth mentioning.&lt;/p>
 &lt;p>In the email setting in Github, a masked email address will be generated with a format: &lt;code>NUMBER+username@github.noreply.github.com&lt;/code>. But &lt;code>username@github.noreply.github.com&lt;/code> is the one to input in GPG key, the one with a number prefix is not gonna verfy the commits and github will show errors like &amp;ldquo;No githuub user associated with the email&amp;rdquo;&lt;/p>
 &lt;p>&lt;a class="link" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key" target="_blank" rel="noopener"
->How to add email to gpg key&lt;/a>&lt;/p></description></item><item><title>Download qq videos</title><link>https://wyq977.github.io/p/download-qq-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-qq-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
+>How to add email to gpg key&lt;/a>&lt;/p></description></item><item><title>Download Tencent Videos</title><link>https://wyq977.github.io/p/download-tencent-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-tencent-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
 >流水账：如何使用 annie 批量下载优酷 VIP 视频&lt;/a>&lt;/p>
 &lt;p>using &lt;a class="link" href="https://github.com/iawia002/annie" target="_blank" rel="noopener"
 >annie&lt;/a>, &lt;a class="link" href="https://ffmpeg.org/" target="_blank" rel="noopener"
@@ -1478,16 +1478,26 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="extra">Extra&lt;/h2>
-&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>About</title><link>https://wyq977.github.io/about/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><guid>https://wyq977.github.io/about/</guid><description>&lt;p>I am a M.S student student in the &lt;a class="link" href="http://bsse.ethz.ch/" target="_blank" rel="noopener"
->BSSE&lt;/a> Department at &lt;a class="link" href="https://ethz.ch/en.html" target="_blank" rel="noopener"
->ETHz&lt;/a>. I studied &lt;a class="link" href="https://www.polyu.edu.hk/abct/en/undergraduate_studies/admission/bcs_abb/index.html" target="_blank" rel="noopener"
->Biology&lt;/a> in &lt;a class="link" href="https://www.polyu.edu.hk/abct/en/home/index.html" target="_blank" rel="noopener"
->ABCT&lt;/a> Department at &lt;a class="link" href="https://www.polyu.edu.hk/en/" target="_blank" rel="noopener"
->The Hong Kong Polytechnic University&lt;/a> for my B.S. degree.&lt;/p>
-&lt;p>My one page resume: &lt;a class="link" href="https://raw.githack.com/wyq977/resume/master/resume.pdf" target="_blank" rel="noopener"
+&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>About</title><link>https://wyq977.github.io/about/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><guid>https://wyq977.github.io/about/</guid><description>&lt;p>Currently, I am pursuing a Master of Science in &lt;a class="link" href="https://cbb.ethz.ch" target="_blank" rel="noopener"
+>Computational Biology and
+Bioinformatics&lt;/a> at &lt;a class="link" href="https://ethz.ch" target="_blank" rel="noopener"
+>ETH Zürich&lt;/a>. Previously, I completed a Bachelor of
+Science degree in &lt;a class="link" href="https://www.polyu.edu.hk/abct/en/undergraduate_studies/admission/bcs_abb/index.html" target="_blank" rel="noopener"
+>Applied Biology with Biotechnology&lt;/a> from the
+&lt;a class="link" href="https://www.polyu.edu.hk/abct/en/home/index.html" target="_blank" rel="noopener"
+>ABCT&lt;/a> Department at &lt;a class="link" href="https://www.polyu.edu.hk/" target="_blank" rel="noopener"
+>The Hong Kong Polytechnic University&lt;/a>.
+Additionally, I participated in an exchange program at the &lt;a class="link" href="https://uwaterloo.ca" target="_blank" rel="noopener"
+>University of
+Waterloo&lt;/a> in 2017.&lt;/p>
+&lt;p>My one page resume:
+&lt;a class="link" href="https://raw.githack.com/wyq977/resume/master/resume.pdf" target="_blank" rel="noopener"
 >PDF&lt;/a>&lt;/p>
-&lt;p>This blog is mainly for my personal use, including personal blogs (thoughts, opinions), technical document (design doc) or just some snippets I found online.&lt;/p>
-&lt;p>&lt;em>Note&lt;/em>: Opinions expressed here are solely my own and do not express the views or opinions of my employer(s) or school(s).&lt;/p></description></item><item><title>itx Build</title><link>https://wyq977.github.io/p/itx-build/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/itx-build/</guid><description>&lt;p>See the &lt;a class="link" href="https://pcpartpicker.com/list/tqNNYg" target="_blank" rel="noopener"
+&lt;p>This blog is mainly for my personal use, including personal blogs (thoughts,
+opinions), technical document (design doc) or just some snippets I found online.&lt;/p>
+&lt;p>&lt;em>Opinions expressed here are solely my own and do not express the
+views or opinions of my employer(s) or school(s).&lt;/em>&lt;/p>
+&lt;!-- Link labels: --></description></item><item><title>itx Build</title><link>https://wyq977.github.io/p/itx-build/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/itx-build/</guid><description>&lt;p>See the &lt;a class="link" href="https://pcpartpicker.com/list/tqNNYg" target="_blank" rel="noopener"
 >PCPartPicker Part List&lt;/a> for detailed list including the history&lt;/p>
 &lt;h2 id="build-2019-03-12">Build (2019-03-12)&lt;/h2>
 &lt;table>

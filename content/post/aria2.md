@@ -1,5 +1,5 @@
 ---
-title: "Set up Aria2 and Chrome working nicely together"
+title: "Aria2 and Chrome"
 date: 2021-09-29T15:45:07+02:00
 categories:
     - Guide

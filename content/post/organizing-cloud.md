@@ -1,5 +1,5 @@
 ---
-title: "My way of Organizing Cloud"
+title: "Organizing Cloud"
 date: 2022-09-05T14:25:04+02:00
 draft: false
 categories:

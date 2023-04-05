@@ -1,5 +1,5 @@
 ---
-title: "Play iOS games on Apple Silicon Macs"
+title: "iOS Games on Apple Silicon Macs"
 date: 2022-12-07T12:03:07+02:00
 categories:
     - Guide

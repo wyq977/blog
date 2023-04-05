@@ -1,5 +1,5 @@
 ---
-title: "Taichi installation for Apple Silicon"
+title: "Taichi Installation for Apple Silicon"
 date: 2021-03-03T11:42:32+01:00
 categories:
     - Guide

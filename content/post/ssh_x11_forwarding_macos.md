@@ -1,5 +1,5 @@
 ---
-title: "x11 forwarding on macOS"
+title: "x11 Forwarding on macOS"
 date: 2020-12-31T11:42:32+01:00
 categories:
     - Guide

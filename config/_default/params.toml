@@ -5,7 +5,7 @@ rssFullContent = true
 
 # favicon
 # plain text from https://codebeautify.org/favicon-generator
-favicon = "/cb-favicon180x180.ico"
+# favicon = "/cb-favicon180x180.ico"
 
 featuredImageField = "image"    
 
@@ -19,10 +19,10 @@ lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
 emoji = "🎯"
-subtitle = "Just another blog :p"
+# subtitle = "Just another blog :p"
 
 [sidebar.avatar]
-enabled = true
+enabled = false
 local = true
 src = "img/profile.png"
 

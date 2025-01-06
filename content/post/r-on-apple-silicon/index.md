@@ -35,7 +35,9 @@ On my personal computer, R can be installed from a version compiled by homebrew 
 
 ORC provides a great post on [managing R Packages](http://wiki.orc.gmu.edu/mkdocs/How_to_manage_R_packages/) and [renv basics](http://wiki.orc.gmu.edu/mkdocs/How_to_manage_R_packages/#renv-basic-operation).
 
-### Error with R dependency when compiling is required (Apple Silicon)
+~~### Error with R dependency when compiling is required (Apple Silicon)~~
+
+_NOT NEEDED AS I SWITCHED TO gfortran FROM brew_: It seems to work fine with the latest compiler from homebrew.
 
 This is specific to Apple silicon Macs, an experimental build of GNU Fortran compiler is required otherwise errors like these would pop up during installation:
 

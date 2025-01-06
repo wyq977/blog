@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on Yongqi Wang</title><link>https://wyq977.github.io/tags/git/</link><description>Recent content in git on Yongqi Wang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 31 Dec 2020 09:41:52 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Sign with GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup&lt;/h2>
-&lt;ol>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Yongqi Wang</title><link>https://wyq977.github.io/tags/git/</link><description>Recent content in Git on Yongqi Wang</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 31 Dec 2020 09:41:52 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Sign with GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup
+&lt;/h2>&lt;ol>
 &lt;li>Backup Public key to &lt;code>public_key.asc&lt;/code>
 &lt;ul>
 &lt;li>See: &lt;a class="link" href="https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys" target="_blank" rel="noopener"
@@ -41,15 +41,15 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">default-key YOUR_ID_HERE
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="restore">Restore&lt;/h2>
-&lt;p>After install gpg-suite, simply click the &lt;code>public_key.asc&lt;/code> and
+&lt;/div>&lt;h2 id="restore">Restore
+&lt;/h2>&lt;p>After install gpg-suite, simply click the &lt;code>public_key.asc&lt;/code> and
 &lt;code>secret_key.gpg&lt;/code>, it will prompts for password for secret keys.&lt;/p>
 &lt;p>Simply copy conf files to &lt;code>~/.gnupg&lt;/code>&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
-&lt;p>Came across this signing in &lt;a class="link" href="https://github.com/alrra/dotfiles" target="_blank" rel="noopener"
+&lt;h2 id="motivation">Motivation
+&lt;/h2>&lt;p>Came across this signing in &lt;a class="link" href="https://github.com/alrra/dotfiles" target="_blank" rel="noopener"
 >dotfiles&lt;/a> and I would also want to have the verified in each commit I made in my pc so why not?&lt;/p>
-&lt;h2 id="how-to">How-to&lt;/h2>
-&lt;ol>
+&lt;h2 id="how-to">How-to
+&lt;/h2>&lt;ol>
 &lt;li>Install &lt;a class="link" href="https://gpgtools.org/" target="_blank" rel="noopener"
 >GPG Suite&lt;/a> as it allows storing in macOS keychain, without typing each time
 &lt;ul>
@@ -119,8 +119,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">program&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">/usr/local/MacGPG2/bin/gpg2&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="keep-your-email-private">Keep your email private&lt;/h2>
-&lt;p>At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already &amp;ldquo;exposed&amp;rdquo;.&lt;/p>
+&lt;/div>&lt;h2 id="keep-your-email-private">Keep your email private
+&lt;/h2>&lt;p>At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already &amp;ldquo;exposed&amp;rdquo;.&lt;/p>
 &lt;p>You can check, see a &lt;a class="link" href="https://revoir.in/wiki/posts/git_custom_email_signed_commits/" target="_blank" rel="noopener"
 >post&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">

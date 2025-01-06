@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Yongqi Wang</title><link>https://wyq977.github.io/categories/blog/</link><description>Recent content in Blog on Yongqi Wang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Sep 2022 14:25:04 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Organizing Cloud</title><link>https://wyq977.github.io/p/organizing-cloud/</link><pubDate>Mon, 05 Sep 2022 14:25:04 +0200</pubDate><guid>https://wyq977.github.io/p/organizing-cloud/</guid><description>&lt;h2 id="whats-the-difficulty-about-it">What’s the difficulty about it?&lt;/h2>
-&lt;p>I mean, you would wonder what’s the big deal about it, can’t you just use a single &lt;strong>“Cloud-thingy”&lt;/strong> for all your personal shits? Google Drive, iCloud, Microsoft or some of those smaller ones that claims have better privacy protection and other gimmicks.&lt;/p>
-&lt;h2 id="actual-setup">Actual setup&lt;/h2>
-&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Yongqi Wang</title><link>https://wyq977.github.io/categories/blog/</link><description>Recent content in Blog on Yongqi Wang</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Sep 2022 14:25:04 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Organizing Cloud</title><link>https://wyq977.github.io/p/organizing-cloud/</link><pubDate>Mon, 05 Sep 2022 14:25:04 +0200</pubDate><guid>https://wyq977.github.io/p/organizing-cloud/</guid><description>&lt;h2 id="whats-the-difficulty-about-it">What’s the difficulty about it?
+&lt;/h2>&lt;p>I mean, you would wonder what’s the big deal about it, can’t you just use a single &lt;strong>“Cloud-thingy”&lt;/strong> for all your personal shits? Google Drive, iCloud, Microsoft or some of those smaller ones that claims have better privacy protection and other gimmicks.&lt;/p>
+&lt;h2 id="actual-setup">Actual setup
+&lt;/h2>&lt;ul>
 &lt;li>e-mail: Google
 &lt;ul>
 &lt;li>PRO: linked with UZH, ETH, Hotmail, I can just use 1 fucking app for all&lt;/li>
@@ -30,8 +30,8 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="the-problem-is-choosing-between-consistency-and-compatibility">The Problem is choosing between consistency and compatibility&lt;/h2>
-&lt;p>a bit info. on the systems that I run daily:&lt;/p>
+&lt;h2 id="the-problem-is-choosing-between-consistency-and-compatibility">The Problem is choosing between consistency and compatibility
+&lt;/h2>&lt;p>a bit info. on the systems that I run daily:&lt;/p>
 &lt;ul>
 &lt;li>Apple:
 &lt;ul>
@@ -51,8 +51,8 @@
 &lt;p>Let’s assume you put all of your data and info. with Apple system. There’s something that not a lot of people encountered but it’s annoying for people who travel or live in many regions or country.&lt;/p>
 &lt;p>The Tech companies policy does not go well with one person having multiple regions/countries for obvious reasons: tax, regulations and pricing.&lt;/p>
 &lt;p>For the Apple system, my mom and dad’s accounts are in China Mainland but I daily used a US region account. If I used that in China, that’s against the ToS of Apple, Inc. and I do not want to deal with that and certainly do not have the trust of putting all my data with one service.&lt;/p>
-&lt;h2 id="the-inconvenience-of-using-different-services">The inconvenience of using different services&lt;/h2>
-&lt;p>For privacy reasons, of course one should have different account for different services and they should even use different emails/phone number for different sites or apps. But this level of privacy concerns are simply not gonna fit well with everyday life of an &lt;strong>normal&lt;/strong> person with a moderate level of concerns over his/her privacy.&lt;/p>
+&lt;h2 id="the-inconvenience-of-using-different-services">The inconvenience of using different services
+&lt;/h2>&lt;p>For privacy reasons, of course one should have different account for different services and they should even use different emails/phone number for different sites or apps. But this level of privacy concerns are simply not gonna fit well with everyday life of an &lt;strong>normal&lt;/strong> person with a moderate level of concerns over his/her privacy.&lt;/p>
 &lt;p>Surely one has to give certain info. to the service provider for the convenience or the customization of information feed. Take a look at YouTube on a fresh computer, the home page is full of things that you do not even want to click or hover your mouse over.&lt;/p>
 &lt;p>Again, this is for people that &lt;strong>DO&lt;/strong> want a bit of customization on the recommendation or feeding on platforms like Twitter, YouTube or Facebook. If one were hardcore enough to just use RSS to get his info., then there’s no need for these.&lt;/p>
 &lt;p>For example, you cannot use Google reminder on Apple’s Native apps while Microsoft’s TODO fits well on iOS native app. That’s why I choose Microsoft.&lt;/p></description></item><item><title>iMessages/FaceTime Logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
@@ -62,114 +62,114 @@
 &lt;li>email A (login, :white_check_mark: iMessages)&lt;/li>
 &lt;li>email B (public, :x: iMessages)&lt;/li>
 &lt;/ul>
-&lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)&lt;/h2>
-&lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>
-&lt;h2 id="use-imessage-on-mac">use iMessage on mac&lt;/h2>
-&lt;p>&lt;img src="https://wyq977.github.io/images/imessage_mac_setting.png"
+&lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)
+&lt;/h2>&lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>
+&lt;h2 id="use-imessage-on-mac">use iMessage on mac
+&lt;/h2>&lt;p>&lt;img src="https://wyq977.github.io/images/imessage_mac_setting.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p>
 &lt;p>despite you disable in the last setting, iMessages can still arrive while regular text won&amp;rsquo;t.&lt;/p>
 &lt;p>Right now I can be reached via the gmail, if I checked the &lt;strong>Tel. A&lt;/strong>, I can also receive iMessage text on my mac&lt;/p>
-&lt;h2 id="sync-text-message-on-other-iphone-not-tested">sync TEXT message on other iPhone NOT TESTED&lt;/h2>
-&lt;p>both iPhone needs to enable message in iCloud,&lt;/p>
+&lt;h2 id="sync-text-message-on-other-iphone-not-tested">sync TEXT message on other iPhone NOT TESTED
+&lt;/h2>&lt;p>both iPhone needs to enable message in iCloud,&lt;/p>
 &lt;p>I think you need to enable iMessage for the other phone number, not sure tho&lt;/p>
 &lt;p>update on 2022-04-28, I received a text message (07:55) from &lt;strong>Tel. B&lt;/strong> on 11:15 WTF?&lt;/p>
-&lt;h2 id="updated-2022-06-06">Updated 2022-06-06&lt;/h2>
-&lt;p>On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p></description></item><item><title>itx Build</title><link>https://wyq977.github.io/p/itx-build/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/itx-build/</guid><description>&lt;p>See the &lt;a class="link" href="https://pcpartpicker.com/list/tqNNYg" target="_blank" rel="noopener"
+&lt;h2 id="updated-2022-06-06">Updated 2022-06-06
+&lt;/h2>&lt;p>On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p></description></item><item><title>itx Build</title><link>https://wyq977.github.io/p/itx-build/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/itx-build/</guid><description>&lt;p>See the &lt;a class="link" href="https://pcpartpicker.com/list/tqNNYg" target="_blank" rel="noopener"
 >PCPartPicker Part List&lt;/a> for detailed list including the history&lt;/p>
-&lt;h2 id="build-2019-03-12">Build (2019-03-12)&lt;/h2>
-&lt;table>
+&lt;h2 id="build-2019-03-12">Build (2019-03-12)
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:left">Type&lt;/th>
-&lt;th style="text-align:left">Item&lt;/th>
-&lt;th style="text-align:left">Price(CHF)&lt;/th>
-&lt;th style="text-align:left">Price (CNY)*&lt;/th>
+&lt;th style="text-align: left">Type&lt;/th>
+&lt;th style="text-align: left">Item&lt;/th>
+&lt;th style="text-align: left">Price(CHF)&lt;/th>
+&lt;th style="text-align: left">Price (CNY)*&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>CPU&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://www.digitec.ch/en/s1/product/amd-ryzen-5-2600-am4-340ghz-unlocked-processors-8359328?supplier=406802" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>CPU&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.digitec.ch/en/s1/product/amd-ryzen-5-2600-am4-340ghz-unlocked-processors-8359328?supplier=406802" target="_blank" rel="noopener"
 >AMD Ryzen 5 2600 3.4 GHz 6-Core Processor&lt;/a>&lt;/td>
-&lt;td style="text-align:left">187&lt;/td>
-&lt;td style="text-align:left">1243.55&lt;/td>
+&lt;td style="text-align: left">187&lt;/td>
+&lt;td style="text-align: left">1243.55&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>CPU Cooler&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://pcpartpicker.com/product/VHtWGX/noctua-nh-l9x65-se-am4-cpu-cooler-nh-l9x65-se-am4" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>CPU Cooler&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://pcpartpicker.com/product/VHtWGX/noctua-nh-l9x65-se-am4-cpu-cooler-nh-l9x65-se-am4" target="_blank" rel="noopener"
 >Noctua NH-L9x65 SE-AM4 CPU Cooler&lt;/a>&lt;/td>
-&lt;td style="text-align:left">59&lt;/td>
-&lt;td style="text-align:left">392.35&lt;/td>
+&lt;td style="text-align: left">59&lt;/td>
+&lt;td style="text-align: left">392.35&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Motherboard&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://pcpartpicker.com/product/gBWfrH/msi-b450i-gaming-plus-ac-mini-itx-am4-motherboard-b450i-gaming-plus-ac" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>Motherboard&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://pcpartpicker.com/product/gBWfrH/msi-b450i-gaming-plus-ac-mini-itx-am4-motherboard-b450i-gaming-plus-ac" target="_blank" rel="noopener"
 >MSI B450I GAMING PLUS AC Mini ITX AM4 Motherboard&lt;/a>&lt;/td>
-&lt;td style="text-align:left">131&lt;/td>
-&lt;td style="text-align:left">871.15&lt;/td>
+&lt;td style="text-align: left">131&lt;/td>
+&lt;td style="text-align: left">871.15&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Memory&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://pcpartpicker.com/product/6ntWGX/corsair-vengeance-lpx-16gb-2-x-8gb-ddr4-3000-memory-cmk16gx4m2b3000c15w" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>Memory&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://pcpartpicker.com/product/6ntWGX/corsair-vengeance-lpx-16gb-2-x-8gb-ddr4-3000-memory-cmk16gx4m2b3000c15w" target="_blank" rel="noopener"
 >Corsair Vengeance LPX 16 GB (2 x 8 GB) DDR4-3000 CL15 Memory&lt;/a>&lt;/td>
-&lt;td style="text-align:left">130&lt;/td>
-&lt;td style="text-align:left">864.5&lt;/td>
+&lt;td style="text-align: left">130&lt;/td>
+&lt;td style="text-align: left">864.5&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Storage&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://pcpartpicker.com/product/Zxw7YJ/samsung-970-evo-plus-1-tb-m2-2280-nvme-solid-state-drive-mz-v7s1t0bam" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>Storage&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://pcpartpicker.com/product/Zxw7YJ/samsung-970-evo-plus-1-tb-m2-2280-nvme-solid-state-drive-mz-v7s1t0bam" target="_blank" rel="noopener"
 >Samsung 970 Evo Plus 1 TB M.2-2280 NVME Solid State Drive&lt;/a>&lt;/td>
-&lt;td style="text-align:left">238.35&lt;/td>
-&lt;td style="text-align:left">1585.0275&lt;/td>
+&lt;td style="text-align: left">238.35&lt;/td>
+&lt;td style="text-align: left">1585.0275&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Video Card&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://pcpartpicker.com/product/TTfmP6/msi-radeon-rx-580-8gb-armor-oc-video-card-rx-580-armor-8g-oc" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>Video Card&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://pcpartpicker.com/product/TTfmP6/msi-radeon-rx-580-8gb-armor-oc-video-card-rx-580-armor-8g-oc" target="_blank" rel="noopener"
 >MSI Radeon RX 580 8 GB ARMOR OC Video Card&lt;/a>&lt;/td>
-&lt;td style="text-align:left">216.96&lt;/td>
-&lt;td style="text-align:left">1442.784&lt;/td>
+&lt;td style="text-align: left">216.96&lt;/td>
+&lt;td style="text-align: left">1442.784&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Case&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://louqe.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>Case&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://louqe.com/" target="_blank" rel="noopener"
 >Louqe GHOST S1 - Pangea&lt;/a>&lt;/td>
-&lt;td style="text-align:left">297.85&lt;/td>
-&lt;td style="text-align:left">1980.7025&lt;/td>
+&lt;td style="text-align: left">297.85&lt;/td>
+&lt;td style="text-align: left">1980.7025&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Power Supply&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://www.digitec.ch/en/s1/product/corsair-sf600-600w-power-supply-computer-5802960?ipsrId=153268&amp;amp;shid=177147" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>Power Supply&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.digitec.ch/en/s1/product/corsair-sf600-600w-power-supply-computer-5802960?ipsrId=153268&amp;amp;shid=177147" target="_blank" rel="noopener"
 >Corsair SF 600 W 80+ Gold Certified Fully Modular SFX Power Supply&lt;/a>&lt;/td>
-&lt;td style="text-align:left">90.75&lt;/td>
-&lt;td style="text-align:left">603.4875&lt;/td>
+&lt;td style="text-align: left">90.75&lt;/td>
+&lt;td style="text-align: left">603.4875&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Monitor&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="https://pcpartpicker.com/product/T8dFf7/dell-monitor-u2515h" target="_blank" rel="noopener"
+&lt;td style="text-align: left">&lt;strong>Monitor&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://pcpartpicker.com/product/T8dFf7/dell-monitor-u2515h" target="_blank" rel="noopener"
 >Dell U2515H 25.0&amp;quot; 2560x1440 60 Hz Monitor&lt;/a>&lt;/td>
-&lt;td style="text-align:left">N/A&lt;/td>
-&lt;td style="text-align:left">N/A&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
+&lt;td style="text-align: left">N/A&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Monitor&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;a class="link" href="hhttps://www.digitec.ch/en/s1/product/dell-u2715h-27-2560-x-1440-pixels-monitors-3496235" >Dell U2715H 27.0&amp;quot; 2560x1440 60 Hz Monitor&lt;/a>&lt;/td>
-&lt;td style="text-align:left">399&lt;/td>
-&lt;td style="text-align:left">2653.35&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Monitor&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="hhttps://www.digitec.ch/en/s1/product/dell-u2715h-27-2560-x-1440-pixels-monitors-3496235" >Dell U2715H 27.0&amp;quot; 2560x1440 60 Hz Monitor&lt;/a>&lt;/td>
+&lt;td style="text-align: left">399&lt;/td>
+&lt;td style="text-align: left">2653.35&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;strong>Total&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;em>CNY are calculated at 2019-03-12&lt;/em>&lt;/td>
-&lt;td style="text-align:left">&lt;strong>1749.91&lt;/strong>&lt;/td>
-&lt;td style="text-align:left">&lt;strong>11636.9015&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>Total&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;em>CNY are calculated at 2019-03-12&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>1749.91&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>11636.9015&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;p>&lt;sub> Generated by &lt;a class="link" href="https://pcpartpicker.com" target="_blank" rel="noopener"
 >PCPartPicker&lt;/a> 2020-12-18 12:49 EST-0500 &lt;/sub>&lt;/p>
-&lt;h2 id="update-sell">Update (sell)&lt;/h2>
-&lt;ul>
+&lt;h2 id="update-sell">Update (sell)
+&lt;/h2>&lt;ul>
 &lt;li>2022-01-12: :white_check_mark: &lt;strong>68&lt;/strong> CHF for
 PC Case Phanteks Eclipse P400A ATX Midi Tower on &lt;strong>tutti&lt;/strong>&lt;/li>
 &lt;li>2021-03-18: :white_check_mark: &lt;strong>88&lt;/strong> CHF for
@@ -184,8 +184,8 @@ MSI RX580 8gb on &lt;strong>Ricardo&lt;/strong>&lt;/li>
 &lt;li>2020-09-25: :white_check_mark: &lt;strong>210&lt;/strong> CHF for Louqe S1 + custom PSU cable on &lt;strong>tutti&lt;/strong>&lt;/li>
 &lt;li>2020-09-01: :white_check_mark: &lt;strong>200&lt;/strong> CHF for MSI B450I Gaming Plus AC + Noctua NH-L9x65 SE-AM4 + AMD Ryzen 5 2600 on &lt;strong>tutti&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;h2 id="update-buy">Update (buy)&lt;/h2>
-&lt;ul>
+&lt;h2 id="update-buy">Update (buy)
+&lt;/h2>&lt;ul>
 &lt;li>2020-09-26: :x: &lt;strong>24.8&lt;/strong> CHF for Microsoft 600 Englishg on &lt;a class="link" href="https://www.digitec.ch/en/s1/product/microsoft-600-eng-int-cable-keyboards-11812564" target="_blank" rel="noopener"
 >&lt;strong>digitec&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>2020-10-18: :x: &lt;strong>68&lt;/strong> CHF for MX Master 3 on &lt;a class="link" href="https://www.ricardo.ch/de/a/mx-master-3-ungeoeffnet-1139803814/" target="_blank" rel="noopener"

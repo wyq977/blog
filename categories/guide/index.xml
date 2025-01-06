@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Yongqi Wang</title><link>https://wyq977.github.io/categories/guide/</link><description>Recent content in Guide on Yongqi Wang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 03 Feb 2023 10:00:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/p/macos-chinese-font/</guid><description>&lt;p>I came across a issue when opening a &lt;code>doc&lt;/code> file in macOS (12.5.1).&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Yongqi Wang</title><link>https://wyq977.github.io/categories/guide/</link><description>Recent content in Guide on Yongqi Wang</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 03 Feb 2023 10:00:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/p/macos-chinese-font/</guid><description>&lt;p>I came across a issue when opening a &lt;code>doc&lt;/code> file in macOS (12.5.1).&lt;/p>
 &lt;p>Pages keeps reming me that fonts are missing despite I have already installed
 them from file.&lt;/p>
 &lt;p>It turns out that the Family name in font is not Chinese, which somehow makes
@@ -6,7 +6,7 @@ the Pages.app can not recognize the fonts.&lt;/p>
 &lt;p>&lt;img src="https://wyq977.github.io/p/macos-chinese-font/font_family_name_english.png"
 width="266"
 height="160"
-srcset="https://wyq977.github.io/p/macos-chinese-font/font_family_name_english_huc8333c46c97a0d406d45b6ec50777f88_12727_480x0_resize_box_3.png 480w, https://wyq977.github.io/p/macos-chinese-font/font_family_name_english_huc8333c46c97a0d406d45b6ec50777f88_12727_1024x0_resize_box_3.png 1024w"
+srcset="https://wyq977.github.io/p/macos-chinese-font/font_family_name_english_hu1241194553974065351.png 480w, https://wyq977.github.io/p/macos-chinese-font/font_family_name_english_hu8201594099298056450.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
@@ -15,7 +15,7 @@ data-flex-basis="399px"
 &lt;p>&lt;img src="https://wyq977.github.io/p/macos-chinese-font/font_family_name_chinese.png"
 width="251"
 height="85"
-srcset="https://wyq977.github.io/p/macos-chinese-font/font_family_name_chinese_hu41bcd6a10ec68caf9ce8ed907464b826_9816_480x0_resize_box_3.png 480w, https://wyq977.github.io/p/macos-chinese-font/font_family_name_chinese_hu41bcd6a10ec68caf9ce8ed907464b826_9816_1024x0_resize_box_3.png 1024w"
+srcset="https://wyq977.github.io/p/macos-chinese-font/font_family_name_chinese_hu15342987765986447194.png 480w, https://wyq977.github.io/p/macos-chinese-font/font_family_name_chinese_hu8205025950505577001.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="295"
@@ -28,7 +28,7 @@ from SimSun to 宋体.&lt;/p>
 &lt;p>&lt;img src="https://wyq977.github.io/p/macos-chinese-font/missing_font_chinese.png"
 width="468"
 height="308"
-srcset="https://wyq977.github.io/p/macos-chinese-font/missing_font_chinese_hu946b016b15fe15bca577bbc1a46d9341_45530_480x0_resize_box_3.png 480w, https://wyq977.github.io/p/macos-chinese-font/missing_font_chinese_hu946b016b15fe15bca577bbc1a46d9341_45530_1024x0_resize_box_3.png 1024w"
+srcset="https://wyq977.github.io/p/macos-chinese-font/missing_font_chinese_hu7148406851927049986.png 480w, https://wyq977.github.io/p/macos-chinese-font/missing_font_chinese_hu16657536726755201584.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="151"
@@ -53,8 +53,8 @@ data-flex-basis="364px"
 &lt;p>&lt;a class="link" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/office-365-word/2808fe89-04ea-472a-a656-62897916c5eb" target="_blank" rel="noopener"
 >office 365 word 所有中文字体变成英文。 - Microsoft Community&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/office%E4%B8%AD%E5%AD%97%E4%BD%93%E5%90%8D/87b26b57-8913-460c-9194-41f2b8090078" target="_blank" rel="noopener"
->office中，字体名称全部变成了英文，例如“宋体”变成了“SimSun&amp;amp;# - Microsoft Community&lt;/a>&lt;/p></description></item><item><title>iOS Games on Apple Silicon Macs</title><link>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</link><pubDate>Wed, 07 Dec 2022 12:03:07 +0200</pubDate><guid>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</guid><description>&lt;h2 id="genshin-impact-yuanshen">Genshin Impact (Yuanshen)&lt;/h2>
-&lt;p>GenshinImpact with PlayCover on M1&lt;/p>
+>office中，字体名称全部变成了英文，例如“宋体”变成了“SimSun&amp;amp;# - Microsoft Community&lt;/a>&lt;/p></description></item><item><title>iOS Games on Apple Silicon Macs</title><link>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</link><pubDate>Wed, 07 Dec 2022 12:03:07 +0200</pubDate><guid>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</guid><description>&lt;h2 id="genshin-impact-yuanshen">Genshin Impact (Yuanshen)
+&lt;/h2>&lt;p>GenshinImpact with PlayCover on M1&lt;/p>
 &lt;p>Install PlayCover: &lt;a class="link" href="https://playcover.io/" target="_blank" rel="noopener"
 >https://playcover.io/&lt;/a>&lt;/p>
 &lt;p>Keymap link: &lt;a class="link" href="https://github.com/PlayCover/keymaps/tree/master/keymapping/com.miHoYo.GenshinImpact" target="_blank" rel="noopener"
@@ -80,10 +80,10 @@ data-flex-basis="364px"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-xml" data-lang="xml">&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;string&amp;gt;&lt;/span>com.miHoYo.Yuanshen&lt;span class="nt">&amp;lt;/string&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>macOS CRON</title><link>https://wyq977.github.io/p/macos-cron/</link><pubDate>Sun, 10 Jul 2022 23:05:21 +0200</pubDate><guid>https://wyq977.github.io/p/macos-cron/</guid><description>&lt;h2 id="crontab-on-macos">CRONTAB on macOS&lt;/h2>
-&lt;p>It&amp;rsquo;s annoying on macOS that each editing would prompt the pop up for authorization of scheduled task.&lt;/p>
-&lt;h2 id="plist-what-is-it">.plist What is it?&lt;/h2>
-&lt;p>To load/unload a plist&lt;/p>
+&lt;/div></description></item><item><title>macOS CRON</title><link>https://wyq977.github.io/p/macos-cron/</link><pubDate>Sun, 10 Jul 2022 23:05:21 +0200</pubDate><guid>https://wyq977.github.io/p/macos-cron/</guid><description>&lt;h2 id="crontab-on-macos">CRONTAB on macOS
+&lt;/h2>&lt;p>It&amp;rsquo;s annoying on macOS that each editing would prompt the pop up for authorization of scheduled task.&lt;/p>
+&lt;h2 id="plist-what-is-it">.plist What is it?
+&lt;/h2>&lt;p>To load/unload a plist&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -161,8 +161,8 @@ loading="lazy"
 >Macos – How to get a script to run every day on Mac OS X – Unix Server Solutions&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://git.herrbischoff.com/awesome-macos-command-line/tree/launchagents.md" target="_blank" rel="noopener"
 >launchagents.md - awesome-macos-command-line - Use your macOS terminal shell to do awesome things.&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon">Trouble with VPN (Loon)&lt;/h2>
-&lt;p>Though the filter rule support local and self-defined resource parser, GeoIP resolver, etc.
+&lt;/ul></description></item><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon">Trouble with VPN (Loon)
+&lt;/h2>&lt;p>Though the filter rule support local and self-defined resource parser, GeoIP resolver, etc.
 I still came across many times where I had trouble with Loon enabled.&lt;/p>
 &lt;p>This is one of easiest case involved, I would like certain app to follow certain policy,
 such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (added)&lt;/code>.&lt;/p>
@@ -180,13 +180,13 @@ such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (
 &lt;/div>&lt;p>Examples can be found here: &lt;a class="link" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list" target="_blank" rel="noopener"
 >https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list&lt;/a>&lt;/p>
 &lt;h2 id="how-to-find-bundle-id-of-an-ios-app--step-by-step---mr-virk-mediahttpsmrvirkcomhow-to-find-app-bundle-id-ioshtml">&lt;a class="link" href="https://mrvirk.com/how-to-find-app-bundle-id-ios.html" target="_blank" rel="noopener"
->How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a>&lt;/h2>
-&lt;p>Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
+>How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a>
+&lt;/h2>&lt;p>Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
 >https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a>&lt;/p>
-&lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>VSCode Latex Mac</title><link>https://wyq977.github.io/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos">Using Latex on macOS&lt;/h2>
-&lt;p>Download MacTex (~3/4 GB with most packages included), via homebrew, support for Apple Silicon&lt;/p>
-&lt;h2 id="guide">Guide&lt;/h2>
-&lt;p>I followed mostly &lt;a class="link" href="http://homepages.rpi.edu/home/36/wangy52/public_html/PersonalWebsite/build/html/Misc/Mac/VSCode/VSCode-LaTeX.html" target="_blank" rel="noopener"
+&lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>VSCode Latex Mac</title><link>https://wyq977.github.io/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos">Using Latex on macOS
+&lt;/h2>&lt;p>Download MacTex (~3/4 GB with most packages included), via homebrew, support for Apple Silicon&lt;/p>
+&lt;h2 id="guide">Guide
+&lt;/h2>&lt;p>I followed mostly &lt;a class="link" href="http://homepages.rpi.edu/home/36/wangy52/public_html/PersonalWebsite/build/html/Misc/Mac/VSCode/VSCode-LaTeX.html" target="_blank" rel="noopener"
 >VSCODE CONFIG LATEX (MAC)&lt;/a>, which is quite comprehensive and easy to follow.&lt;/p>
 &lt;p>The only adjustment I need is the directory for skim location &lt;code>/opt/homebrew/bin/&lt;/code> if installed via homebrew.&lt;/p>
 &lt;p>Also don&amp;rsquo;t delete &lt;code>syntex.gz&lt;/code> file as it&amp;rsquo;s required for bi-directional jumping between VSCode and Skim.&lt;/p>
@@ -273,8 +273,8 @@ such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (
 &lt;/div></description></item><item><title>Wechat AntiDuck</title><link>https://wyq977.github.io/p/wechat-antiduck/</link><pubDate>Fri, 13 May 2022 13:30:58 +0200</pubDate><guid>https://wyq977.github.io/p/wechat-antiduck/</guid><description>&lt;p>There&amp;rsquo;s this annoying feature on macOS that would lower the media volume when you are on a call or Facetime which appears in Wechat, Facetime or Skype. Basically, you can&amp;rsquo;t listen to YT when you are on a call.&lt;/p>
 &lt;p>To avoid that, &lt;a class="link" href="https://github.com/icpz/WeChat-AntiDuck" target="_blank" rel="noopener"
 >Wechat-AntiDuck&lt;/a> comes to help.&lt;/p>
-&lt;h2 id="fix-no-permission-to-open">Fix &amp;ldquo;No permission to open&amp;rdquo;&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;h2 id="fix-no-permission-to-open">Fix &amp;ldquo;No permission to open&amp;rdquo;
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -303,24 +303,25 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;blockquote>
 &lt;p>For more details, see &lt;a class="link" href="https://github.com/Homebrew/brew/issues/9082" target="_blank" rel="noopener"
 >here&lt;/a>.&lt;/p>
-&lt;/blockquote></description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why">Why&lt;/h2>
-&lt;p>Version control on R has always been a hassle for me personally since most of the bioinformatics tools or workflows relies too heavily on RMD or Notebook-like script due to its high flexibility. Despite its convenience in parameters tuning and data manipulation, it&amp;rsquo;s much more difficult than sharing the list of python packages in other workflows.&lt;/p>
-&lt;h2 id="existing-solution">Existing solution&lt;/h2>
-&lt;p>Someone used Anaconda environment file but I personally find that a bit too clumsy. I never tried it but I assume if one put &lt;code>R==4.1/4.2&lt;/code> in &lt;code>env.yml&lt;/code>, conda will try to download and install a different version inside each env directory.&lt;/p>
+&lt;/blockquote></description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why">Why
+&lt;/h2>&lt;p>Version control on R has always been a hassle for me personally since most of the bioinformatics tools or workflows relies too heavily on RMD or Notebook-like script due to its high flexibility. Despite its convenience in parameters tuning and data manipulation, it&amp;rsquo;s much more difficult than sharing the list of python packages in other workflows.&lt;/p>
+&lt;h2 id="existing-solution">Existing solution
+&lt;/h2>&lt;p>Someone used Anaconda environment file but I personally find that a bit too clumsy. I never tried it but I assume if one put &lt;code>R==4.1/4.2&lt;/code> in &lt;code>env.yml&lt;/code>, conda will try to download and install a different version inside each env directory.&lt;/p>
 &lt;p>However, this approach might be a lot more useful if a workflow involves a lot of cli tools such as &lt;code>bwa&lt;/code> of different version or self-compiled one. Keeping everything isolated definitely make things easier.&lt;/p>
 &lt;p>stackoverflow discussion: &lt;a class="link" href="https://stackoverflow.com/questions/62187736/creating-an-r-environment-using-anaconda" target="_blank" rel="noopener"
 >https://stackoverflow.com/questions/62187736/creating-an-r-environment-using-anaconda&lt;/a>&lt;/p>
-&lt;h2 id="r-specific-approach">R-specific approach&lt;/h2>
-&lt;p>As shown in &lt;a class="link" href="https://mp.weixin.qq.com/s/BsEm76Eq9_tbw3myobD_SA?" target="_blank" rel="noopener"
+&lt;h2 id="r-specific-approach">R-specific approach
+&lt;/h2>&lt;p>As shown in &lt;a class="link" href="https://mp.weixin.qq.com/s/BsEm76Eq9_tbw3myobD_SA?" target="_blank" rel="noopener"
 >this post&lt;/a>, RStudio became so successful to a point that it&amp;rsquo;s synonymous with R even though it can run in IDE or vim.&lt;/p>
 &lt;p>Previously, what I experienced and interacted with R is mostly through RStudio but it might be better to explore more options to gain a better understanding of the packages installation, distribution and version control which is extremely important in real-world application where legacy packages are involved.&lt;/p>
-&lt;h3 id="where-is-r-and-its-packages">Where is R and its packages&lt;/h3>
-&lt;p>On my personal computer, R can be installed from a version compiled by homebrew (&lt;code>brew install r&lt;/code>) or r-project one (&lt;code>brew install --cask r&lt;/code>). Later is preferred but I couldn&amp;rsquo;t find the references now.&lt;/p>
+&lt;h3 id="where-is-r-and-its-packages">Where is R and its packages
+&lt;/h3>&lt;p>On my personal computer, R can be installed from a version compiled by homebrew (&lt;code>brew install r&lt;/code>) or r-project one (&lt;code>brew install --cask r&lt;/code>). Later is preferred but I couldn&amp;rsquo;t find the references now.&lt;/p>
 &lt;p>&lt;code>renv&lt;/code> or &lt;code>Packrat&lt;/code> are manager that are trying to mimic the functionality of &lt;code>python virtual enviroments&lt;/code> without user-specific custom directories for each different versions of R packages, which requires too many user-defined path and custom env.&lt;/p>
 &lt;p>ORC provides a great post on &lt;a class="link" href="http://wiki.orc.gmu.edu/mkdocs/How_to_manage_R_packages/" target="_blank" rel="noopener"
 >managing R Packages&lt;/a> and &lt;a class="link" href="http://wiki.orc.gmu.edu/mkdocs/How_to_manage_R_packages/#renv-basic-operation" target="_blank" rel="noopener"
 >renv basics&lt;/a>.&lt;/p>
-&lt;h3 id="error-with-r-dependency-when-compiling-is-required-apple-silicon">Error with R dependency when compiling is required (Apple Silicon)&lt;/h3>
+&lt;p>&lt;del>### Error with R dependency when compiling is required (Apple Silicon)&lt;/del>&lt;/p>
+&lt;p>&lt;em>NOT NEEDED AS I SWITCHED TO gfortran FROM brew&lt;/em>: It seems to work fine with the latest compiler from homebrew.&lt;/p>
 &lt;p>This is specific to Apple silicon Macs, an experimental build of GNU Fortran compiler is required otherwise errors like these would pop up during installation:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -356,8 +357,8 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;/div>
 &lt;/div>&lt;p>Details here: &lt;a class="link" href="https://mac.r-project.org/tools/" target="_blank" rel="noopener"
 >https://mac.r-project.org/tools/&lt;/a>&lt;/p>
-&lt;h2 id="compilers-openmp-etc">Compilers, openMP, etc&lt;/h2>
-&lt;p>Following the guide: &lt;a class="link" href="https://pat-s.me/transitioning-from-x86-to-arm64-on-macos-experiences-of-an-r-user/#virtual-machines--parallels" target="_blank" rel="noopener"
+&lt;h2 id="compilers-openmp-etc">Compilers, openMP, etc
+&lt;/h2>&lt;p>Following the guide: &lt;a class="link" href="https://pat-s.me/transitioning-from-x86-to-arm64-on-macos-experiences-of-an-r-user/#virtual-machines--parallels" target="_blank" rel="noopener"
 >https://pat-s.me/transitioning-from-x86-to-arm64-on-macos-experiences-of-an-r-user/#virtual-machines--parallels&lt;/a>&lt;/p>
 &lt;p>&lt;code>gcc, llvm, openmp&lt;/code> needs to be installed.&lt;/p>
 &lt;p>To my surprise, the &lt;code>~/.R/Makevars&lt;/code> is not present after installation.&lt;/p>
@@ -392,8 +393,8 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">CPPFLAGS&lt;/span> &lt;span class="o">+=&lt;/span> -Xclang -fopenmp
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="speeding-up-by-replacing-the-blas-lib">Speeding up by replacing the BLAS lib&lt;/h3>
-&lt;p>&lt;a class="link" href="https://www.mail-archive.com/r-sig-mac@r-project.org/msg06199.html" target="_blank" rel="noopener"
+&lt;/div>&lt;h3 id="speeding-up-by-replacing-the-blas-lib">Speeding up by replacing the BLAS lib
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.mail-archive.com/r-sig-mac@r-project.org/msg06199.html" target="_blank" rel="noopener"
 >Here&lt;/a>&amp;rsquo;s a post about matrix manipulation by new BLAS lib:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -419,7 +420,7 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;p>&lt;img src="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot.jpg"
 width="2100"
 height="2100"
-srcset="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu6dcf285f8f2a62566f46ddfc4f7aa1a3_279022_480x0_resize_q75_box.jpg 480w, https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu6dcf285f8f2a62566f46ddfc4f7aa1a3_279022_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu1593130052132115628.jpg 480w, https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu16271734029135923468.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="100"
@@ -429,11 +430,11 @@ data-flex-basis="240px"
 &lt;ul>
 &lt;li>&lt;a class="link" href="benchmark_vel_BLAS.csv" >&lt;code>libRblas.vecLib.dylib&lt;/code>&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="benchmark_default_BLAS.csv" >&lt;code>libRblas.0.dylib&lt;/code>&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Conda Homebrew</title><link>https://wyq977.github.io/p/conda-homebrew/</link><pubDate>Sun, 03 Apr 2022 09:00:36 +0200</pubDate><guid>https://wyq977.github.io/p/conda-homebrew/</guid><description>&lt;h2 id="problems">Problems&lt;/h2>
-&lt;p>Miniforge installed via homebrew will remove all the env upon update/uninstall, &lt;a class="link" href="https://github.com/conda-forge/miniforge/issues/159" target="_blank" rel="noopener"
+&lt;/ul></description></item><item><title>Conda Homebrew</title><link>https://wyq977.github.io/p/conda-homebrew/</link><pubDate>Sun, 03 Apr 2022 09:00:36 +0200</pubDate><guid>https://wyq977.github.io/p/conda-homebrew/</guid><description>&lt;h2 id="problems">Problems
+&lt;/h2>&lt;p>Miniforge installed via homebrew will remove all the env upon update/uninstall, &lt;a class="link" href="https://github.com/conda-forge/miniforge/issues/159" target="_blank" rel="noopener"
 >discussion&lt;/a>.&lt;/p>
-&lt;h2 id="solution">Solution&lt;/h2>
-&lt;p>&lt;a class="link" href="https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#specify-environment-directories-envs-dirs" target="_blank" rel="noopener"
+&lt;h2 id="solution">Solution
+&lt;/h2>&lt;p>&lt;a class="link" href="https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#specify-environment-directories-envs-dirs" target="_blank" rel="noopener"
 >Specify conda env in &lt;code>condarc&lt;/code>&lt;/a>&lt;/p>
 &lt;p>condarc example: &lt;a class="link" href="https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/sample-condarc.html" target="_blank" rel="noopener"
 >https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/sample-condarc.html&lt;/a>&lt;/p>
@@ -457,8 +458,8 @@ data-flex-basis="240px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - ~/.conda-envs
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Docker M1 Mac</title><link>https://wyq977.github.io/p/docker-m1-mac/</link><pubDate>Wed, 05 Jan 2022 10:48:47 +0100</pubDate><guid>https://wyq977.github.io/p/docker-m1-mac/</guid><description>&lt;h1 id="yet-again-docker-macos">Yet Again, Docker macOS&lt;/h1>
-&lt;p>After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.&lt;/p>
+&lt;/div></description></item><item><title>Docker M1 Mac</title><link>https://wyq977.github.io/p/docker-m1-mac/</link><pubDate>Wed, 05 Jan 2022 10:48:47 +0100</pubDate><guid>https://wyq977.github.io/p/docker-m1-mac/</guid><description>&lt;h1 id="yet-again-docker-macos">Yet Again, Docker macOS
+&lt;/h1>&lt;p>After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.&lt;/p>
 &lt;p>I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and I also checked the box for using the new release virtualization framework in Experimental feature. However, the ram usage would still be going thr the limits and lagging, breakdown is also often seen. Eating roughly 4GB of RAM and I have seen errors where it said it used 30G but probably swap usage along with crashes&amp;hellip;&lt;/p>
 &lt;p>As under the hook, the Docker for Mac still basically created a Linux VM, kind of like podman. The underlying performance issues might be the way the VM is regulated/managed. So, why not just create a VM and use docker cli or simply ssh to the linux instance?&lt;/p>
 &lt;p>There are a bit headaches and issues with Docker on macOS.&lt;/p>
@@ -467,19 +468,19 @@ data-flex-basis="240px"
 &lt;li>Volume mounting.&lt;/li>
 &lt;/ol>
 &lt;p>Although creating your own VM will also lead to a plate of problmes such as network device/video device/volume storage mounting. But those issues are also persistant on macOS app. After all its not linux.&lt;/p>
-&lt;h2 id="perfomance-issues">Perfomance issues&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.lifeintech.com/2021/11/03/docker-performance-on-m1/" target="_blank" rel="noopener"
+&lt;h2 id="perfomance-issues">Perfomance issues
+&lt;/h2>&lt;p>&lt;a class="link" href="https://www.lifeintech.com/2021/11/03/docker-performance-on-m1/" target="_blank" rel="noopener"
 >The article&lt;/a> caught my eyes as it compares docker build time on Intel/Apple Silicon Macs with different hyperviser.&lt;/p>
 &lt;p>&lt;img src="https://www.lifeintech.com/images/posts/dockerperformanceonm101.jpg"
 loading="lazy"
 alt="Test Results"
 >&lt;/p>
 &lt;p>The Table said it all, whatever it is, the Docker for Mac makes it hard for macOS to deliver the performance it is capable of. And that last line is the one I am interested.&lt;/p>
-&lt;h2 id="devicevolume-mounting-issue">device/volume mounting issue&lt;/h2>
-&lt;p>For me, personally, theres a need to use the volume in Docker and that volume is not one M1&amp;rsquo;s SSD but on another network device mounted on macOS via SMB/CIFS.&lt;/p>
+&lt;h2 id="devicevolume-mounting-issue">device/volume mounting issue
+&lt;/h2>&lt;p>For me, personally, theres a need to use the volume in Docker and that volume is not one M1&amp;rsquo;s SSD but on another network device mounted on macOS via SMB/CIFS.&lt;/p>
 &lt;p>It was slow on macOS itself and it will probably take a bigger blow with all that connection protocol added on top of that with introducing VM. So I am curious about how it went going forward.&lt;/p>
-&lt;h2 id="actual-set-up">Actual set up&lt;/h2>
-&lt;p>&lt;a class="link" href="https://www.codeluge.com/post/setting-up-docker-on-macos-m1-arm64-to-use-debian-10.4-docker-engine/#configuring-mac-os-host-docker-cli-to-use-debians-docker-engine" target="_blank" rel="noopener"
+&lt;h2 id="actual-set-up">Actual set up
+&lt;/h2>&lt;p>&lt;a class="link" href="https://www.codeluge.com/post/setting-up-docker-on-macos-m1-arm64-to-use-debian-10.4-docker-engine/#configuring-mac-os-host-docker-cli-to-use-debians-docker-engine" target="_blank" rel="noopener"
 >A detailed post on setting up UTM VM with Docker on macOS&lt;/a>&lt;/p>
 &lt;p>First, install &lt;a class="link" href="https://mac.getutm.app/" target="_blank" rel="noopener"
 >UTM&lt;/a>, a free and open source VM tool built only for macOS.&lt;/p>
@@ -593,8 +594,8 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">docker -v
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="config-macos-docker-cli-to-use-vms-docker-enginer">Config macos Docker CLI to use VM&amp;rsquo;s Docker Enginer&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h2 id="config-macos-docker-cli-to-use-vms-docker-enginer">Config macos Docker CLI to use VM&amp;rsquo;s Docker Enginer
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -602,10 +603,10 @@ alt="Test Results"
 &lt;/span>&lt;span class="lnt">4
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># this should returns nothing/empty output
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssh debian@127.0.0.1 -p 22022 -N -L/tmp/docker-on-debian.sock:/var/run/docker.sock ssh://debian@127.0.0.1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># set up DOCKER_HOST location
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">export DOCKER_HOST=unix:///tmp/docker-on-debian.sock
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># this should returns nothing/empty output&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">ssh&lt;/span> &lt;span class="n">debian&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="mf">127.0&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mf">0.1&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">p&lt;/span> &lt;span class="mi">22022&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">N&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">L&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">tmp&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">docker&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">on&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">debian&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sock&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">run&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">docker&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sock&lt;/span> &lt;span class="n">ssh&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">debian&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="mf">127.0&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mf">0.1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># set up DOCKER_HOST location&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">export&lt;/span> &lt;span class="n">DOCKER_HOST&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">unix&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">///&lt;/span>&lt;span class="n">tmp&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">docker&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">on&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">debian&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sock&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;blockquote>
@@ -680,65 +681,65 @@ alt="Test Results"
 &lt;/span>&lt;span class="lnt">53
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$ docker system info
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Client:
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Context: default
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Debug Mode: false
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="o">$&lt;/span> &lt;span class="n">docker&lt;/span> &lt;span class="n">system&lt;/span> &lt;span class="n">info&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Client&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Context&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">default&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span> &lt;span class="n">Mode&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="bp">false&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Server:
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Containers: 0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Running: 0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Paused: 0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Stopped: 0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Images: 0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Server Version: 20.10.12
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Storage Driver: overlay2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Backing Filesystem: extfs
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Supports d_type: true
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Native Overlay Diff: true
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> userxattr: false
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Logging Driver: json-file
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Cgroup Driver: cgroupfs
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Cgroup Version: 1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Plugins:
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Volume: local
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Network: bridge host ipvlan macvlan null overlay
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Swarm: inactive
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Runtimes: runc io.containerd.runc.v2 io.containerd.runtime.v1.linux
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Default Runtime: runc
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Init Binary: docker-init
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> containerd version: 7b11cfaabd73bb80907dd23182b9347b4245eb5d
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> runc version: v1.0.2-0-g52b36a2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> init version: de40ad0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Security Options:
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> apparmor
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> seccomp
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Profile: default
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Kernel Version: 4.19.0-9-arm64
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Operating System: Debian GNU/Linux 10 (buster)
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> OSType: linux
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Architecture: aarch64
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> CPUs: 8
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Total Memory: 1.45GiB
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Name: debian
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ID: R5BA:KFRQ:37TY:VCYD:HPVW:NTVN:2F5L:RS4S:GLNT:CXCX:6RUJ:C6U6
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Docker Root Dir: /var/lib/docker
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Debug Mode: false
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Registry: https://index.docker.io/v1/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Labels:
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Experimental: false
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Insecure Registries:
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 127.0.0.0/8
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Live Restore Enabled: false
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Server&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Containers&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Running&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Paused&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Stopped&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Images&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Server&lt;/span> &lt;span class="n">Version&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">20.10&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mi">12&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Storage&lt;/span> &lt;span class="n">Driver&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">overlay2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Backing&lt;/span> &lt;span class="n">Filesystem&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">extfs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Supports&lt;/span> &lt;span class="n">d_type&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="bp">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Native&lt;/span> &lt;span class="n">Overlay&lt;/span> &lt;span class="n">Diff&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="bp">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">userxattr&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="bp">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Logging&lt;/span> &lt;span class="n">Driver&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">json&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">file&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Cgroup&lt;/span> &lt;span class="n">Driver&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">cgroupfs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Cgroup&lt;/span> &lt;span class="n">Version&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Plugins&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Volume&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">local&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Network&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">bridge&lt;/span> &lt;span class="n">host&lt;/span> &lt;span class="n">ipvlan&lt;/span> &lt;span class="n">macvlan&lt;/span> &lt;span class="n">null&lt;/span> &lt;span class="n">overlay&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Log&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">awslogs&lt;/span> &lt;span class="n">fluentd&lt;/span> &lt;span class="n">gcplogs&lt;/span> &lt;span class="n">gelf&lt;/span> &lt;span class="n">journald&lt;/span> &lt;span class="n">json&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">file&lt;/span> &lt;span class="n">local&lt;/span> &lt;span class="n">logentries&lt;/span> &lt;span class="n">splunk&lt;/span> &lt;span class="n">syslog&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Swarm&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">inactive&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Runtimes&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">runc&lt;/span> &lt;span class="n">io&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">containerd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">runc&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">v2&lt;/span> &lt;span class="n">io&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">containerd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">runtime&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">v1&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">linux&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Default&lt;/span> &lt;span class="n">Runtime&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">runc&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Init&lt;/span> &lt;span class="n">Binary&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">docker&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">init&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">containerd&lt;/span> &lt;span class="n">version&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">7&lt;/span>&lt;span class="n">b11cfaabd73bb80907dd23182b9347b4245eb5d&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">runc&lt;/span> &lt;span class="n">version&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">v1&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mf">0.2&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">g52b36a2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">init&lt;/span> &lt;span class="n">version&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">de40ad0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Security&lt;/span> &lt;span class="n">Options&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">apparmor&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">seccomp&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Profile&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">default&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Kernel&lt;/span> &lt;span class="n">Version&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">4.19&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">9&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">arm64&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Operating&lt;/span> &lt;span class="n">System&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">Debian&lt;/span> &lt;span class="n">GNU&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">Linux&lt;/span> &lt;span class="mi">10&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">buster&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">OSType&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">linux&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Architecture&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">aarch64&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">CPUs&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">8&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Total&lt;/span> &lt;span class="n">Memory&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">1.45&lt;/span>&lt;span class="n">GiB&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Name&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">debian&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">ID&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">R5BA&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">KFRQ&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">37&lt;/span>&lt;span class="n">TY&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">VCYD&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">HPVW&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">NTVN&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="n">F5L&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">RS4S&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">GLNT&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">CXCX&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">6&lt;/span>&lt;span class="n">RUJ&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">C6U6&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Docker&lt;/span> &lt;span class="n">Root&lt;/span> &lt;span class="n">Dir&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">docker&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span> &lt;span class="n">Mode&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="bp">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Registry&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">index&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">docker&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">io&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">v1&lt;/span>&lt;span class="o">/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Labels&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Experimental&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="bp">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Insecure&lt;/span> &lt;span class="n">Registries&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mf">127.0&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mf">0.0&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="mi">8&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Live&lt;/span> &lt;span class="n">Restore&lt;/span> &lt;span class="n">Enabled&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="bp">false&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WARNING: No swap limit support
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">WARNING&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">No&lt;/span> &lt;span class="n">swap&lt;/span> &lt;span class="n">limit&lt;/span> &lt;span class="n">support&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="problems-with-utm">Problems with UTM&lt;/h2>
-&lt;h3 id="ui-still-freezes-from-time-to-time-when-i-tried-to-resizeconfig-the-image-thats-annoying-af">UI still freezes from time to time when I tried to resize/config the image. Thats annoying af.&lt;/h3>
-&lt;h3 id="problems-with-porting">Problems with porting:&lt;/h3>
-&lt;p>It seems to I have to keep this ssh activa without CTRL+C&lt;/p>
+&lt;/div>&lt;h2 id="problems-with-utm">Problems with UTM
+&lt;/h2>&lt;h3 id="ui-still-freezes-from-time-to-time-when-i-tried-to-resizeconfig-the-image-thats-annoying-af">UI still freezes from time to time when I tried to resize/config the image. Thats annoying af.
+&lt;/h3>&lt;h3 id="problems-with-porting">Problems with porting:
+&lt;/h3>&lt;p>It seems to I have to keep this ssh activa without CTRL+C&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -757,8 +758,8 @@ alt="Test Results"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">DOCKER_HOST&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;ssh://debian@127.0.0.1:22022&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="cpu-benchmark-1000-difference-with-native-sysbench">CPU Benchmark (1000 difference with native sysbench)&lt;/h3>
-&lt;p>&lt;a class="link" href="https://levelup.gitconnected.com/running-amd64-linux-on-apple-m1-with-qemu-utm-64d67cccd6f8" target="_blank" rel="noopener"
+&lt;/div>&lt;h3 id="cpu-benchmark-1000-difference-with-native-sysbench">CPU Benchmark (1000 difference with native sysbench)
+&lt;/h3>&lt;p>&lt;a class="link" href="https://levelup.gitconnected.com/running-amd64-linux-on-apple-m1-with-qemu-utm-64d67cccd6f8" target="_blank" rel="noopener"
 >Another post benchmark cpu using &lt;code>sysbench&lt;/code>&lt;/a>&lt;/p>
 &lt;p>With a threads=2, I got 105585 in ubuntu docker&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -822,8 +823,8 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>WTF, why is VM takes such a dramatic hit, even with the right tool. I might ended up using the Sonarr/Radarr for macOS, 4.0.0 of Radarr already has osx-arm64 build, just waiting for Sonarr.&lt;/p>
-&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Aria2 and Chrome</title><link>https://wyq977.github.io/p/aria2-and-chrome/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/aria2-and-chrome/</guid><description>&lt;h2 id="install">Install&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Aria2 and Chrome</title><link>https://wyq977.github.io/p/aria2-and-chrome/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/aria2-and-chrome/</guid><description>&lt;h2 id="install">Install
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -842,11 +843,11 @@ alt="Test Results"
 &lt;li>&lt;a class="link" href="https://github.com/acgotaku/115" target="_blank" rel="noopener"
 >115&lt;/a>, download release, change &lt;code>crx&lt;/code> to &lt;code>zip&lt;/code>, drag it in &lt;strong>Extensions&lt;/strong> in Chrome&lt;/li>
 &lt;/ol>
-&lt;h2 id="aria2-config">Aria2 config&lt;/h2>
-&lt;p>Help: &lt;a class="link" href="https://developpaper.com/how-to-configure-aria2-to-download-files/" target="_blank" rel="noopener"
+&lt;h2 id="aria2-config">Aria2 config
+&lt;/h2>&lt;p>Help: &lt;a class="link" href="https://developpaper.com/how-to-configure-aria2-to-download-files/" target="_blank" rel="noopener"
 >https://developpaper.com/how-to-configure-aria2-to-download-files/&lt;/a>&lt;/p>
-&lt;h2 id="yyaw-config">YYAW config&lt;/h2>
-&lt;p>Set the RPC like this:&lt;/p>
+&lt;h2 id="yyaw-config">YYAW config
+&lt;/h2>&lt;p>Set the RPC like this:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -855,10 +856,10 @@ alt="Test Results"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">http://token:TOKEN@localhost:6800/jsonrpc
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="run-aria2-in-background-on-startup">Run aria2 in background on startup&lt;/h2>
-&lt;p>TBD&lt;/p>
-&lt;h2 id="convert-rmvb-to-mp4">Convert rmvb to mp4&lt;/h2>
-&lt;p>See: &lt;a class="link" href="https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132" target="_blank" rel="noopener"
+&lt;/div>&lt;h2 id="run-aria2-in-background-on-startup">Run aria2 in background on startup
+&lt;/h2>&lt;p>TBD&lt;/p>
+&lt;h2 id="convert-rmvb-to-mp4">Convert rmvb to mp4
+&lt;/h2>&lt;p>See: &lt;a class="link" href="https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132" target="_blank" rel="noopener"
 >https://gist.github.com/jamesmacwhite/58aebfe4a82bb8d645a797a1ba975132&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -883,8 +884,8 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">for f in *.mp4; do ffmpeg -i &amp;#34;$f&amp;#34; -map_metadata -1 -c copy -map 0 &amp;#34;${f%}.nometa.mp4&amp;#34;; done # do for loop
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Taichi Installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div></description></item><item><title>Taichi Installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -892,8 +893,8 @@ alt="Test Results"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">conda create -n taichi &lt;span class="nv">python&lt;/span>&lt;span class="o">=&lt;/span>3.8
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="install-dependencies">Install Dependencies&lt;/h2>
-&lt;p>See &lt;a class="link" href="https://www.anaconda.com/blog/using-pip-in-a-conda-environment" target="_blank" rel="noopener"
+&lt;/div>&lt;h2 id="install-dependencies">Install Dependencies
+&lt;/h2>&lt;p>See &lt;a class="link" href="https://www.anaconda.com/blog/using-pip-in-a-conda-environment" target="_blank" rel="noopener"
 >best practice using pip in a conda&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -913,8 +914,8 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install numpy autograd sourceinspect --compile --pre
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="build-llvm-1000-from-source">Build LLVM 10.0.0 from source&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h2 id="build-llvm-1000-from-source">Build LLVM 10.0.0 from source
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
 &lt;/span>&lt;span class="lnt"> 2
@@ -964,8 +965,8 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">llvm-config --version
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="build-taichi">Build Taichi&lt;/h2>
-&lt;p>Installing collected packages: numpy
+&lt;/div>&lt;h2 id="build-taichi">Build Taichi
+&lt;/h2>&lt;p>Installing collected packages: numpy
 WARNING: The scripts f2py, f2py3 and f2py3.8 are installed in &amp;lsquo;/Users/wyq977/.local/bin&amp;rsquo; which is not on PATH.
 Consider adding this directory to PATH or, if you prefer to suppress this warning, use &amp;ndash;no-warn-script-location.
 Successfully installed numpy-1.20.2&lt;/p>
@@ -993,8 +994,8 @@ autograd&lt;/p>
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cmake .. -DTI_WITH_CUDA&lt;span class="o">=&lt;/span>OFF -DTI_WITH_OPENGL&lt;span class="o">=&lt;/span>OFF -DTI_WITH_CC&lt;span class="o">=&lt;/span>OFF -DLLVM_TARGETS_TO_BUILD&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;AArch64&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="llvm-build-from-source">LLVM (build from source)&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h2 id="llvm-build-from-source">LLVM (build from source)
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
 &lt;/span>&lt;span class="lnt"> 2
@@ -1034,8 +1035,8 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">llvm-config --version &lt;span class="c1"># You should get 10.0.0&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="uninstall">Uninstall&lt;/h2>
-&lt;ul>
+&lt;/div>&lt;h2 id="uninstall">Uninstall
+&lt;/h2>&lt;ul>
 &lt;li>Make a CMake target: &lt;a class="link" href="https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake" target="_blank" rel="noopener"
 >https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake&lt;/a>&lt;/li>
 &lt;li>remove all build target:&lt;/li>
@@ -1061,8 +1062,8 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> LLVM_DIR
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>x11 Forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz&lt;/h2>
-&lt;p>If homebrew installed:&lt;/p>
+&lt;/div></description></item><item><title>x11 Forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz
+&lt;/h2>&lt;p>If homebrew installed:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -1074,8 +1075,8 @@ autograd&lt;/p>
 &lt;/div>&lt;p>Or install from &lt;a class="link" href="https://www.xquartz.org/" target="_blank" rel="noopener"
 >XQuartz website&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Restart the machine&lt;/strong>&lt;/p>
-&lt;h2 id="enable-iglx">Enable iglx&lt;/h2>
-&lt;ul>
+&lt;h2 id="enable-iglx">Enable iglx
+&lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Accessing_the_clusters#Mac_OS_X" target="_blank" rel="noopener"
 >Euler X11 macOS&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Getting_started_with_clusters#Troubleshooting" target="_blank" rel="noopener"
@@ -1122,8 +1123,8 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># /private/tmp/com.apple.launchd.oyK9GxAmbh/org.macosforge.xquartz:0&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="ssh-config">SSH config&lt;/h2>
-&lt;p>locate your config file, mine is at &lt;code>~/.ssh/config&lt;/code>&lt;/p>
+&lt;/div>&lt;h2 id="ssh-config">SSH config
+&lt;/h2>&lt;p>locate your config file, mine is at &lt;code>~/.ssh/config&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -1142,8 +1143,8 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># XAuthLocation /opt/X11/bin/xauth # not required&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="connect--debug">Connect &amp;amp; Debug&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h2 id="connect--debug">Connect &amp;amp; Debug
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
 &lt;/span>&lt;span class="lnt"> 2
@@ -1178,10 +1179,10 @@ autograd&lt;/p>
 &lt;/div>&lt;p>&lt;img src="https://wyq977.github.io/images/x11_foward_macos.png"
 loading="lazy"
 >&lt;/p>
-&lt;h2 id="note">Note&lt;/h2>
-&lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
-&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign with GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup&lt;/h2>
-&lt;ol>
+&lt;h2 id="note">Note
+&lt;/h2>&lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
+&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign with GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup
+&lt;/h2>&lt;ol>
 &lt;li>Backup Public key to &lt;code>public_key.asc&lt;/code>
 &lt;ul>
 &lt;li>See: &lt;a class="link" href="https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys" target="_blank" rel="noopener"
@@ -1223,15 +1224,15 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">default-key YOUR_ID_HERE
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="restore">Restore&lt;/h2>
-&lt;p>After install gpg-suite, simply click the &lt;code>public_key.asc&lt;/code> and
+&lt;/div>&lt;h2 id="restore">Restore
+&lt;/h2>&lt;p>After install gpg-suite, simply click the &lt;code>public_key.asc&lt;/code> and
 &lt;code>secret_key.gpg&lt;/code>, it will prompts for password for secret keys.&lt;/p>
 &lt;p>Simply copy conf files to &lt;code>~/.gnupg&lt;/code>&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
-&lt;p>Came across this signing in &lt;a class="link" href="https://github.com/alrra/dotfiles" target="_blank" rel="noopener"
+&lt;h2 id="motivation">Motivation
+&lt;/h2>&lt;p>Came across this signing in &lt;a class="link" href="https://github.com/alrra/dotfiles" target="_blank" rel="noopener"
 >dotfiles&lt;/a> and I would also want to have the verified in each commit I made in my pc so why not?&lt;/p>
-&lt;h2 id="how-to">How-to&lt;/h2>
-&lt;ol>
+&lt;h2 id="how-to">How-to
+&lt;/h2>&lt;ol>
 &lt;li>Install &lt;a class="link" href="https://gpgtools.org/" target="_blank" rel="noopener"
 >GPG Suite&lt;/a> as it allows storing in macOS keychain, without typing each time
 &lt;ul>
@@ -1301,8 +1302,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">program&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">/usr/local/MacGPG2/bin/gpg2&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="keep-your-email-private">Keep your email private&lt;/h2>
-&lt;p>At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already &amp;ldquo;exposed&amp;rdquo;.&lt;/p>
+&lt;/div>&lt;h2 id="keep-your-email-private">Keep your email private
+&lt;/h2>&lt;p>At this point, the emails I used have already been in so many projects and repo and its just a fact that this email is already &amp;ldquo;exposed&amp;rdquo;.&lt;/p>
 &lt;p>You can check, see a &lt;a class="link" href="https://revoir.in/wiki/posts/git_custom_email_signed_commits/" target="_blank" rel="noopener"
 >post&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -1338,16 +1339,16 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">brew install ffmpeg
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="get-cookies">Get cookies&lt;/h2>
-&lt;ul>
+&lt;/div>&lt;h2 id="get-cookies">Get cookies
+&lt;/h2>&lt;ul>
 &lt;li>In console (Dev. Tools): &lt;code>document.cookie&lt;/code>&lt;/li>
 &lt;li>Or you can use EditThisCookie to get cookie of a vip account&lt;/li>
 &lt;/ul>
-&lt;h2 id="get-url">Get url&lt;/h2>
-&lt;p>Copy each episode or follow the guide, grap href using online tools:http://tools.buzzstream.com/link-building-extract-urls&lt;/p>
+&lt;h2 id="get-url">Get url
+&lt;/h2>&lt;p>Copy each episode or follow the guide, grap href using online tools:http://tools.buzzstream.com/link-building-extract-urls&lt;/p>
 &lt;p>It might be easier for a few episodes to just copy and paste&lt;/p>
-&lt;h2 id="download">Download&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;h2 id="download">Download
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -1361,16 +1362,16 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">annie -f fhd -c qqvip.txt -F s01.csv
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="extra">Extra&lt;/h2>
-&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>Using ETH Cluster</title><link>https://wyq977.github.io/p/using-eth-cluster/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/using-eth-cluster/</guid><description>&lt;h2 id="1-stay-connected-with-eth-vpn">​1. Stay connected with ETH (VPN)&lt;/h2>
-&lt;p>See &lt;a class="link" href="https://ethz.ch/services/en/it-services/catalogue/networks-connections/remote.html" target="_blank" rel="noopener"
+&lt;/div>&lt;h2 id="extra">Extra
+&lt;/h2>&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>Using ETH Cluster</title><link>https://wyq977.github.io/p/using-eth-cluster/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/using-eth-cluster/</guid><description>&lt;h2 id="1-stay-connected-with-eth-vpn">​1. Stay connected with ETH (VPN)
+&lt;/h2>&lt;p>See &lt;a class="link" href="https://ethz.ch/services/en/it-services/catalogue/networks-connections/remote.html" target="_blank" rel="noopener"
 >wiki&lt;/a> for detailed info. but the bottom line is that you have to stay connected all the time and this can be troublesome in linux or mobile devices.&lt;/p>
-&lt;h2 id="2-login-ssh">​2. Login (SSH)&lt;/h2>
-&lt;p>It&amp;rsquo;s easier to use the ssh key for login on laptop or PC at home (&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Accessing_the_clusters#SSH_keys" target="_blank" rel="noopener"
+&lt;h2 id="2-login-ssh">​2. Login (SSH)
+&lt;/h2>&lt;p>It&amp;rsquo;s easier to use the ssh key for login on laptop or PC at home (&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Accessing_the_clusters#SSH_keys" target="_blank" rel="noopener"
 >how&lt;/a>).&lt;/p>
 &lt;p>Otherwise, you should be able to login with the ETH passwords.&lt;/p>
-&lt;h3 id="21-file-transfer">2.1 File transfer&lt;/h3>
-&lt;p>See &lt;a class="link" href="https://www.ssh.com/ssh/sftp/" target="_blank" rel="noopener"
+&lt;h3 id="21-file-transfer">2.1 File transfer
+&lt;/h3>&lt;p>See &lt;a class="link" href="https://www.ssh.com/ssh/sftp/" target="_blank" rel="noopener"
 >here&lt;/a> for details but this should do the job for small files.&lt;/p>
 &lt;ul>
 &lt;li>To copy a file from &lt;code>B&lt;/code>to &lt;code>A&lt;/code> while logged into &lt;code>B&lt;/code>:
@@ -1385,8 +1386,8 @@ loading="lazy"
 &lt;/li>
 &lt;/ul>
 &lt;p>​## 3. Writing code&lt;/p>
-&lt;h3 id="31-jupyter-notebook">3.1 jupyter notebook&lt;/h3>
-&lt;p>See: &lt;a class="link" href="https://gitlab.ethz.ch/sfux/Jupyter-on-Euler-or-Leonhard-Open" target="_blank" rel="noopener"
+&lt;h3 id="31-jupyter-notebook">3.1 jupyter notebook
+&lt;/h3>&lt;p>See: &lt;a class="link" href="https://gitlab.ethz.ch/sfux/Jupyter-on-Euler-or-Leonhard-Open" target="_blank" rel="noopener"
 >https://gitlab.ethz.ch/sfux/Jupyter-on-Euler-or-Leonhard-Open&lt;/a>&lt;/p>
 &lt;p>It&amp;rsquo;s quite time-consuming and clumsy for set up. Not recommended.&lt;/p>
 &lt;p>One liner if have cloned the above repo:&lt;/p>
@@ -1402,16 +1403,16 @@ loading="lazy"
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="32-vs-code-remote-do-not-use">3.2 VS Code Remote (DO NOT USE!!!)&lt;/h3>
-&lt;p>Stop using this since it will overload the single node on Euler for some reasons&lt;/p>
+&lt;h3 id="32-vs-code-remote-do-not-use">3.2 VS Code Remote (DO NOT USE!!!)
+&lt;/h3>&lt;p>Stop using this since it will overload the single node on Euler for some reasons&lt;/p>
 &lt;p>See &lt;a class="link" href="https://code.visualstudio.com/docs/remote/ssh" target="_blank" rel="noopener"
 >here&lt;/a> for instructions, have to login each time with new folder, download appropriate extensions and set up &lt;code>ENV&lt;/code>variables.&lt;/p>
 &lt;p>But this is still the way to go as far as I am concern. Unless the black CLI interface works better for you.&lt;/p>
-&lt;h3 id="33-cli">3.3 CLI&lt;/h3>
-&lt;p>Good old ways of coding with Vim or nano (installed needed)&lt;/p>
-&lt;h2 id="4-batch-system">​4. Batch system&lt;/h2>
-&lt;h3 id="41-module-for-environments">4.1 Module for environments&lt;/h3>
-&lt;p>&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Getting_started_with_clusters#Module_commands" target="_blank" rel="noopener"
+&lt;h3 id="33-cli">3.3 CLI
+&lt;/h3>&lt;p>Good old ways of coding with Vim or nano (installed needed)&lt;/p>
+&lt;h2 id="4-batch-system">​4. Batch system
+&lt;/h2>&lt;h3 id="41-module-for-environments">4.1 Module for environments
+&lt;/h3>&lt;p>&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Getting_started_with_clusters#Module_commands" target="_blank" rel="noopener"
 >Details&lt;/a>&lt;/p>
 &lt;p>One can also write this in &lt;code>~/.bash_rc&lt;/code> to load the modules needed every-time before login, but not recommended by Euler since the module will affect the batch system when submitting jobs&lt;/p>
 &lt;p>Common ones:&lt;/p>
@@ -1446,8 +1447,8 @@ loading="lazy"
 &lt;p>Extra info. for python packages&lt;/p>
 &lt;p>Packages can be installed in a per-user basis using &lt;code>pip install --user package&lt;/code>&lt;a class="link" href="https://scicomp.ethz.ch/wiki/Python#Installing_a_Python_package.2C_using_PIP" target="_blank" rel="noopener"
 >details here&lt;/a>&lt;/p>
-&lt;h3 id="42-batch-job-submission">4.2 Batch job submission&lt;/h3>
-&lt;p>&lt;strong>Job monitoring (&lt;a class="link" href="https://scicomp.ethz.ch/wiki/FAQ%23Monitoring_jobs" target="_blank" rel="noopener"
+&lt;h3 id="42-batch-job-submission">4.2 Batch job submission
+&lt;/h3>&lt;p>&lt;strong>Job monitoring (&lt;a class="link" href="https://scicomp.ethz.ch/wiki/FAQ%23Monitoring_jobs" target="_blank" rel="noopener"
 >more&lt;/a>)&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Real time output&lt;/li>

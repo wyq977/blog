@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Example Site</title><link>https://wyq977.github.io/categories/guide/</link><description>Recent content in Guide on Example Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 03 Feb 2023 10:00:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/p/macos-chinese-font/</guid><description>&lt;p>I came across a issue when opening a &lt;code>doc&lt;/code> file in macOS (12.5.1).&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/categories/guide/</link><description>Recent content in Guide on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 03 Feb 2023 10:00:33 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/blog/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/blog/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/blog/p/macos-chinese-font/</guid><description>&lt;p>I came across a issue when opening a &lt;code>doc&lt;/code> file in macOS (12.5.1).&lt;/p>
 &lt;p>Pages keeps reming me that fonts are missing despite I have already installed
 them from file.&lt;/p>
 &lt;p>It turns out that the Family name in font is not Chinese, which somehow makes
 the Pages.app can not recognize the fonts.&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/p/macos-chinese-font/font_family_name_english.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english.png"
 width="266"
 height="160"
-srcset="https://wyq977.github.io/p/macos-chinese-font/font_family_name_english_hu1241194553974065351.png 480w, https://wyq977.github.io/p/macos-chinese-font/font_family_name_english_hu8201594099298056450.png 1024w"
+srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english_hu1241194553974065351.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english_hu8201594099298056450.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
 data-flex-basis="399px"
 >&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/p/macos-chinese-font/font_family_name_chinese.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese.png"
 width="251"
 height="85"
-srcset="https://wyq977.github.io/p/macos-chinese-font/font_family_name_chinese_hu15342987765986447194.png 480w, https://wyq977.github.io/p/macos-chinese-font/font_family_name_chinese_hu8205025950505577001.png 1024w"
+srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese_hu15342987765986447194.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese_hu8205025950505577001.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="295"
@@ -25,10 +25,10 @@ data-flex-basis="708px"
 &lt;p>If the languages for pages.app is set to Chinese, then Family name changes
 from SimSun to 宋体.&lt;/p>
 &lt;p>Still it reminds that Fonts are missing despite I have &amp;ldquo;宋体&amp;rdquo; in the menu.&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/p/macos-chinese-font/missing_font_chinese.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese.png"
 width="468"
 height="308"
-srcset="https://wyq977.github.io/p/macos-chinese-font/missing_font_chinese_hu7148406851927049986.png 480w, https://wyq977.github.io/p/macos-chinese-font/missing_font_chinese_hu16657536726755201584.png 1024w"
+srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese_hu7148406851927049986.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese_hu16657536726755201584.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="151"
@@ -53,7 +53,7 @@ data-flex-basis="364px"
 &lt;p>&lt;a class="link" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/office-365-word/2808fe89-04ea-472a-a656-62897916c5eb" target="_blank" rel="noopener"
 >office 365 word 所有中文字体变成英文。 - Microsoft Community&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/office%E4%B8%AD%E5%AD%97%E4%BD%93%E5%90%8D/87b26b57-8913-460c-9194-41f2b8090078" target="_blank" rel="noopener"
->office中，字体名称全部变成了英文，例如“宋体”变成了“SimSun&amp;amp;# - Microsoft Community&lt;/a>&lt;/p></description></item><item><title>iOS Games on Apple Silicon Macs</title><link>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</link><pubDate>Wed, 07 Dec 2022 12:03:07 +0200</pubDate><guid>https://wyq977.github.io/p/ios-games-on-apple-silicon-macs/</guid><description>&lt;h2 id="genshin-impact-yuanshen">Genshin Impact (Yuanshen)
+>office中，字体名称全部变成了英文，例如“宋体”变成了“SimSun&amp;amp;# - Microsoft Community&lt;/a>&lt;/p></description></item><item><title>iOS Games on Apple Silicon Macs</title><link>https://wyq977.github.io/blog/p/ios-games-on-apple-silicon-macs/</link><pubDate>Wed, 07 Dec 2022 12:03:07 +0200</pubDate><guid>https://wyq977.github.io/blog/p/ios-games-on-apple-silicon-macs/</guid><description>&lt;h2 id="genshin-impact-yuanshen">Genshin Impact (Yuanshen)
 &lt;/h2>&lt;p>GenshinImpact with PlayCover on M1&lt;/p>
 &lt;p>Install PlayCover: &lt;a class="link" href="https://playcover.io/" target="_blank" rel="noopener"
 >https://playcover.io/&lt;/a>&lt;/p>
@@ -80,7 +80,7 @@ data-flex-basis="364px"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-xml" data-lang="xml">&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;string&amp;gt;&lt;/span>com.miHoYo.Yuanshen&lt;span class="nt">&amp;lt;/string&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>macOS CRON</title><link>https://wyq977.github.io/p/macos-cron/</link><pubDate>Sun, 10 Jul 2022 23:05:21 +0200</pubDate><guid>https://wyq977.github.io/p/macos-cron/</guid><description>&lt;h2 id="crontab-on-macos">CRONTAB on macOS
+&lt;/div></description></item><item><title>macOS CRON</title><link>https://wyq977.github.io/blog/p/macos-cron/</link><pubDate>Sun, 10 Jul 2022 23:05:21 +0200</pubDate><guid>https://wyq977.github.io/blog/p/macos-cron/</guid><description>&lt;h2 id="crontab-on-macos">CRONTAB on macOS
 &lt;/h2>&lt;p>It&amp;rsquo;s annoying on macOS that each editing would prompt the pop up for authorization of scheduled task.&lt;/p>
 &lt;h2 id="plist-what-is-it">.plist What is it?
 &lt;/h2>&lt;p>To load/unload a plist&lt;/p>
@@ -150,7 +150,7 @@ data-flex-basis="364px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>Example app&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/images/brew_update_automator.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/images/brew_update_automator.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>Ref:&lt;/p>
@@ -161,7 +161,7 @@ loading="lazy"
 >Macos – How to get a script to run every day on Mac OS X – Unix Server Solutions&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://git.herrbischoff.com/awesome-macos-command-line/tree/launchagents.md" target="_blank" rel="noopener"
 >launchagents.md - awesome-macos-command-line - Use your macOS terminal shell to do awesome things.&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon">Trouble with VPN (Loon)
+&lt;/ul></description></item><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/blog/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/blog/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon">Trouble with VPN (Loon)
 &lt;/h2>&lt;p>Though the filter rule support local and self-defined resource parser, GeoIP resolver, etc.
 I still came across many times where I had trouble with Loon enabled.&lt;/p>
 &lt;p>This is one of easiest case involved, I would like certain app to follow certain policy,
@@ -183,7 +183,7 @@ such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (
 >How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a>
 &lt;/h2>&lt;p>Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
 >https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a>&lt;/p>
-&lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>VSCode Latex Mac</title><link>https://wyq977.github.io/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos">Using Latex on macOS
+&lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>VSCode Latex Mac</title><link>https://wyq977.github.io/blog/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/blog/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos">Using Latex on macOS
 &lt;/h2>&lt;p>Download MacTex (~3/4 GB with most packages included), via homebrew, support for Apple Silicon&lt;/p>
 &lt;h2 id="guide">Guide
 &lt;/h2>&lt;p>I followed mostly &lt;a class="link" href="http://homepages.rpi.edu/home/36/wangy52/public_html/PersonalWebsite/build/html/Misc/Mac/VSCode/VSCode-LaTeX.html" target="_blank" rel="noopener"
@@ -270,7 +270,7 @@ such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>&lt;span class="err">,&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Wechat AntiDuck</title><link>https://wyq977.github.io/p/wechat-antiduck/</link><pubDate>Fri, 13 May 2022 13:30:58 +0200</pubDate><guid>https://wyq977.github.io/p/wechat-antiduck/</guid><description>&lt;p>There&amp;rsquo;s this annoying feature on macOS that would lower the media volume when you are on a call or Facetime which appears in Wechat, Facetime or Skype. Basically, you can&amp;rsquo;t listen to YT when you are on a call.&lt;/p>
+&lt;/div></description></item><item><title>Wechat AntiDuck</title><link>https://wyq977.github.io/blog/p/wechat-antiduck/</link><pubDate>Fri, 13 May 2022 13:30:58 +0200</pubDate><guid>https://wyq977.github.io/blog/p/wechat-antiduck/</guid><description>&lt;p>There&amp;rsquo;s this annoying feature on macOS that would lower the media volume when you are on a call or Facetime which appears in Wechat, Facetime or Skype. Basically, you can&amp;rsquo;t listen to YT when you are on a call.&lt;/p>
 &lt;p>To avoid that, &lt;a class="link" href="https://github.com/icpz/WeChat-AntiDuck" target="_blank" rel="noopener"
 >Wechat-AntiDuck&lt;/a> comes to help.&lt;/p>
 &lt;h2 id="fix-no-permission-to-open">Fix &amp;ldquo;No permission to open&amp;rdquo;
@@ -303,7 +303,7 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;blockquote>
 &lt;p>For more details, see &lt;a class="link" href="https://github.com/Homebrew/brew/issues/9082" target="_blank" rel="noopener"
 >here&lt;/a>.&lt;/p>
-&lt;/blockquote></description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why">Why
+&lt;/blockquote></description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/blog/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/blog/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why">Why
 &lt;/h2>&lt;p>Version control on R has always been a hassle for me personally since most of the bioinformatics tools or workflows relies too heavily on RMD or Notebook-like script due to its high flexibility. Despite its convenience in parameters tuning and data manipulation, it&amp;rsquo;s much more difficult than sharing the list of python packages in other workflows.&lt;/p>
 &lt;h2 id="existing-solution">Existing solution
 &lt;/h2>&lt;p>Someone used Anaconda environment file but I personally find that a bit too clumsy. I never tried it but I assume if one put &lt;code>R==4.1/4.2&lt;/code> in &lt;code>env.yml&lt;/code>, conda will try to download and install a different version inside each env directory.&lt;/p>
@@ -417,10 +417,10 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>In my test, using &lt;code>benchmarkme&lt;/code> in &lt;a class="link" href="plot_benchmark_BLAS.R" >plot_benchmark_BLAS.R&lt;/a>, it does improves significantly:&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot.jpg"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot.jpg"
 width="2100"
 height="2100"
-srcset="https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu1593130052132115628.jpg 480w, https://wyq977.github.io/p/r-on-apple-silicon/benchmark_plot_hu16271734029135923468.jpg 1024w"
+srcset="https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot_hu1593130052132115628.jpg 480w, https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot_hu16271734029135923468.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="100"
@@ -430,7 +430,7 @@ data-flex-basis="240px"
 &lt;ul>
 &lt;li>&lt;a class="link" href="benchmark_vel_BLAS.csv" >&lt;code>libRblas.vecLib.dylib&lt;/code>&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="benchmark_default_BLAS.csv" >&lt;code>libRblas.0.dylib&lt;/code>&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Conda Homebrew</title><link>https://wyq977.github.io/p/conda-homebrew/</link><pubDate>Sun, 03 Apr 2022 09:00:36 +0200</pubDate><guid>https://wyq977.github.io/p/conda-homebrew/</guid><description>&lt;h2 id="problems">Problems
+&lt;/ul></description></item><item><title>Conda Homebrew</title><link>https://wyq977.github.io/blog/p/conda-homebrew/</link><pubDate>Sun, 03 Apr 2022 09:00:36 +0200</pubDate><guid>https://wyq977.github.io/blog/p/conda-homebrew/</guid><description>&lt;h2 id="problems">Problems
 &lt;/h2>&lt;p>Miniforge installed via homebrew will remove all the env upon update/uninstall, &lt;a class="link" href="https://github.com/conda-forge/miniforge/issues/159" target="_blank" rel="noopener"
 >discussion&lt;/a>.&lt;/p>
 &lt;h2 id="solution">Solution
@@ -458,7 +458,7 @@ data-flex-basis="240px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - ~/.conda-envs
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Docker M1 Mac</title><link>https://wyq977.github.io/p/docker-m1-mac/</link><pubDate>Wed, 05 Jan 2022 10:48:47 +0100</pubDate><guid>https://wyq977.github.io/p/docker-m1-mac/</guid><description>&lt;h1 id="yet-again-docker-macos">Yet Again, Docker macOS
+&lt;/div></description></item><item><title>Docker M1 Mac</title><link>https://wyq977.github.io/blog/p/docker-m1-mac/</link><pubDate>Wed, 05 Jan 2022 10:48:47 +0100</pubDate><guid>https://wyq977.github.io/blog/p/docker-m1-mac/</guid><description>&lt;h1 id="yet-again-docker-macos">Yet Again, Docker macOS
 &lt;/h1>&lt;p>After using the official Docker for Mac for a while, it became clear to me that the app is not yet stable and reliable enough to be used for professional use case in the background nor user-friendly, ready-to-go like a actual desktop mac app.&lt;/p>
 &lt;p>I toned down the setting and limiting the CPU to 2 cores with 4/3(?)GB RAM, and I also checked the box for using the new release virtualization framework in Experimental feature. However, the ram usage would still be going thr the limits and lagging, breakdown is also often seen. Eating roughly 4GB of RAM and I have seen errors where it said it used 30G but probably swap usage along with crashes&amp;hellip;&lt;/p>
 &lt;p>As under the hook, the Docker for Mac still basically created a Linux VM, kind of like podman. The underlying performance issues might be the way the VM is regulated/managed. So, why not just create a VM and use docker cli or simply ssh to the linux instance?&lt;/p>
@@ -823,7 +823,7 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>WTF, why is VM takes such a dramatic hit, even with the right tool. I might ended up using the Sonarr/Radarr for macOS, 4.0.0 of Radarr already has osx-arm64 build, just waiting for Sonarr.&lt;/p>
-&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Aria2 and Chrome</title><link>https://wyq977.github.io/p/aria2-and-chrome/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/p/aria2-and-chrome/</guid><description>&lt;h2 id="install">Install
+&lt;p>And yes, the QEMU used by UTM would still eat up about 2.3 GB RAM&lt;/p></description></item><item><title>Aria2 and Chrome</title><link>https://wyq977.github.io/blog/p/aria2-and-chrome/</link><pubDate>Wed, 29 Sep 2021 15:45:07 +0200</pubDate><guid>https://wyq977.github.io/blog/p/aria2-and-chrome/</guid><description>&lt;h2 id="install">Install
 &lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -884,7 +884,7 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">for f in *.mp4; do ffmpeg -i &amp;#34;$f&amp;#34; -map_metadata -1 -c copy -map 0 &amp;#34;${f%}.nometa.mp4&amp;#34;; done # do for loop
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Taichi Installation for Apple Silicon</title><link>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env
+&lt;/div></description></item><item><title>Taichi Installation for Apple Silicon</title><link>https://wyq977.github.io/blog/p/taichi-installation-for-apple-silicon/</link><pubDate>Wed, 03 Mar 2021 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/blog/p/taichi-installation-for-apple-silicon/</guid><description>&lt;h2 id="conda-env">conda env
 &lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -1062,7 +1062,7 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">unset&lt;/span> LLVM_DIR
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>x11 Forwarding on macOS</title><link>https://wyq977.github.io/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz
+&lt;/div></description></item><item><title>x11 Forwarding on macOS</title><link>https://wyq977.github.io/blog/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/blog/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz">Install xQuartz
 &lt;/h2>&lt;p>If homebrew installed:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1176,12 +1176,12 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># show up in the XQuartz window&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://wyq977.github.io/images/x11_foward_macos.png"
+&lt;/div>&lt;p>&lt;img src="https://wyq977.github.io/blog/images/x11_foward_macos.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="note">Note
 &lt;/h2>&lt;p>Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p>
-&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign with GPG</title><link>https://wyq977.github.io/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup
+&lt;p>If so, one can switch to headless mode and view&lt;/p></description></item><item><title>Sign with GPG</title><link>https://wyq977.github.io/blog/p/sign-with-gpg/</link><pubDate>Thu, 31 Dec 2020 09:41:52 +0100</pubDate><guid>https://wyq977.github.io/blog/p/sign-with-gpg/</guid><description>&lt;h2 id="backup">Backup
 &lt;/h2>&lt;ol>
 &lt;li>Backup Public key to &lt;code>public_key.asc&lt;/code>
 &lt;ul>
@@ -1323,7 +1323,7 @@ loading="lazy"
 &lt;/div>&lt;p>The things and steps are pretty much just the same as the post but there&amp;rsquo;s one thing worth mentioning.&lt;/p>
 &lt;p>In the email setting in Github, a masked email address will be generated with a format: &lt;code>NUMBER+username@github.noreply.github.com&lt;/code>. But &lt;code>username@github.noreply.github.com&lt;/code> is the one to input in GPG key, the one with a number prefix is not gonna verfy the commits and github will show errors like &amp;ldquo;No githuub user associated with the email&amp;rdquo;&lt;/p>
 &lt;p>&lt;a class="link" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key" target="_blank" rel="noopener"
->How to add email to gpg key&lt;/a>&lt;/p></description></item><item><title>Download Tencent Videos</title><link>https://wyq977.github.io/p/download-tencent-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/p/download-tencent-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
+>How to add email to gpg key&lt;/a>&lt;/p></description></item><item><title>Download Tencent Videos</title><link>https://wyq977.github.io/blog/p/download-tencent-videos/</link><pubDate>Fri, 18 Dec 2020 18:29:33 +0100</pubDate><guid>https://wyq977.github.io/blog/p/download-tencent-videos/</guid><description>&lt;p>Mostly based on &lt;a class="link" href="https://meta.appinn.net/t/topic/13946" target="_blank" rel="noopener"
 >流水账：如何使用 annie 批量下载优酷 VIP 视频&lt;/a>&lt;/p>
 &lt;p>using &lt;a class="link" href="https://github.com/iawia002/annie" target="_blank" rel="noopener"
 >annie&lt;/a>, &lt;a class="link" href="https://ffmpeg.org/" target="_blank" rel="noopener"
@@ -1363,7 +1363,7 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="extra">Extra
-&lt;/h2>&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>Using ETH Cluster</title><link>https://wyq977.github.io/p/using-eth-cluster/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/using-eth-cluster/</guid><description>&lt;h2 id="1-stay-connected-with-eth-vpn">​1. Stay connected with ETH (VPN)
+&lt;/h2>&lt;p>Most of the time is from connection and the actual download time is quite fast.&lt;/p></description></item><item><title>Using ETH Cluster</title><link>https://wyq977.github.io/blog/p/using-eth-cluster/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/blog/p/using-eth-cluster/</guid><description>&lt;h2 id="1-stay-connected-with-eth-vpn">​1. Stay connected with ETH (VPN)
 &lt;/h2>&lt;p>See &lt;a class="link" href="https://ethz.ch/services/en/it-services/catalogue/networks-connections/remote.html" target="_blank" rel="noopener"
 >wiki&lt;/a> for detailed info. but the bottom line is that you have to stay connected all the time and this can be troublesome in linux or mobile devices.&lt;/p>
 &lt;h2 id="2-login-ssh">​2. Login (SSH)

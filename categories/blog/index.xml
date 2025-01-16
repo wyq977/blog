@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Example Site</title><link>https://wyq977.github.io/categories/blog/</link><description>Recent content in Blog on Example Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Sep 2022 14:25:04 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Organizing Cloud</title><link>https://wyq977.github.io/p/organizing-cloud/</link><pubDate>Mon, 05 Sep 2022 14:25:04 +0200</pubDate><guid>https://wyq977.github.io/p/organizing-cloud/</guid><description>&lt;h2 id="whats-the-difficulty-about-it">What’s the difficulty about it?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/categories/blog/</link><description>Recent content in Blog on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Sep 2022 14:25:04 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/blog/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Organizing Cloud</title><link>https://wyq977.github.io/blog/p/organizing-cloud/</link><pubDate>Mon, 05 Sep 2022 14:25:04 +0200</pubDate><guid>https://wyq977.github.io/blog/p/organizing-cloud/</guid><description>&lt;h2 id="whats-the-difficulty-about-it">What’s the difficulty about it?
 &lt;/h2>&lt;p>I mean, you would wonder what’s the big deal about it, can’t you just use a single &lt;strong>“Cloud-thingy”&lt;/strong> for all your personal shits? Google Drive, iCloud, Microsoft or some of those smaller ones that claims have better privacy protection and other gimmicks.&lt;/p>
 &lt;h2 id="actual-setup">Actual setup
 &lt;/h2>&lt;ul>
@@ -55,7 +55,7 @@
 &lt;/h2>&lt;p>For privacy reasons, of course one should have different account for different services and they should even use different emails/phone number for different sites or apps. But this level of privacy concerns are simply not gonna fit well with everyday life of an &lt;strong>normal&lt;/strong> person with a moderate level of concerns over his/her privacy.&lt;/p>
 &lt;p>Surely one has to give certain info. to the service provider for the convenience or the customization of information feed. Take a look at YouTube on a fresh computer, the home page is full of things that you do not even want to click or hover your mouse over.&lt;/p>
 &lt;p>Again, this is for people that &lt;strong>DO&lt;/strong> want a bit of customization on the recommendation or feeding on platforms like Twitter, YouTube or Facebook. If one were hardcore enough to just use RSS to get his info., then there’s no need for these.&lt;/p>
-&lt;p>For example, you cannot use Google reminder on Apple’s Native apps while Microsoft’s TODO fits well on iOS native app. That’s why I choose Microsoft.&lt;/p></description></item><item><title>iMessages/FaceTime Logic</title><link>https://wyq977.github.io/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
+&lt;p>For example, you cannot use Google reminder on Apple’s Native apps while Microsoft’s TODO fits well on iOS native app. That’s why I choose Microsoft.&lt;/p></description></item><item><title>iMessages/FaceTime Logic</title><link>https://wyq977.github.io/blog/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/blog/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
 &lt;ul>
 &lt;li>Tel. A (main, :white_check_mark: iMessages)&lt;/li>
 &lt;li>Tel. B (backup, :x: iMessages)&lt;/li>
@@ -65,7 +65,7 @@
 &lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)
 &lt;/h2>&lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>
 &lt;h2 id="use-imessage-on-mac">use iMessage on mac
-&lt;/h2>&lt;p>&lt;img src="https://wyq977.github.io/images/imessage_mac_setting.png"
+&lt;/h2>&lt;p>&lt;img src="https://wyq977.github.io/blog/images/imessage_mac_setting.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p>
@@ -76,7 +76,7 @@ loading="lazy"
 &lt;p>I think you need to enable iMessage for the other phone number, not sure tho&lt;/p>
 &lt;p>update on 2022-04-28, I received a text message (07:55) from &lt;strong>Tel. B&lt;/strong> on 11:15 WTF?&lt;/p>
 &lt;h2 id="updated-2022-06-06">Updated 2022-06-06
-&lt;/h2>&lt;p>On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p></description></item><item><title>itx Build</title><link>https://wyq977.github.io/p/itx-build/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/p/itx-build/</guid><description>&lt;p>See the &lt;a class="link" href="https://pcpartpicker.com/list/tqNNYg" target="_blank" rel="noopener"
+&lt;/h2>&lt;p>On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p></description></item><item><title>itx Build</title><link>https://wyq977.github.io/blog/p/itx-build/</link><pubDate>Wed, 18 Dec 2019 18:47:22 +0100</pubDate><guid>https://wyq977.github.io/blog/p/itx-build/</guid><description>&lt;p>See the &lt;a class="link" href="https://pcpartpicker.com/list/tqNNYg" target="_blank" rel="noopener"
 >PCPartPicker Part List&lt;/a> for detailed list including the history&lt;/p>
 &lt;h2 id="build-2019-03-12">Build (2019-03-12)
 &lt;/h2>&lt;table>

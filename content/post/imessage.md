@@ -21,7 +21,7 @@ disable "Enable Messages in iCloud": otherwise texts from **Tel. A** will be syn
 
 ## use iMessage on mac
 
-![](/images/imessage_mac_setting.png)
+![](images/imessage_mac_setting.png)
 
 Check "you can be reached for messages at:"
 

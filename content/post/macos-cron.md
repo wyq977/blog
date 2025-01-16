@@ -53,7 +53,7 @@ Example.plist which runs daily at 09:27
 
 Example app
 
-![](/images/brew_update_automator.png)
+![](images/brew_update_automator.png)
 
 Ref:
 

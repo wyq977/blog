@@ -78,7 +78,7 @@ display random.png
 # show up in the XQuartz window
 ```
 
-![](/images/x11_foward_macos.png)
+![](images/x11_foward_macos.png)
 
 ## Note
 

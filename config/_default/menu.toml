@@ -13,7 +13,7 @@ newtab = true
 identifier = "about"
 name = "About"
 weight = -90
-url = "/about"
+url = "https://wyq977.github.io/"
 
 [main.params]
 icon = "user"

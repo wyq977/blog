@@ -1,9 +1,9 @@
 ## Personal Blog
 
-[![github pages](https://github.com/wyq977/wyq977.github.io/actions/workflows/hugo.yml/badge.svg?branch=master)](https://github.com/wyq977/wyq977.github.io/actions/workflows/hugo.yml) 
+[![github pages](https://github.com/wyq977/blog/actions/workflows/hugo.yml/badge.svg?branch=master)](https://github.com/wyq977/blog/actions/workflows/hugo.yml) 
 ![stack](https://img.shields.io/github/v/release/CaiJimmy/hugo-theme-stack?label=hugo-theme-stack)
 
-Source code for [https://wyq977.github.io](https://wyq977.github.io/).
+Source code for [https://wyq977.github.io/blog/](https://wyq977.github.io/blog/).
 
 Built with [hugo](https://gohugo.io/), themed with [stack](https://github.com/CaiJimmy/hugo-theme-stack).
 

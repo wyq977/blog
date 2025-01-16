@@ -1,7 +1,7 @@
 # Change baseurl before deploy
-baseurl = "https://wyq977.github.io"
+baseurl = "https://wyq977.github.io/blog"
 languageCode = "en-us"
-title = "Yongqi Wang"
+title = "Yongqi Wang's Blog"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar

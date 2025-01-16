@@ -4,6 +4,7 @@ identifier = "home"
 name = "Home"
 weight = -100
 url = "/"
+
 [main.params]
 icon = "home"
 newtab = true
@@ -13,9 +14,10 @@ identifier = "about"
 name = "About"
 weight = -90
 url = "/about"
+
 [main.params]
 icon = "user"
-newtab = true
+newtab = false
 
 [[social]]
 identifier = "github"
@@ -24,11 +26,3 @@ url = "https://github.com/wyq977"
 
 [social.params]
 icon = "brand-github"
-
-# [[social]]
-# identifier = "twitter"
-# name = "Twitter"
-# url = "https://twitter.com"
-
-# [social.params]
-# icon = "brand-twitter"

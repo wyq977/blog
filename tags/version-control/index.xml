@@ -112,10 +112,10 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>In my test, using &lt;code>benchmarkme&lt;/code> in &lt;a class="link" href="plot_benchmark_BLAS.R" >plot_benchmark_BLAS.R&lt;/a>, it does improves significantly:&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot.jpg"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/p/r-on-apple-silicon/benchmark_plot.jpg"
 width="2100"
 height="2100"
-srcset="https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot_hu1593130052132115628.jpg 480w, https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot_hu16271734029135923468.jpg 1024w"
+srcset="https://wyq977.github.io/blog/p/r-on-apple-silicon/benchmark_plot_hu_14a8a84606a86068.jpg 480w, https://wyq977.github.io/blog/p/r-on-apple-silicon/benchmark_plot_hu_eb84116e8504011f.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="100"

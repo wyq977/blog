@@ -3,19 +3,19 @@
 them from file.&lt;/p>
 &lt;p>It turns out that the Family name in font is not Chinese, which somehow makes
 the Pages.app can not recognize the fonts.&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english.png"
 width="266"
 height="160"
-srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english_hu1241194553974065351.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english_hu8201594099298056450.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english_hu_adc90bc8ad1b795a.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english_hu_7436179dce3054b3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
 data-flex-basis="399px"
 >&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese.png"
 width="251"
 height="85"
-srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese_hu15342987765986447194.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese_hu8205025950505577001.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese_hu_106873ce68e11415.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese_hu_ddf3dd9331dc10b.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="295"
@@ -25,10 +25,10 @@ data-flex-basis="708px"
 &lt;p>If the languages for pages.app is set to Chinese, then Family name changes
 from SimSun to 宋体.&lt;/p>
 &lt;p>Still it reminds that Fonts are missing despite I have &amp;ldquo;宋体&amp;rdquo; in the menu.&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese.png"
 width="468"
 height="308"
-srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese_hu7148406851927049986.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese_hu16657536726755201584.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese_hu_a2558d1366522b7e.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese_hu_aaec20054fed3072.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="151"
@@ -150,7 +150,7 @@ data-flex-basis="364px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>Example app&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/images/brew_update_automator.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/images/brew_update_automator.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>Ref:&lt;/p>
@@ -179,7 +179,7 @@ such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (
 &lt;/div>
 &lt;/div>&lt;p>Examples can be found here: &lt;a class="link" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list" target="_blank" rel="noopener"
 >https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list&lt;/a>&lt;/p>
-&lt;h2 id="how-to-find-bundle-id-of-an-ios-app--step-by-step---mr-virk-mediahttpsmrvirkcomhow-to-find-app-bundle-id-ioshtml">&lt;a class="link" href="https://mrvirk.com/how-to-find-app-bundle-id-ios.html" target="_blank" rel="noopener"
+&lt;h2 id="how-to-find-bundle-id-of-an-ios-app--step-by-step---mr-virk-media">&lt;a class="link" href="https://mrvirk.com/how-to-find-app-bundle-id-ios.html" target="_blank" rel="noopener"
 >How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a>
 &lt;/h2>&lt;p>Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
 >https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a>&lt;/p>
@@ -298,12 +298,10 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;p>According to this &lt;a class="link" href="https://stackoverflow.com/questions/29848622/codesign-allocate-error-unable-to-find-utility-codesign-allocate-not-a-deve" target="_blank" rel="noopener"
 >discussion&lt;/a>, I just copied the app to another folder, signed it and then replaced it with the one in &lt;code>/Applications&lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p>
-&lt;/blockquote>
+&lt;p>It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p>&lt;/blockquote>
 &lt;blockquote>
 &lt;p>For more details, see &lt;a class="link" href="https://github.com/Homebrew/brew/issues/9082" target="_blank" rel="noopener"
->here&lt;/a>.&lt;/p>
-&lt;/blockquote></description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/blog/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/blog/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why">Why
+>here&lt;/a>.&lt;/p>&lt;/blockquote></description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/blog/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/blog/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why">Why
 &lt;/h2>&lt;p>Version control on R has always been a hassle for me personally since most of the bioinformatics tools or workflows relies too heavily on RMD or Notebook-like script due to its high flexibility. Despite its convenience in parameters tuning and data manipulation, it&amp;rsquo;s much more difficult than sharing the list of python packages in other workflows.&lt;/p>
 &lt;h2 id="existing-solution">Existing solution
 &lt;/h2>&lt;p>Someone used Anaconda environment file but I personally find that a bit too clumsy. I never tried it but I assume if one put &lt;code>R==4.1/4.2&lt;/code> in &lt;code>env.yml&lt;/code>, conda will try to download and install a different version inside each env directory.&lt;/p>
@@ -417,10 +415,10 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>In my test, using &lt;code>benchmarkme&lt;/code> in &lt;a class="link" href="plot_benchmark_BLAS.R" >plot_benchmark_BLAS.R&lt;/a>, it does improves significantly:&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot.jpg"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/p/r-on-apple-silicon/benchmark_plot.jpg"
 width="2100"
 height="2100"
-srcset="https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot_hu1593130052132115628.jpg 480w, https://wyq977.github.io/blog/blog/p/r-on-apple-silicon/benchmark_plot_hu16271734029135923468.jpg 1024w"
+srcset="https://wyq977.github.io/blog/p/r-on-apple-silicon/benchmark_plot_hu_14a8a84606a86068.jpg 480w, https://wyq977.github.io/blog/p/r-on-apple-silicon/benchmark_plot_hu_eb84116e8504011f.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="100"
@@ -610,8 +608,7 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;blockquote>
-&lt;p>We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:&lt;/p>
-&lt;/blockquote>
+&lt;p>We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:&lt;/p>&lt;/blockquote>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -621,8 +618,7 @@ alt="Test Results"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;blockquote>
-&lt;p>Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:&lt;/p>
-&lt;/blockquote>
+&lt;p>Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:&lt;/p>&lt;/blockquote>
 &lt;p>Working!&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1176,7 +1172,7 @@ autograd&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># show up in the XQuartz window&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/images/x11_foward_macos.png"
+&lt;/div>&lt;p>&lt;img src="https://wyq977.github.io/blog/images/x11_foward_macos.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="note">Note

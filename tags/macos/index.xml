@@ -3,19 +3,19 @@
 them from file.&lt;/p>
 &lt;p>It turns out that the Family name in font is not Chinese, which somehow makes
 the Pages.app can not recognize the fonts.&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english.png"
 width="266"
 height="160"
-srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english_hu1241194553974065351.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_english_hu8201594099298056450.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english_hu_adc90bc8ad1b795a.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english_hu_7436179dce3054b3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
 data-flex-basis="399px"
 >&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese.png"
 width="251"
 height="85"
-srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese_hu15342987765986447194.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/font_family_name_chinese_hu8205025950505577001.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese_hu_106873ce68e11415.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese_hu_ddf3dd9331dc10b.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="295"
@@ -25,10 +25,10 @@ data-flex-basis="708px"
 &lt;p>If the languages for pages.app is set to Chinese, then Family name changes
 from SimSun to 宋体.&lt;/p>
 &lt;p>Still it reminds that Fonts are missing despite I have &amp;ldquo;宋体&amp;rdquo; in the menu.&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese.png"
 width="468"
 height="308"
-srcset="https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese_hu7148406851927049986.png 480w, https://wyq977.github.io/blog/blog/p/macos-chinese-font/missing_font_chinese_hu16657536726755201584.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese_hu_a2558d1366522b7e.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese_hu_aaec20054fed3072.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="151"
@@ -150,7 +150,7 @@ data-flex-basis="364px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>Example app&lt;/p>
-&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/images/brew_update_automator.png"
+&lt;p>&lt;img src="https://wyq977.github.io/blog/images/brew_update_automator.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>Ref:&lt;/p>
@@ -171,7 +171,7 @@ loading="lazy"
 &lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)
 &lt;/h2>&lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>
 &lt;h2 id="use-imessage-on-mac">use iMessage on mac
-&lt;/h2>&lt;p>&lt;img src="https://wyq977.github.io/blog/blog/images/imessage_mac_setting.png"
+&lt;/h2>&lt;p>&lt;img src="https://wyq977.github.io/blog/images/imessage_mac_setting.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p>
@@ -297,9 +297,7 @@ Tried installing the app store version, still no luck.&lt;/p>
 &lt;p>According to this &lt;a class="link" href="https://stackoverflow.com/questions/29848622/codesign-allocate-error-unable-to-find-utility-codesign-allocate-not-a-deve" target="_blank" rel="noopener"
 >discussion&lt;/a>, I just copied the app to another folder, signed it and then replaced it with the one in &lt;code>/Applications&lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p>
-&lt;/blockquote>
+&lt;p>It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p>&lt;/blockquote>
 &lt;blockquote>
 &lt;p>For more details, see &lt;a class="link" href="https://github.com/Homebrew/brew/issues/9082" target="_blank" rel="noopener"
->here&lt;/a>.&lt;/p>
-&lt;/blockquote></description></item></channel></rss>
+>here&lt;/a>.&lt;/p>&lt;/blockquote></description></item></channel></rss>

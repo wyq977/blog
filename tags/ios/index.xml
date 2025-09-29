@@ -1,44 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IOS on Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/tags/ios/</link><description>Recent content in IOS on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 07 Jun 2022 16:50:18 +0300</lastBuildDate><atom:link href="https://wyq977.github.io/blog/tags/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/blog/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/blog/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon">Trouble with VPN (Loon)
-&lt;/h2>&lt;p>Though the filter rule support local and self-defined resource parser, GeoIP resolver, etc.
-I still came across many times where I had trouble with Loon enabled.&lt;/p>
-&lt;p>This is one of easiest case involved, I would like certain app to follow certain policy,
-such as &lt;code>REJECT&lt;/code>, &lt;code>DIRECT&lt;/code> or &lt;code>proxy (added)&lt;/code>.&lt;/p>
-&lt;p>It can be achieved as followed, where all the traffic via Facebook app will be blocked.&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[Rule]
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">USER-AGENT,com.facebook.Facebook,REJECT
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Examples can be found here: &lt;a class="link" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list" target="_blank" rel="noopener"
->https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list&lt;/a>&lt;/p>
-&lt;h2 id="how-to-find-bundle-id-of-an-ios-app--step-by-step---mr-virk-media">&lt;a class="link" href="https://mrvirk.com/how-to-find-app-bundle-id-ios.html" target="_blank" rel="noopener"
->How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a>
-&lt;/h2>&lt;p>Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
->https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a>&lt;/p>
-&lt;p>Find the &lt;code>bundleId&lt;/code>&lt;/p></description></item><item><title>iMessages/FaceTime Logic</title><link>https://wyq977.github.io/blog/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/blog/p/imessages/facetime-logic/</guid><description>&lt;p>Problems (2 iPhones and 1 Mac):&lt;/p>
-&lt;ul>
-&lt;li>Tel. A (main, :white_check_mark: iMessages)&lt;/li>
-&lt;li>Tel. B (backup, :x: iMessages)&lt;/li>
-&lt;li>email A (login, :white_check_mark: iMessages)&lt;/li>
-&lt;li>email B (public, :x: iMessages)&lt;/li>
-&lt;/ul>
-&lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a">Avoid spam text messages sync to Mac (no TEXTs from Tel. A)
-&lt;/h2>&lt;p>disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong>Tel. A&lt;/strong> will be synced&lt;/p>
-&lt;h2 id="use-imessage-on-mac">use iMessage on mac
-&lt;/h2>&lt;p>&lt;img src="https://wyq977.github.io/blog/images/imessage_mac_setting.png"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IOS on Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/tags/ios/</link><description>Recent content in IOS on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 07 Jun 2022 16:50:18 +0300</lastBuildDate><atom:link href="https://wyq977.github.io/blog/tags/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>Filter on a per-app basis on iOS</title><link>https://wyq977.github.io/blog/p/filter-on-a-per-app-basis-on-ios/</link><pubDate>Tue, 07 Jun 2022 16:50:18 +0300</pubDate><guid>https://wyq977.github.io/blog/p/filter-on-a-per-app-basis-on-ios/</guid><description>&lt;h2 id="trouble-with-vpn-loon"&gt;Trouble with VPN (Loon)
+&lt;/h2&gt;&lt;p&gt;Though the filter rule support local and self-defined resource parser, GeoIP resolver, etc.
+I still came across many times where I had trouble with Loon enabled.&lt;/p&gt;
+&lt;p&gt;This is one of easiest case involved, I would like certain app to follow certain policy,
+such as &lt;code&gt;REJECT&lt;/code&gt;, &lt;code&gt;DIRECT&lt;/code&gt; or &lt;code&gt;proxy (added)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;It can be achieved as followed, where all the traffic via Facebook app will be blocked.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[Rule]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;USER-AGENT,com.facebook.Facebook,REJECT
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Examples can be found here: &lt;a class="link" href="https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list" target="_blank" rel="noopener"
+&gt;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Apple/Apple.list&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="how-to-find-bundle-id-of-an-ios-app--step-by-step---mr-virk-media"&gt;&lt;a class="link" href="https://mrvirk.com/how-to-find-app-bundle-id-ios.html" target="_blank" rel="noopener"
+&gt;How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
+&gt;https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Find the &lt;code&gt;bundleId&lt;/code&gt;&lt;/p&gt;</description></item><item><title>iMessages/FaceTime Logic</title><link>https://wyq977.github.io/blog/p/imessages/facetime-logic/</link><pubDate>Mon, 06 Jun 2022 15:27:45 +0300</pubDate><guid>https://wyq977.github.io/blog/p/imessages/facetime-logic/</guid><description>&lt;p&gt;Problems (2 iPhones and 1 Mac):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tel. A (main, :white_check_mark: iMessages)&lt;/li&gt;
+&lt;li&gt;Tel. B (backup, :x: iMessages)&lt;/li&gt;
+&lt;li&gt;email A (login, :white_check_mark: iMessages)&lt;/li&gt;
+&lt;li&gt;email B (public, :x: iMessages)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a"&gt;Avoid spam text messages sync to Mac (no TEXTs from Tel. A)
+&lt;/h2&gt;&lt;p&gt;disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong&gt;Tel. A&lt;/strong&gt; will be synced&lt;/p&gt;
+&lt;h2 id="use-imessage-on-mac"&gt;use iMessage on mac
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/images/imessage_mac_setting.png"
 loading="lazy"
->&lt;/p>
-&lt;p>Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p>
-&lt;p>despite you disable in the last setting, iMessages can still arrive while regular text won&amp;rsquo;t.&lt;/p>
-&lt;p>Right now I can be reached via the gmail, if I checked the &lt;strong>Tel. A&lt;/strong>, I can also receive iMessage text on my mac&lt;/p>
-&lt;h2 id="sync-text-message-on-other-iphone-not-tested">sync TEXT message on other iPhone NOT TESTED
-&lt;/h2>&lt;p>both iPhone needs to enable message in iCloud,&lt;/p>
-&lt;p>I think you need to enable iMessage for the other phone number, not sure tho&lt;/p>
-&lt;p>update on 2022-04-28, I received a text message (07:55) from &lt;strong>Tel. B&lt;/strong> on 11:15 WTF?&lt;/p>
-&lt;h2 id="updated-2022-06-06">Updated 2022-06-06
-&lt;/h2>&lt;p>On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p></description></item></channel></rss>
+&gt;&lt;/p&gt;
+&lt;p&gt;Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;despite you disable in the last setting, iMessages can still arrive while regular text won&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;Right now I can be reached via the gmail, if I checked the &lt;strong&gt;Tel. A&lt;/strong&gt;, I can also receive iMessage text on my mac&lt;/p&gt;
+&lt;h2 id="sync-text-message-on-other-iphone-not-tested"&gt;sync TEXT message on other iPhone NOT TESTED
+&lt;/h2&gt;&lt;p&gt;both iPhone needs to enable message in iCloud,&lt;/p&gt;
+&lt;p&gt;I think you need to enable iMessage for the other phone number, not sure tho&lt;/p&gt;
+&lt;p&gt;update on 2022-04-28, I received a text message (07:55) from &lt;strong&gt;Tel. B&lt;/strong&gt; on 11:15 WTF?&lt;/p&gt;
+&lt;h2 id="updated-2022-06-06"&gt;Updated 2022-06-06
+&lt;/h2&gt;&lt;p&gt;On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p&gt;</description></item></channel></rss>

@@ -40,42 +40,109 @@ Range (min … max): 249.0 ms … 345.9 ms 10 runs&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;conda&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Benchmark 1: bash &amp;ndash;login
-Time (mean ± σ): 45.8 ms ± 2.0 ms [User: 16.3 ms, System: 20.7 ms]
-Range (min … max): 42.0 ms … 52.8 ms 57 runs&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;eval $(/opt/homebrew/bin/brew shellenv)&lt;/code&gt; would add ~ 27 ms delay&lt;/p&gt;
+&lt;/div&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Benchmark 1: bash --login
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Time &lt;span class="o"&gt;(&lt;/span&gt;mean ± σ&lt;span class="o"&gt;)&lt;/span&gt;: 45.8 ms ± 2.0 ms &lt;span class="o"&gt;[&lt;/span&gt;User: 16.3 ms, System: 20.7 ms&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Range &lt;span class="o"&gt;(&lt;/span&gt;min … max&lt;span class="o"&gt;)&lt;/span&gt;: 42.0 ms … 52.8 ms &lt;span class="m"&gt;57&lt;/span&gt; runs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;eval $(/opt/homebrew/bin/brew shellenv)&lt;/code&gt; would add ~ 27 ms delay&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;bash_prompt&lt;/code&gt; add ~ 20 ms&lt;/p&gt;
-&lt;p&gt;bash_exports: 0.001 s
-bash_aliases: 0.000 s
-bash_autocompletion: 0.029 s
-bash_colors: 0.000 s
-bash_functions: 0.000 s
-bash_options: 0.000 s
-bash_prompt: 0.022 s
-bash.local: 0.000 s
-conda: 0.003&lt;/p&gt;
-&lt;h2 id="autocompletion-diff-140-ms-on-load-up"&gt;Autocompletion diff: 140 ms on load up
-&lt;/h2&gt;&lt;p&gt;myMacbook:~ wyq977$ hyperfine &amp;lsquo;bash &amp;ndash;login&amp;rsquo;
-Benchmark 1: bash &amp;ndash;login
-Time (mean ± σ): 12.9 ms ± 0.8 ms [User: 5.0 ms, System: 4.9 ms]
-Range (min … max): 11.7 ms … 16.8 ms 187 runs&lt;/p&gt;
-&lt;p&gt;myMacbook:~ wyq977$ hyperfine &amp;lsquo;bash -i&amp;rsquo;
-Benchmark 1: bash -i
-Time (mean ± σ): 160.2 ms ± 2.4 ms [User: 120.7 ms, System: 33.2 ms]
-Range (min … max): 157.3 ms … 164.9 ms 17 runs&lt;/p&gt;
-&lt;h2 id="zsh-is-much-faster"&gt;ZSH is much faster?
-&lt;/h2&gt;&lt;p&gt;myMacbook:~ wyq977$ hyperfine &amp;lsquo;zsh &amp;ndash;login&amp;rsquo;
-Benchmark 1: zsh &amp;ndash;login
-Time (mean ± σ): 4.4 ms ± 0.6 ms [User: 1.3 ms, System: 1.8 ms]
-Range (min … max): 3.2 ms … 7.2 ms 311 runs&lt;/p&gt;
-&lt;p&gt;❯ hyperfine &amp;lsquo;zsh -cli exit&amp;rsquo;
-Benchmark 1: zsh -cli exit
-Time (mean ± σ): 72.8 ms ± 1.5 ms [User: 26.2 ms, System: 30.2 ms]
-Range (min … max): 69.7 ms … 76.5 ms 39 runs&lt;/p&gt;
-&lt;p&gt;❯ hyperfine &amp;lsquo;/opt/homebrew/bin/bash -cli exit&amp;rsquo;
-Benchmark 1: /opt/homebrew/bin/bash -cli exit
-Time (mean ± σ): 77.0 ms ± 3.4 ms [User: 37.4 ms, System: 27.3 ms]
-Range (min … max): 73.9 ms … 93.6 ms 31 runs&lt;/p&gt;</description></item><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/blog/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/blog/p/macos-chinese-font/</guid><description>&lt;p&gt;I came across a issue when opening a &lt;code&gt;doc&lt;/code&gt; file in macOS (12.5.1).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;bash_exports&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.001&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;bash_aliases&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;bash_autocompletion&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.029&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;bash_colors&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;bash_functions&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;bash_options&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;bash_prompt&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.022&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;bash&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;local&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;conda&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.003&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="autocompletion-diff-140-ms-on-load-up"&gt;Autocompletion diff: 140 ms on load up
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;myMacbook:~ wyq977$ hyperfine &lt;span class="s1"&gt;&amp;#39;bash --login&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Benchmark 1: bash --login
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Time &lt;span class="o"&gt;(&lt;/span&gt;mean ± σ&lt;span class="o"&gt;)&lt;/span&gt;: 12.9 ms ± 0.8 ms &lt;span class="o"&gt;[&lt;/span&gt;User: 5.0 ms, System: 4.9 ms&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Range &lt;span class="o"&gt;(&lt;/span&gt;min … max&lt;span class="o"&gt;)&lt;/span&gt;: 11.7 ms … 16.8 ms &lt;span class="m"&gt;187&lt;/span&gt; runs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;myMacbook:~ wyq977$ hyperfine &lt;span class="s1"&gt;&amp;#39;bash -i&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Benchmark 1: bash -i
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Time &lt;span class="o"&gt;(&lt;/span&gt;mean ± σ&lt;span class="o"&gt;)&lt;/span&gt;: 160.2 ms ± 2.4 ms &lt;span class="o"&gt;[&lt;/span&gt;User: 120.7 ms, System: 33.2 ms&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Range &lt;span class="o"&gt;(&lt;/span&gt;min … max&lt;span class="o"&gt;)&lt;/span&gt;: 157.3 ms … 164.9 ms &lt;span class="m"&gt;17&lt;/span&gt; runs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="zsh-is-much-faster"&gt;ZSH is much faster?
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;myMacbook:~ wyq977$ hyperfine &lt;span class="s1"&gt;&amp;#39;zsh --login&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Benchmark 1: zsh --login
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Time &lt;span class="o"&gt;(&lt;/span&gt;mean ± σ&lt;span class="o"&gt;)&lt;/span&gt;: 4.4 ms ± 0.6 ms &lt;span class="o"&gt;[&lt;/span&gt;User: 1.3 ms, System: 1.8 ms&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Range &lt;span class="o"&gt;(&lt;/span&gt;min … max&lt;span class="o"&gt;)&lt;/span&gt;: 3.2 ms … 7.2 ms &lt;span class="m"&gt;311&lt;/span&gt; runs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;❯ hyperfine &lt;span class="s1"&gt;&amp;#39;zsh -cli exit&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Benchmark 1: zsh -cli &lt;span class="nb"&gt;exit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Time &lt;span class="o"&gt;(&lt;/span&gt;mean ± σ&lt;span class="o"&gt;)&lt;/span&gt;: 72.8 ms ± 1.5 ms &lt;span class="o"&gt;[&lt;/span&gt;User: 26.2 ms, System: 30.2 ms&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Range &lt;span class="o"&gt;(&lt;/span&gt;min … max&lt;span class="o"&gt;)&lt;/span&gt;: 69.7 ms … 76.5 ms &lt;span class="m"&gt;39&lt;/span&gt; runs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;❯ hyperfine &lt;span class="s1"&gt;&amp;#39;/opt/homebrew/bin/bash -cli exit&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Benchmark 1: /opt/homebrew/bin/bash -cli &lt;span class="nb"&gt;exit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Time &lt;span class="o"&gt;(&lt;/span&gt;mean ± σ&lt;span class="o"&gt;)&lt;/span&gt;: 77.0 ms ± 3.4 ms &lt;span class="o"&gt;[&lt;/span&gt;User: 37.4 ms, System: 27.3 ms&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Range &lt;span class="o"&gt;(&lt;/span&gt;min … max&lt;span class="o"&gt;)&lt;/span&gt;: 73.9 ms … 93.6 ms &lt;span class="m"&gt;31&lt;/span&gt; runs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>macOS Chinese Font</title><link>https://wyq977.github.io/blog/p/macos-chinese-font/</link><pubDate>Fri, 03 Feb 2023 10:00:33 +0100</pubDate><guid>https://wyq977.github.io/blog/p/macos-chinese-font/</guid><description>&lt;p&gt;I came across a issue when opening a &lt;code&gt;doc&lt;/code&gt; file in macOS (12.5.1).&lt;/p&gt;
 &lt;p&gt;Pages keeps reming me that fonts are missing despite I have already installed
 them from file.&lt;/p&gt;
 &lt;p&gt;It turns out that the Family name in font is not Chinese, which somehow makes

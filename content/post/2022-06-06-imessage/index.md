@@ -4,8 +4,8 @@ date: 2022-06-06T15:27:45+03:00
 categories:
     - Blog
 tags:
-    - macOS
-    - iOS
+    - "macOS"
+    - "iOS"
 ---
 
 Problems (2 iPhones and 1 Mac):
@@ -21,7 +21,7 @@ disable "Enable Messages in iCloud": otherwise texts from **Tel. A** will be syn
 
 ## use iMessage on mac
 
-![](images/imessage_mac_setting.png)
+![](imessage-mac-setting.png)
 
 Check "you can be reached for messages at:"
 

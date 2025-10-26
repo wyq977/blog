@@ -5,7 +5,7 @@ draft: true
 categories:
     - Guide
 tags:
-    - macOS
+    - "macOS"
 ---
 
 ## Tensorflow on Apple Silicon 

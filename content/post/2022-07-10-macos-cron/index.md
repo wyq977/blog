@@ -4,7 +4,7 @@ date: 2022-07-10T23:05:21+02:00
 categories:
     - Guide
 tags:
-    - macOS
+    - "macOS"
 ---
 
 ## CRONTAB on macOS
@@ -53,7 +53,7 @@ Example.plist which runs daily at 09:27
 
 Example app
 
-![](images/brew_update_automator.png)
+![](brew-update-automator.png)
 
 Ref:
 

@@ -1,11 +1,11 @@
 ---
-title: "VSCode Latex Mac"
+title: "VSCode LaTex Mac"
 date: 2022-06-02T15:32:31+03:00
 draft: false
 categories:
     - Guide
 tags:
-    - macOS
+    - "macOS"
 ---
 
 ## Using Latex on macOS

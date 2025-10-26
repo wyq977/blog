@@ -4,7 +4,7 @@ date: 2023-02-03T10:00:33+01:00
 categories:
     - Guide
 tags:
-    - macOS
+    - "macOS"
 ---
 
 I came across a issue when opening a `doc` file in macOS (12.5.1).
@@ -15,9 +15,9 @@ them from file.
 It turns out that the Family name in font is not Chinese, which somehow makes 
 the Pages.app can not recognize the fonts.
 
-![](font_family_name_english.png)
+![](font-family-name-english.png)
 
-![](font_family_name_chinese.png)
+![](font-family-name-chinese.png)
 
 Weird.
 
@@ -26,7 +26,7 @@ from SimSun to 宋体.
 
 Still it reminds that Fonts are missing despite I have "宋体" in the menu.
 
-![](missing_font_chinese.png)
+![](missing-font-chinese.png)
 
 It should be noted that Times New Roman Regular was found Missing:
 

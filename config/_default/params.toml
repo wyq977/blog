@@ -10,8 +10,8 @@ rssFullContent = true
 featuredImageField = "image"    
 
 [footer]
-since = 2020
-customText = ""
+since = 2019
+customText = "This is my personal page, it does not in any way constitute official content of my employer or schools. The views and opinions expressed in individual's Web pages are strictly those of the page authors. Comments on the contents of those pages should be directed to the page authors."
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -29,7 +29,7 @@ src = "img/profile.png"
 [article]
 math = false
 toc = true
-readingTime = true
+readingTime = false
 
 [article.license]
 enabled = true

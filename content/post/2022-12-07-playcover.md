@@ -4,7 +4,7 @@ date: 2022-12-07T12:03:07+02:00
 categories:
     - Guide
 tags:
-    - macOS
+    - "macOS"
 ---
 
 ## Genshin Impact (Yuanshen)

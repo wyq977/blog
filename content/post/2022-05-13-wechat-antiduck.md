@@ -4,7 +4,7 @@ date: 2022-05-13T13:30:58+02:00
 categories:
     - Guide
 tags:
-    - macOS
+    - "macOS"
 ---
 
 There's this annoying feature on macOS that would lower the media volume when you are on a call or Facetime which appears in Wechat, Facetime or Skype. Basically, you can't listen to YT when you are on a call.

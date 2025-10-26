@@ -4,7 +4,7 @@ date: 2020-12-31T11:42:32+01:00
 categories:
     - Guide
 tags:
-    - eth
+    - "ETH"
     - server
 ---
 
@@ -78,7 +78,7 @@ display random.png
 # show up in the XQuartz window
 ```
 
-![](images/x11_foward_macos.png)
+![](x11-foward-macos.png)
 
 ## Note
 

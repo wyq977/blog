@@ -65,8 +65,14 @@
 &lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a"&gt;Avoid spam text messages sync to Mac (no TEXTs from Tel. A)
 &lt;/h2&gt;&lt;p&gt;disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong&gt;Tel. A&lt;/strong&gt; will be synced&lt;/p&gt;
 &lt;h2 id="use-imessage-on-mac"&gt;use iMessage on mac
-&lt;/h2&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/images/imessage_mac_setting.png"
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/imessages/facetime-logic/imessage-mac-setting.png"
+width="696"
+height="698"
+srcset="https://wyq977.github.io/blog/p/imessages/facetime-logic/imessage-mac-setting_hu_686470e2798f78cc.png 480w, https://wyq977.github.io/blog/p/imessages/facetime-logic/imessage-mac-setting_hu_ed638e13a74d40f1.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="99"
+data-flex-basis="239px"
 &gt;&lt;/p&gt;
 &lt;p&gt;Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;despite you disable in the last setting, iMessages can still arrive while regular text won&amp;rsquo;t.&lt;/p&gt;

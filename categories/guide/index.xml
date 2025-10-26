@@ -3,19 +3,19 @@
 them from file.&lt;/p&gt;
 &lt;p&gt;It turns out that the Family name in font is not Chinese, which somehow makes
 the Pages.app can not recognize the fonts.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english.png"
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-english.png"
 width="266"
 height="160"
-srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english_hu_adc90bc8ad1b795a.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english_hu_7436179dce3054b3.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-english_hu_adc90bc8ad1b795a.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-english_hu_7436179dce3054b3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
 data-flex-basis="399px"
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese.png"
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-chinese.png"
 width="251"
 height="85"
-srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese_hu_106873ce68e11415.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese_hu_ddf3dd9331dc10b.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-chinese_hu_106873ce68e11415.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-chinese_hu_ddf3dd9331dc10b.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="295"
@@ -25,10 +25,10 @@ data-flex-basis="708px"
 &lt;p&gt;If the languages for pages.app is set to Chinese, then Family name changes
 from SimSun to 宋体.&lt;/p&gt;
 &lt;p&gt;Still it reminds that Fonts are missing despite I have &amp;ldquo;宋体&amp;rdquo; in the menu.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese.png"
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/missing-font-chinese.png"
 width="468"
 height="308"
-srcset="https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese_hu_a2558d1366522b7e.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese_hu_aaec20054fed3072.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/missing-font-chinese_hu_a2558d1366522b7e.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/missing-font-chinese_hu_aaec20054fed3072.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="151"
@@ -150,8 +150,14 @@ data-flex-basis="364px"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Example app&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/images/brew_update_automator.png"
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-cron/brew-update-automator.png"
+width="1838"
+height="992"
+srcset="https://wyq977.github.io/blog/p/macos-cron/brew-update-automator_hu_e67e9de525bacb8b.png 480w, https://wyq977.github.io/blog/p/macos-cron/brew-update-automator_hu_2436eb72d96be713.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="185"
+data-flex-basis="444px"
 &gt;&lt;/p&gt;
 &lt;p&gt;Ref:&lt;/p&gt;
 &lt;ul&gt;
@@ -183,7 +189,7 @@ such as &lt;code&gt;REJECT&lt;/code&gt;, &lt;code&gt;DIRECT&lt;/code&gt; or &lt;
 &gt;How to Find Bundle ID of an iOS app ? Step by Step - Mr. Virk Media&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;Get the text file from url with ID, Example: &lt;a class="link" href="https://itunes.apple.com/lookup?id=304158842&amp;amp;country=us" target="_blank" rel="noopener"
 &gt;https://itunes.apple.com/lookup?id=304158842&amp;country=us&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Find the &lt;code&gt;bundleId&lt;/code&gt;&lt;/p&gt;</description></item><item><title>VSCode Latex Mac</title><link>https://wyq977.github.io/blog/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/blog/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos"&gt;Using Latex on macOS
+&lt;p&gt;Find the &lt;code&gt;bundleId&lt;/code&gt;&lt;/p&gt;</description></item><item><title>VSCode LaTex Mac</title><link>https://wyq977.github.io/blog/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/blog/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos"&gt;Using Latex on macOS
 &lt;/h2&gt;&lt;p&gt;Download MacTex (~3/4 GB with most packages included), via homebrew, support for Apple Silicon&lt;/p&gt;
 &lt;h2 id="guide"&gt;Guide
 &lt;/h2&gt;&lt;p&gt;I followed mostly &lt;a class="link" href="http://homepages.rpi.edu/home/36/wangy52/public_html/PersonalWebsite/build/html/Misc/Mac/VSCode/VSCode-LaTeX.html" target="_blank" rel="noopener"
@@ -298,10 +304,12 @@ Tried installing the app store version, still no luck.&lt;/p&gt;
 &lt;p&gt;According to this &lt;a class="link" href="https://stackoverflow.com/questions/29848622/codesign-allocate-error-unable-to-find-utility-codesign-allocate-not-a-deve" target="_blank" rel="noopener"
 &gt;discussion&lt;/a&gt;, I just copied the app to another folder, signed it and then replaced it with the one in &lt;code&gt;/Applications&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;For more details, see &lt;a class="link" href="https://github.com/Homebrew/brew/issues/9082" target="_blank" rel="noopener"
-&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;</description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/blog/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/blog/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why"&gt;Why
+&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/blog/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/blog/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why"&gt;Why
 &lt;/h2&gt;&lt;p&gt;Version control on R has always been a hassle for me personally since most of the bioinformatics tools or workflows relies too heavily on RMD or Notebook-like script due to its high flexibility. Despite its convenience in parameters tuning and data manipulation, it&amp;rsquo;s much more difficult than sharing the list of python packages in other workflows.&lt;/p&gt;
 &lt;h2 id="existing-solution"&gt;Existing solution
 &lt;/h2&gt;&lt;p&gt;Someone used Anaconda environment file but I personally find that a bit too clumsy. I never tried it but I assume if one put &lt;code&gt;R==4.1/4.2&lt;/code&gt; in &lt;code&gt;env.yml&lt;/code&gt;, conda will try to download and install a different version inside each env directory.&lt;/p&gt;
@@ -608,7 +616,8 @@ alt="Test Results"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
@@ -618,7 +627,8 @@ alt="Test Results"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Working!&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -1172,8 +1182,14 @@ autograd&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# show up in the XQuartz window&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/images/x11_foward_macos.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos.png"
+width="1221"
+height="998"
+srcset="https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos_hu_2b3b0de85a18937f.png 480w, https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos_hu_92636fc5da0f98e7.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="122"
+data-flex-basis="293px"
 &gt;&lt;/p&gt;
 &lt;h2 id="note"&gt;Note
 &lt;/h2&gt;&lt;p&gt;Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p&gt;

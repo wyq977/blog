@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/post/</link><description>Recent content in Posts on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jan 2025 21:16:21 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Shell Speedup</title><link>https://wyq977.github.io/blog/p/shell-speedup/</link><pubDate>Tue, 21 Jan 2025 21:16:21 +0100</pubDate><guid>https://wyq977.github.io/blog/p/shell-speedup/</guid><description>&lt;p&gt;&lt;a class="link" href="https://work.lisk.in/2020/11/20/even-faster-bash-startup.html#completions" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>posts on Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/post/</link><description>Recent content in posts on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 07 Oct 2025 17:27:10 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Should I Change My Old Files' Names</title><link>https://wyq977.github.io/blog/p/should-i-change-my-old-files-names/</link><pubDate>Tue, 07 Oct 2025 17:27:10 +0200</pubDate><guid>https://wyq977.github.io/blog/p/should-i-change-my-old-files-names/</guid><description>&lt;h2 id="tldr"&gt;TLDR
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;No!&lt;/strong&gt; Just keep working and stop trying the make tht&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s has been a while since I wrote, both in work and in my spare time.
+I have been hesitent about the title of post or should I say article.
+The original is very self-reflective and somehow vague: &amp;ldquo;Self Reflection Fall 2025&amp;rdquo;.
+Wow! That reads super personal and in some ways sounds like a patient&amp;rsquo; log by the end of 2025.
+I would start with a age-old question for programmer/coders (with some OCDs)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How do you name you files?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="file-naming"&gt;File naming
+&lt;/h2&gt;&lt;p&gt;Of course there are different convention and guideline on each programming language and official guidelines for each language.
+For example, you need to indent properly but the naming can get wild&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;camelCase
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;CamelCase
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;File_Title_Case
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;file_lower_case
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;file-dash
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;filealltogether
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;It gets more complicated with adding prefix or suffix of version number, draft, date.
+What should one use for date?
+Do you go from &amp;lsquo;ver_01&amp;rsquo; to &amp;lsquo;ver-02&amp;rsquo; by coping or just simply modify on the original doc.&lt;/p&gt;
+&lt;h2 id="graphic-standard-fonts-size-rendering"&gt;Graphic standard: fonts, size, rendering
+&lt;/h2&gt;&lt;p&gt;我发现坚持某一个习惯、软件，对我来说十分困难。
+举例子，我老是觉得 是颠三倒四&lt;/p&gt;
+&lt;p&gt;conswe&lt;/p&gt;
+&lt;h1 id=""&gt;
+&lt;/h1&gt;&lt;p&gt;The last 2-3 weeks have been quick hard for me, the main issue is the lack of motivation and loss of concentration during work.
+On top of that, the shoulder injury definitely adds a lot difficulties, and&lt;/p&gt;
+&lt;p&gt;Here is the link to my chat with Gemini: &lt;a class="link" href="https://gemini.google.com/share/e19461751ccb" target="_blank" rel="noopener"
+&gt;https://gemini.google.com/share/e19461751ccb&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Shell Speedup</title><link>https://wyq977.github.io/blog/p/shell-speedup/</link><pubDate>Tue, 21 Jan 2025 21:16:21 +0100</pubDate><guid>https://wyq977.github.io/blog/p/shell-speedup/</guid><description>&lt;p&gt;&lt;a class="link" href="https://work.lisk.in/2020/11/20/even-faster-bash-startup.html#completions" target="_blank" rel="noopener"
 &gt;https://work.lisk.in/2020/11/20/even-faster-bash-startup.html#completions&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class="link" href="https://danpker.com/posts/faster-bash-startup/" target="_blank" rel="noopener"
 &gt;https://danpker.com/posts/faster-bash-startup/&lt;/a&gt;&lt;/p&gt;
@@ -147,19 +189,19 @@ Range (min … max): 249.0 ms … 345.9 ms 10 runs&lt;/p&gt;
 them from file.&lt;/p&gt;
 &lt;p&gt;It turns out that the Family name in font is not Chinese, which somehow makes
 the Pages.app can not recognize the fonts.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english.png"
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-english.png"
 width="266"
 height="160"
-srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english_hu_adc90bc8ad1b795a.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_english_hu_7436179dce3054b3.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-english_hu_adc90bc8ad1b795a.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-english_hu_7436179dce3054b3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
 data-flex-basis="399px"
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese.png"
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-chinese.png"
 width="251"
 height="85"
-srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese_hu_106873ce68e11415.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font_family_name_chinese_hu_ddf3dd9331dc10b.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-chinese_hu_106873ce68e11415.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/font-family-name-chinese_hu_ddf3dd9331dc10b.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="295"
@@ -169,10 +211,10 @@ data-flex-basis="708px"
 &lt;p&gt;If the languages for pages.app is set to Chinese, then Family name changes
 from SimSun to 宋体.&lt;/p&gt;
 &lt;p&gt;Still it reminds that Fonts are missing despite I have &amp;ldquo;宋体&amp;rdquo; in the menu.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese.png"
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-chinese-font/missing-font-chinese.png"
 width="468"
 height="308"
-srcset="https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese_hu_a2558d1366522b7e.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/missing_font_chinese_hu_aaec20054fed3072.png 1024w"
+srcset="https://wyq977.github.io/blog/p/macos-chinese-font/missing-font-chinese_hu_a2558d1366522b7e.png 480w, https://wyq977.github.io/blog/p/macos-chinese-font/missing-font-chinese_hu_aaec20054fed3072.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="151"
@@ -351,8 +393,14 @@ data-flex-basis="364px"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Example app&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/images/brew_update_automator.png"
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/macos-cron/brew-update-automator.png"
+width="1838"
+height="992"
+srcset="https://wyq977.github.io/blog/p/macos-cron/brew-update-automator_hu_e67e9de525bacb8b.png 480w, https://wyq977.github.io/blog/p/macos-cron/brew-update-automator_hu_2436eb72d96be713.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="185"
+data-flex-basis="444px"
 &gt;&lt;/p&gt;
 &lt;p&gt;Ref:&lt;/p&gt;
 &lt;ul&gt;
@@ -394,8 +442,14 @@ such as &lt;code&gt;REJECT&lt;/code&gt;, &lt;code&gt;DIRECT&lt;/code&gt; or &lt;
 &lt;h2 id="avoid-spam-text-messages-sync-to-mac-no-texts-from-tel-a"&gt;Avoid spam text messages sync to Mac (no TEXTs from Tel. A)
 &lt;/h2&gt;&lt;p&gt;disable &amp;ldquo;Enable Messages in iCloud&amp;rdquo;: otherwise texts from &lt;strong&gt;Tel. A&lt;/strong&gt; will be synced&lt;/p&gt;
 &lt;h2 id="use-imessage-on-mac"&gt;use iMessage on mac
-&lt;/h2&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/images/imessage_mac_setting.png"
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/imessages/facetime-logic/imessage-mac-setting.png"
+width="696"
+height="698"
+srcset="https://wyq977.github.io/blog/p/imessages/facetime-logic/imessage-mac-setting_hu_686470e2798f78cc.png 480w, https://wyq977.github.io/blog/p/imessages/facetime-logic/imessage-mac-setting_hu_ed638e13a74d40f1.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="99"
+data-flex-basis="239px"
 &gt;&lt;/p&gt;
 &lt;p&gt;Check &amp;ldquo;you can be reached for messages at:&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;despite you disable in the last setting, iMessages can still arrive while regular text won&amp;rsquo;t.&lt;/p&gt;
@@ -405,7 +459,7 @@ loading="lazy"
 &lt;p&gt;I think you need to enable iMessage for the other phone number, not sure tho&lt;/p&gt;
 &lt;p&gt;update on 2022-04-28, I received a text message (07:55) from &lt;strong&gt;Tel. B&lt;/strong&gt; on 11:15 WTF?&lt;/p&gt;
 &lt;h2 id="updated-2022-06-06"&gt;Updated 2022-06-06
-&lt;/h2&gt;&lt;p&gt;On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p&gt;</description></item><item><title>VSCode Latex Mac</title><link>https://wyq977.github.io/blog/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/blog/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos"&gt;Using Latex on macOS
+&lt;/h2&gt;&lt;p&gt;On main iPhone with Tel A, I can still receive text from Tel. B on another phone&amp;hellip;&lt;/p&gt;</description></item><item><title>VSCode LaTex Mac</title><link>https://wyq977.github.io/blog/p/vscode-latex-mac/</link><pubDate>Thu, 02 Jun 2022 15:32:31 +0300</pubDate><guid>https://wyq977.github.io/blog/p/vscode-latex-mac/</guid><description>&lt;h2 id="using-latex-on-macos"&gt;Using Latex on macOS
 &lt;/h2&gt;&lt;p&gt;Download MacTex (~3/4 GB with most packages included), via homebrew, support for Apple Silicon&lt;/p&gt;
 &lt;h2 id="guide"&gt;Guide
 &lt;/h2&gt;&lt;p&gt;I followed mostly &lt;a class="link" href="http://homepages.rpi.edu/home/36/wangy52/public_html/PersonalWebsite/build/html/Misc/Mac/VSCode/VSCode-LaTeX.html" target="_blank" rel="noopener"
@@ -520,10 +574,12 @@ Tried installing the app store version, still no luck.&lt;/p&gt;
 &lt;p&gt;According to this &lt;a class="link" href="https://stackoverflow.com/questions/29848622/codesign-allocate-error-unable-to-find-utility-codesign-allocate-not-a-deve" target="_blank" rel="noopener"
 &gt;discussion&lt;/a&gt;, I just copied the app to another folder, signed it and then replaced it with the one in &lt;code&gt;/Applications&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s a known bug in the codesign tool. To work around it, make a copy of your modified executable, sign the copy, then replace the original executable with the signed copy and it should work.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;For more details, see &lt;a class="link" href="https://github.com/Homebrew/brew/issues/9082" target="_blank" rel="noopener"
-&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;</description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/blog/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/blog/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why"&gt;Why
+&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>R on Apple Silicon</title><link>https://wyq977.github.io/blog/p/r-on-apple-silicon/</link><pubDate>Mon, 09 May 2022 16:04:42 +0200</pubDate><guid>https://wyq977.github.io/blog/p/r-on-apple-silicon/</guid><description>&lt;h2 id="why"&gt;Why
 &lt;/h2&gt;&lt;p&gt;Version control on R has always been a hassle for me personally since most of the bioinformatics tools or workflows relies too heavily on RMD or Notebook-like script due to its high flexibility. Despite its convenience in parameters tuning and data manipulation, it&amp;rsquo;s much more difficult than sharing the list of python packages in other workflows.&lt;/p&gt;
 &lt;h2 id="existing-solution"&gt;Existing solution
 &lt;/h2&gt;&lt;p&gt;Someone used Anaconda environment file but I personally find that a bit too clumsy. I never tried it but I assume if one put &lt;code&gt;R==4.1/4.2&lt;/code&gt; in &lt;code&gt;env.yml&lt;/code&gt;, conda will try to download and install a different version inside each env directory.&lt;/p&gt;
@@ -830,7 +886,8 @@ alt="Test Results"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;We’ll get “permission denied” when trying to use the Docker CLI from macOS. This is because the debian user doesn’t have permissions to use Docker without using sudo. To fix this, on the Debian VM, we’ll run the following command to add the debian user to the docker user group:&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
@@ -840,7 +897,8 @@ alt="Test Results"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Now the Docker CLI will connect to the Debian VM instead. We will confirm this by running docker system info | grep System from the macOS terminal to see that the operating system is Debian, not Darwin or macOS:&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Working!&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -1432,8 +1490,14 @@ autograd&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# show up in the XQuartz window&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/images/x11_foward_macos.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos.png"
+width="1221"
+height="998"
+srcset="https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos_hu_2b3b0de85a18937f.png 480w, https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos_hu_92636fc5da0f98e7.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="122"
+data-flex-basis="293px"
 &gt;&lt;/p&gt;
 &lt;h2 id="note"&gt;Note
 &lt;/h2&gt;&lt;p&gt;Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p&gt;

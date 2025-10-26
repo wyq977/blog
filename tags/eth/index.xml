@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eth on Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/tags/eth/</link><description>Recent content in Eth on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 31 Dec 2020 11:42:32 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/blog/tags/eth/index.xml" rel="self" type="application/rss+xml"/><item><title>x11 Forwarding on macOS</title><link>https://wyq977.github.io/blog/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/blog/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz"&gt;Install xQuartz
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ETH on Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/tags/eth/</link><description>Recent content in ETH on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 31 Dec 2020 11:42:32 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/blog/tags/eth/index.xml" rel="self" type="application/rss+xml"/><item><title>x11 Forwarding on macOS</title><link>https://wyq977.github.io/blog/p/x11-forwarding-on-macos/</link><pubDate>Thu, 31 Dec 2020 11:42:32 +0100</pubDate><guid>https://wyq977.github.io/blog/p/x11-forwarding-on-macos/</guid><description>&lt;h2 id="install-xquartz"&gt;Install xQuartz
 &lt;/h2&gt;&lt;p&gt;If homebrew installed:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -112,8 +112,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# show up in the XQuartz window&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/images/x11_foward_macos.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos.png"
+width="1221"
+height="998"
+srcset="https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos_hu_2b3b0de85a18937f.png 480w, https://wyq977.github.io/blog/p/x11-forwarding-on-macos/x11-foward-macos_hu_92636fc5da0f98e7.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="122"
+data-flex-basis="293px"
 &gt;&lt;/p&gt;
 &lt;h2 id="note"&gt;Note
 &lt;/h2&gt;&lt;p&gt;Noted that this might conflict with some plotting software like R, matplotlib in python,&lt;/p&gt;

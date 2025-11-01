@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/</link><description>Recent content on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 07 Oct 2025 17:27:10 +0200</lastBuildDate><atom:link href="https://wyq977.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Should I Change My Old Files' Names</title><link>https://wyq977.github.io/blog/p/should-i-change-my-old-files-names/</link><pubDate>Tue, 07 Oct 2025 17:27:10 +0200</pubDate><guid>https://wyq977.github.io/blog/p/should-i-change-my-old-files-names/</guid><description>&lt;h2 id="tldr"&gt;TLDR
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/</link><description>Recent content on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Nov 2025 14:48:54 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>ebook collections</title><link>https://wyq977.github.io/blog/p/ebook-collections/</link><pubDate>Sat, 01 Nov 2025 14:48:54 +0100</pubDate><guid>https://wyq977.github.io/blog/p/ebook-collections/</guid><description>&lt;p&gt;This is taken from my previous git repo&lt;/p&gt;
+&lt;h2 id="replace-using-regex"&gt;Replace using regex
+&lt;/h2&gt;&lt;p&gt;Use Replace with regex function in editor&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# from this
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;([第一二三四五六七八九十百〇零壹贰参肆伍陆柒捌玖拾佰壹贰叁肆伍陆柒捌玖拾佰仟初序1234567890]{1,9}章.*)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# to this
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;## $1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Change the encoding to UTF-8&lt;/p&gt;
+&lt;h2 id="convert-to-epub"&gt;Convert to EPUB
+&lt;/h2&gt;&lt;p&gt;See settings below in Calibre&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://wyq977.github.io/blog/p/ebook-collections/calibre-01.png"
+width="1749"
+height="911"
+srcset="https://wyq977.github.io/blog/p/ebook-collections/calibre-01_hu_8a48445b1d3991c0.png 480w, https://wyq977.github.io/blog/p/ebook-collections/calibre-01_hu_a34d8869697d9b55.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="191"
+data-flex-basis="460px"
+&gt;
+&lt;img src="https://wyq977.github.io/blog/p/ebook-collections/calibre-02.png"
+width="1749"
+height="911"
+srcset="https://wyq977.github.io/blog/p/ebook-collections/calibre-02_hu_ae8353a07bdb3c17.png 480w, https://wyq977.github.io/blog/p/ebook-collections/calibre-02_hu_3595f101a31a0f82.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="191"
+data-flex-basis="460px"
+&gt;
+&lt;img src="https://wyq977.github.io/blog/p/ebook-collections/calibre-03.png"
+width="1749"
+height="911"
+srcset="https://wyq977.github.io/blog/p/ebook-collections/calibre-03_hu_360e5c352ec0cfed.png 480w, https://wyq977.github.io/blog/p/ebook-collections/calibre-03_hu_7d5f65b2c4d6ece9.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="191"
+data-flex-basis="460px"
+&gt;&lt;/p&gt;
+&lt;p&gt;After this, just save it to the disk&lt;/p&gt;
+&lt;h2 id="source"&gt;Source
+&lt;/h2&gt;&lt;p&gt;Mostly downloaded from &lt;a class="link" href="http://www.zxcs.me" target="_blank" rel="noopener"
+&gt;http://www.zxcs.me&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;看帮网:https://www.kanbang.cc&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://m.99xsw.cc/txt/133983.html" target="_blank" rel="noopener"
+&gt;https://m.99xsw.cc/txt/133983.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="http://www.txt80.com" target="_blank" rel="noopener"
+&gt;http://www.txt80.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Should I Change My Old Files' Names</title><link>https://wyq977.github.io/blog/p/should-i-change-my-old-files-names/</link><pubDate>Tue, 07 Oct 2025 17:27:10 +0200</pubDate><guid>https://wyq977.github.io/blog/p/should-i-change-my-old-files-names/</guid><description>&lt;h2 id="tldr"&gt;TLDR
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;No!&lt;/strong&gt; Just keep working and stop trying the make tht&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s has been a while since I wrote, both in work and in my spare time.
 I have been hesitent about the title of post or should I say article.

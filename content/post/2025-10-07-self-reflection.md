@@ -5,7 +5,11 @@ date: 2025-10-07T17:27:10+02:00
 
 ## TLDR
 
-__No!__ Just keep working and stop trying the make tht
+__No!__ Just keep working and stop trying making every files perfect!
+
+1. all lower case
+2. date should be 2022-07-19
+3. connecting should be dash "-"
 
 It's has been a while since I wrote, both in work and in my spare time.
 I have been hesitent about the title of post or should I say article.

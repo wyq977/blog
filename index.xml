@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/</link><description>Recent content on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Nov 2025 14:48:54 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>ebook collections</title><link>https://wyq977.github.io/blog/p/ebook-collections/</link><pubDate>Sat, 01 Nov 2025 14:48:54 +0100</pubDate><guid>https://wyq977.github.io/blog/p/ebook-collections/</guid><description>&lt;p&gt;This is taken from my previous git repo&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yongqi Wang's Blog</title><link>https://wyq977.github.io/blog/</link><description>Recent content on Yongqi Wang's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 10 Nov 2025 11:29:26 +0100</lastBuildDate><atom:link href="https://wyq977.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Python: linter, LSP and formatter</title><link>https://wyq977.github.io/blog/p/python-linter-lsp-and-formatter/</link><pubDate>Mon, 10 Nov 2025 11:29:26 +0100</pubDate><guid>https://wyq977.github.io/blog/p/python-linter-lsp-and-formatter/</guid><description>&lt;h2 id="what-are-necessary-for-good-py-code"&gt;What are necessary for good py code?
+&lt;/h2&gt;&lt;p&gt;The ultimate reason why someone is using a formatter, linter is to avoid bugs in writing, format the code for better readability.&lt;/p&gt;
+&lt;p&gt;Wait, what are the tools required?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Language Server Protocol (LSP): I understand it as tool that highlight/color the code&lt;/li&gt;
+&lt;li&gt;Linter: Checks for errors&lt;/li&gt;
+&lt;li&gt;Formatter: Change spaces to tabs, keep style&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="problem-i-use-different-editor"&gt;Problem: I use different editor
+&lt;/h2&gt;&lt;p&gt;It wouldn&amp;rsquo;t so anooying if I only use vscode, nvim or sublime.
+But the problem is that I use a few editor and likely will try some more in the future.
+How to make sure they are using the&lt;/p&gt;
+&lt;p&gt;Right now, the pylsp plugin in Sublime is very strict: even hightlights the trailing spaces behind each line.
+And it also warns about 79 limit.&lt;/p&gt;
+&lt;p&gt;In the meantime, the pylance in vscodium is not.&lt;/p&gt;
+&lt;p&gt;Also, I am not sure if i am the vim I used has any LSP, linter for python installed or not.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Jul 20 2025 20:30:35)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="current-setup"&gt;Current setup
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;installation: macOS, brew, venv, conda&lt;/li&gt;
+&lt;li&gt;formatter: brew, vscodium extension, sublime inhouse&lt;/li&gt;
+&lt;li&gt;linter: pylint?&lt;/li&gt;
+&lt;li&gt;LSP: pyright? where is it installed?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Settings: Globally defined python coding style and project-wise style.&lt;/p&gt;</description></item><item><title>ebook collections</title><link>https://wyq977.github.io/blog/p/ebook-collections/</link><pubDate>Sat, 01 Nov 2025 14:48:54 +0100</pubDate><guid>https://wyq977.github.io/blog/p/ebook-collections/</guid><description>&lt;p&gt;This is taken from my previous git repo&lt;/p&gt;
 &lt;h2 id="replace-using-regex"&gt;Replace using regex
 &lt;/h2&gt;&lt;p&gt;Use Replace with regex function in editor&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -56,7 +87,12 @@ data-flex-basis="460px"
 &lt;li&gt;&lt;a class="link" href="http://www.txt80.com" target="_blank" rel="noopener"
 &gt;http://www.txt80.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Should I Change My Old Files' Names</title><link>https://wyq977.github.io/blog/p/should-i-change-my-old-files-names/</link><pubDate>Tue, 07 Oct 2025 17:27:10 +0200</pubDate><guid>https://wyq977.github.io/blog/p/should-i-change-my-old-files-names/</guid><description>&lt;h2 id="tldr"&gt;TLDR
-&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;No!&lt;/strong&gt; Just keep working and stop trying the make tht&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;No!&lt;/strong&gt; Just keep working and stop trying making every files perfect!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;all lower case&lt;/li&gt;
+&lt;li&gt;date should be 2022-07-19&lt;/li&gt;
+&lt;li&gt;connecting should be dash &amp;ldquo;-&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;It&amp;rsquo;s has been a while since I wrote, both in work and in my spare time.
 I have been hesitent about the title of post or should I say article.
 The original is very self-reflective and somehow vague: &amp;ldquo;Self Reflection Fall 2025&amp;rdquo;.
